@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
     'Access-Control-Max-Age': 2592000, // 30 days
-    'Content-type': 'application/json',
+    /* 'Content-type': 'application/json',*/
     /** add other headers as per requirement */
   };
 
