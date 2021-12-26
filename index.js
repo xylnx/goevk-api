@@ -8,14 +8,14 @@ const PORT = process.env.PORT || 5000;
 const JSON_PATH = `${__dirname}/data/events.json`;
 
 // CORS middleware
-// server.use(
-//   cors({
-//     origin: '*',
-//     methods: 'GET'
-//   }
-// ));
+server.use(
+  cors({
+    origin: '*',
+    methods: 'GET',
+  })
+);
 
-server.use(cors());
+// server.use(cors());
 
 server.listen(PORT, () => {
   console.log('Server listening on %PORT%'.replace('%PORT%', PORT));
