@@ -1,40 +1,35 @@
 const fs = require('fs');
-const http = require('http');
+const express = require('express');
+const cors = require('cors');
+
+const server = express();
 // process.env.PORT is used by heroku
 const PORT = process.env.PORT || 5000;
-
 const JSON_PATH = `${__dirname}/data/events.json`;
 
-const server = http.createServer((req, res) => {
-  const headers = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
-    'Access-Control-Max-Age': 2592000, // 30 days
-    /* 'Content-type': 'application/json',*/
-    /** add other headers as per requirement */
-  };
+// CORS middleware
+// server.use(
+//   cors({
+//     origin: '*',
+//     methods: 'GET'
+//   }
+// ));
 
-  const JSON = fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
-    if (err)
-      return console.log('AN ERROR OCCURRED reading "events.json":', err);
+server.use(cors());
 
-    if (req.method === 'OPTIONS') {
-      res.writeHead(204, headers);
-      res.end();
-      return;
-    }
+server.listen(PORT, () => {
+  console.log('Server listening on %PORT%'.replace('%PORT%', PORT));
+});
 
-    if (['GET', 'POST'].indexOf(req.method) > -1) {
-      res.writeHead(200, headers);
-      res.end(data);
-      return;
-    }
+// ENDPOINTS
+server.get('/', (req, res) => {
+  fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
+    console.log(data);
+    res.json(data);
   });
 });
 
-// server.listen(8000, '127.0.0.1', () =>
-//   console.log('listening for reqs on "http://localhost:8000"')
-// );
-//
-//
-server.listen(PORT, () => console.log(`Listening on ${PORT}`));
+// Default response for any other request
+server.use(function (req, res) {
+  res.status(404);
+});
