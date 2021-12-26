@@ -25,7 +25,9 @@ server.listen(PORT, () => {
 server.get('/', (req, res) => {
   fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
     console.log(data);
-    res.json(data);
+    res.writeHeader(200, { 'Content-Type': 'application/json' });
+    res.end(data);
+    // res.end(JSON.stringify({ a: 1 }));
   });
 });
 
