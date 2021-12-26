@@ -22,7 +22,7 @@ server.listen(PORT, () => {
 });
 
 // ENDPOINTS
-server.get('/', (req, res) => {
+server.get('/events.json', (req, res) => {
   fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
     console.log(data);
     res.writeHeader(200, { 'Content-Type': 'application/json' });
