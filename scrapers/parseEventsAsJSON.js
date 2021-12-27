@@ -12,11 +12,12 @@ const melies = require('./melies');
 const musa = require('./musa');
 
 // Put JSON here:
-const path = '/home/xy/webDev/projects/goevk/site/goevk/src/';
-const fileName = 'events.json';
+const path = '../data/';
+const fileName = 'bvents.json';
 
 const init = async () => {
   const scrapers = [dt, lumiere, melies, musa];
+  // const scrapers = [musa];
   let eventsAll = [];
 
   for (const scraper of scrapers) {

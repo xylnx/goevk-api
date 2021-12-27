@@ -1,7 +1,7 @@
 const fs = require('fs');
 const sqlite3 = require('sqlite3').verbose();
 
-const { COLOR } = require('../utilities/COLORS');
+const { COLOR } = require('./utils/COLORS');
 
 const { parseEventsMusa } = require('./musa');
 const { getEventsMelies } = require('./melies');

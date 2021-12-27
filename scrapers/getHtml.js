@@ -4,10 +4,6 @@ const axios = require('axios');
 
 // Read test data from a local file
 function readFile(file) {
-  console.log(
-    COLOR('USING TESTDATA', { fg: 'fgRed', bg: 'bgYellow', fx: 'blink' })
-  );
-
   return new Promise((resolve, reject) => {
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {

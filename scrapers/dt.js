@@ -1,11 +1,21 @@
-const { COLOR } = require('./utils/COLORS');
+const path = require('path');
 const cheerio = require('cheerio');
+
+const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
 
+const scriptName = path.basename(__filename);
+
+// 'true' will use test data
+// note: parsed values from .env will be strings
+// => if .env does not explicitly defines DEBUG=true debug will be false
+const debug = process.env.DEBUG === 'true';
+const testData = process.env.TEST_DATA === 'true';
+
 // Get HTML from here
 const URL = 'https://www.dt-goettingen.de/kalender';
-const TEST_DATA = '../test_data/dt.html';
+const TEST_DATA = `${__dirname}/test_data/dt.html`;
 
 // Meta data to enrich the event obj
 const CONSTANTS = {
@@ -16,8 +26,6 @@ const CONSTANTS = {
 /* HELPER to put together date objects
  * from parsed strings */
 const createDateObj = (eventYear, eventMonth, eventDay, eventTime) => {
-  console.log(eventYear, eventMonth, eventDay, eventTime);
-
   const months = [
     'Januar',
     'Februar',
@@ -79,7 +87,7 @@ const getEvents = (html) => {
       eventHTML('.date_num').text() != ''
         ? eventHTML('.date_num').text()
         : previousDay;
-    console.log(day);
+
     previousDay = day;
     const time = eventHTML('.time').text(); // sth like 19:00 or 19:00 - 22:00
 
@@ -97,6 +105,11 @@ const getEvents = (html) => {
       link,
       eventDate
     );
+    // Push the new event to an array of all DT events
+    events.push(event);
+
+    // Log new event
+    if (testData) signalTestData();
     console.log(event);
 
     /*
@@ -108,23 +121,26 @@ const getEvents = (html) => {
     event.date = JSON.stringify(eventDate);
     event.timestamp = JSON.stringify(eventDate.getTime());
     */
-
-    // Push the new event to an array of all DT events
-    events.push(event);
   });
 
   return events;
 };
 
 async function parseEventsDT() {
-  // const html = await readFile(TEST_DATA)
-  const html = await getHtml(URL);
+  signalExecution(scriptName);
+  let html;
+
+  // prettier-ignore
+  testData ? 
+    (html = await readFile(TEST_DATA)) : 
+    // Real data
+    (html = await getHtml(URL));
 
   const events = await getEvents(html);
-  // console.log('from module: ', events);
   return events;
 }
 
-parseEventsDT();
+if (debug) parseEventsDT();
+
 // module.exports.parseEventsDT = parseEventsDT;
 module.exports.parseEvents = parseEventsDT;

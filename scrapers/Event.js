@@ -7,7 +7,6 @@ class Event {
     this.date = date.toISOString();
     // this.timestamp = date.getTime();
   }
-} 
+}
 
 module.exports = Event;
-

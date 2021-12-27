@@ -1,13 +1,20 @@
+const path = require('path');
 const fetch = require('node-fetch');
+
+const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+
+const scriptName = path.basename(__filename);
+const debug = process.env.DEBUG === 'true';
+const testData = process.env.TEST_DATA === 'true';
 
 // Get json data from here
 const url =
   'https://www.kinoheld.de/ajax/getShowsForCinemas?cinemaIds[]=2935&lang=en';
 
 // TESTDATA
-const testData = './test_data/testData-melies.json';
+const test_data = `${__dirname}/test_data/testData-melies.json`;
 
 // Metadata to enrich the event objects
 const CONSTANTS = {
@@ -50,20 +57,12 @@ function parseEvents(data) {
       dateObj
     );
 
-    /*
-    event.type = CONSTANTS.eventType;
-    event.place = CONSTANTS.place;
-    event.name = show.name;
-    event.link = CONSTANTS.linkRoot + show.id;
-    event.date = JSON.stringify(dateObj);
-    event.timestamp = JSON.stringify(dateObj.getTime());
-    */
-
     events.push(event);
 
-    // console.log(event)
+    // Log new event
+    if (testData) signalTestData();
+    // console.log(event);
   });
-  console.log(events);
   return events;
 }
 
@@ -73,24 +72,21 @@ function createDateObj(date, time) {
   return dateObj;
 }
 
-//{
-//  type: 'Konzert, Party, Kultur',
-//  place: 'Musa',
-//  title: 'Twice a Couple - Open Air',
-//  link: 'https://www.musa.de/konzerte-partys/twice-couple-open-air/',
-//  date: 2021-06-26T17:00:00.000Z,
-//  timestamp: 1624726800000
-//}
-
 async function init() {
-  // TESTING
-  // let data = await readFile(testData);
-  // data = JSON.parse(data);
+  signalExecution(scriptName);
+  let data;
 
-  const data = await getData(url);
+  // prettier-ignore
+  testData ?
+    data = await readFile(test_data) :
+    data = await getData(url);
+
+  // parse test data into an object, if in debug mode
+  if (testData) data = JSON.parse(data);
+
   const events = await parseEvents(data);
   return events;
 }
 
-init();
+if (debug) init();
 module.exports.parseEvents = init;

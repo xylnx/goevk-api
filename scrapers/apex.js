@@ -4,8 +4,13 @@ const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
 
 // Get HTML from here
-const URL = 'https://www.apex-goe.de/programm';
-const TEST_DATA = '../test_data/apex.html';
+
+const debug = false;
+if (!debug) {
+  const URL = 'https://www.apex-goe.de/programm';
+} else {
+  const URL = '../test_data/apex.html';
+}
 
 const CONSTANTS = {
   place: 'Apex',
