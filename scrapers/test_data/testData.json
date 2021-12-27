@@ -1,0 +1,414 @@
+{
+  "message": "success",
+  "data": [
+    {
+      "type": "Konzert, Party, Kultur",
+      "place": "Musa",
+      "name": "Frittenbude - Open Air",
+      "link": "https://www.musa.de/konzerte-partys/frittenbude-open-air/",
+      "dateObj": "\"2021-06-19T17:00:00.000Z\"",
+      "tstamp": "1624122000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Ich bin dein Mensch",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11925",
+      "dateObj": "\"2021-09-13T18:00:00.000Z\"",
+      "tstamp": "1631556000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Ich bin dein Mensch",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11924",
+      "dateObj": "\"2021-09-14T15:30:00.000Z\"",
+      "tstamp": "1631633400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11931",
+      "dateObj": "\"2021-09-14T18:00:00.000Z\"",
+      "tstamp": "1631642400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11932",
+      "dateObj": "\"2021-09-16T15:00:00.000Z\"",
+      "tstamp": "1631804400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11939",
+      "dateObj": "\"2021-09-16T17:00:00.000Z\"",
+      "tstamp": "1631811600000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11944",
+      "dateObj": "\"2021-09-17T17:30:00.000Z\"",
+      "tstamp": "1631899800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11933",
+      "dateObj": "\"2021-09-18T15:00:00.000Z\"",
+      "tstamp": "1631977200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11940",
+      "dateObj": "\"2021-09-18T17:00:00.000Z\"",
+      "tstamp": "1631984400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11945",
+      "dateObj": "\"2021-09-19T14:30:00.000Z\"",
+      "tstamp": "1632061800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11938",
+      "dateObj": "\"2021-09-19T18:00:00.000Z\"",
+      "tstamp": "1632074400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11934",
+      "dateObj": "\"2021-09-20T15:00:00.000Z\"",
+      "tstamp": "1632150000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11941",
+      "dateObj": "\"2021-09-20T17:00:00.000Z\"",
+      "tstamp": "1632157200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11937",
+      "dateObj": "\"2021-09-21T15:00:00.000Z\"",
+      "tstamp": "1632236400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11942",
+      "dateObj": "\"2021-09-21T17:00:00.000Z\"",
+      "tstamp": "1632243600000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11935",
+      "dateObj": "\"2021-09-22T15:00:00.000Z\"",
+      "tstamp": "1632322800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11943",
+      "dateObj": "\"2021-09-22T17:00:00.000Z\"",
+      "tstamp": "1632330000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11960",
+      "dateObj": "\"2021-09-23T15:00:00.000Z\"",
+      "tstamp": "1632409200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11946",
+      "dateObj": "\"2021-09-23T17:00:00.000Z\"",
+      "tstamp": "1632416400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11953",
+      "dateObj": "\"2021-09-24T15:00:00.000Z\"",
+      "tstamp": "1632495600000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11947",
+      "dateObj": "\"2021-09-24T17:00:00.000Z\"",
+      "tstamp": "1632502800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11954",
+      "dateObj": "\"2021-09-25T15:00:00.000Z\"",
+      "tstamp": "1632582000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11948",
+      "dateObj": "\"2021-09-25T17:00:00.000Z\"",
+      "tstamp": "1632589200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11952",
+      "dateObj": "\"2021-09-26T14:30:00.000Z\"",
+      "tstamp": "1632666600000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11957",
+      "dateObj": "\"2021-09-26T18:00:00.000Z\"",
+      "tstamp": "1632679200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11955",
+      "dateObj": "\"2021-09-27T15:00:00.000Z\"",
+      "tstamp": "1632754800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11949",
+      "dateObj": "\"2021-09-27T17:00:00.000Z\"",
+      "tstamp": "1632762000000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11961",
+      "dateObj": "\"2021-09-28T15:00:00.000Z\"",
+      "tstamp": "1632841200000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11950",
+      "dateObj": "\"2021-09-28T17:00:00.000Z\"",
+      "tstamp": "1632848400000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11956",
+      "dateObj": "\"2021-09-29T15:00:00.000Z\"",
+      "tstamp": "1632927600000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11951",
+      "dateObj": "\"2021-09-29T17:00:00.000Z\"",
+      "tstamp": "1632934800000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Rodelinda",
+      "link": "https://www.dt-goettingen.de/stueck/rodelinda-2/",
+      "dateObj": "\"2021-09-17T17:00:00.000Z\"",
+      "tstamp": "1631898000000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Rodelinda",
+      "link": "https://www.dt-goettingen.de/stueck/rodelinda-2/",
+      "dateObj": "\"2021-09-18T16:00:00.000Z\"",
+      "tstamp": "1631980800000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Rodelinda",
+      "link": "https://www.dt-goettingen.de/stueck/rodelinda-2/",
+      "dateObj": "\"2021-09-19T13:00:00.000Z\"",
+      "tstamp": "1632056400000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Rosa Luxemburg",
+      "link": "https://www.dt-goettingen.de/stueck/rosa-luxemburg/",
+      "dateObj": "\"2021-09-20T18:00:00.000Z\"",
+      "tstamp": "1632160800000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Jour Fixe",
+      "link": "https://www.dt-goettingen.de/stueck/jour-fixe-3/",
+      "dateObj": "\"2021-09-21T16:00:00.000Z\"",
+      "tstamp": "1632240000000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "GT Wahlforum im DT",
+      "link": "https://www.dt-goettingen.de/stueck/gt-wahlforum-im-dt/",
+      "dateObj": "null",
+      "tstamp": "null"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "GT Wahlforum im DT",
+      "link": "https://www.dt-goettingen.de/stueck/gt-wahlforum-im-dt/",
+      "dateObj": "null",
+      "tstamp": "null"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Der Schimmelreiter",
+      "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter/",
+      "dateObj": "\"2021-09-23T18:00:00.000Z\"",
+      "tstamp": "1632420000000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Scharfer Blick",
+      "link": "https://www.dt-goettingen.de/stueck/scharfer-blick/",
+      "dateObj": "null",
+      "tstamp": "null"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Pop Up (Play)",
+      "link": "https://www.dt-goettingen.de/stueck/pop-up-play/",
+      "dateObj": "\"2021-09-24T17:45:00.000Z\"",
+      "tstamp": "1632505500000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Der Schimmelreiter",
+      "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter/",
+      "dateObj": "null",
+      "tstamp": "null"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Pop Up (Play)",
+      "link": "https://www.dt-goettingen.de/stueck/pop-up-play/",
+      "dateObj": "\"2021-09-25T17:45:00.000Z\"",
+      "tstamp": "1632591900000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Sonntags-Matinee 1",
+      "link": "https://www.dt-goettingen.de/stueck/sonntags-matinee-1/",
+      "dateObj": "\"2021-09-26T09:00:00.000Z\"",
+      "tstamp": "1632646800000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "19. Innovationspreis des Landkreises Göttingen",
+      "link": "https://www.dt-goettingen.de/stueck/19-innovationspreis-des-landkreises-goettingen/",
+      "dateObj": "\"2021-09-27T16:00:00.000Z\"",
+      "tstamp": "1632758400000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Die Räuber",
+      "link": "https://www.dt-goettingen.de/stueck/die-raeuber/",
+      "dateObj": "\"2021-09-28T17:45:00.000Z\"",
+      "tstamp": "1632851100000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Pop Up (Play)",
+      "link": "https://www.dt-goettingen.de/stueck/pop-up-play/",
+      "dateObj": "\"2021-09-29T17:45:00.000Z\"",
+      "tstamp": "1632937500000"
+    },
+    {
+      "type": "Theater, Kultur, Veranstaltungen",
+      "place": "Deutsches Theater",
+      "name": "Alles muss glänzen",
+      "link": "https://www.dt-goettingen.de/stueck/alles-muss-glaenzen/",
+      "dateObj": "\"2021-09-30T17:45:00.000Z\"",
+      "tstamp": "1633023900000"
+    },
+    {
+      "type": "Konzert, Party, Kultur",
+      "place": "Musa",
+      "name": "Meadows -Open Air",
+      "link": "https://www.musa.de/konzerte-partys/meadows/",
+      "dateObj": "\"2021-06-25T17:00:00.000Z\"",
+      "tstamp": "1624640400000"
+    },
+    {
+      "type": "Konzert, Party, Kultur",
+      "place": "Musa",
+      "name": "Twice a Couple - Open Air",
+      "link": "https://www.musa.de/konzerte-partys/twice-couple-open-air/",
+      "dateObj": "\"2021-06-26T17:00:00.000Z\"",
+      "tstamp": "1624726800000"
+    },
+    {
+      "type": "Kino",
+      "place": "Meliès",
+      "name": "Der Rosengarten von Madame Vernet",
+      "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11929",
+      "dateObj": "\"2021-09-13T15:30:00.000Z\"",
+      "tstamp": "1631547000000"
+    }
+  ]
+}
+
