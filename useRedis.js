@@ -1,30 +1,39 @@
 const { createClient } = require('redis');
 
-const client = createClient();
-const redisSet = async (key, value, client) => {
+const debug = process.env.DEBUG === 'true';
+
+const redisConnect = async () => {
+  const client = createClient();
   client.on('error', (err) => console.log('Redis Client Error', err));
   await client.connect();
+  return client;
+};
+
+const redisSet = async (key, value) => {
+  const client = await redisConnect();
 
   await client.set(key, value);
+  await client.disconnect();
+
   return console.log('data stored in redis');
 };
 
-const redisGet = async (key, client) => {
-  client.on('error', (err) => console.log('Redis Client Error', err));
-  // await client.connect();
+const redisGet = async (key) => {
+  const client = await redisConnect();
 
   const value = await client.get(key);
-  console.log(value);
   return value;
 };
 
 const init = async () => {
-  await redisSet('bonjour', 'le monde', client);
-  await redisGet('bonjour', client);
+  const json = JSON.stringify({ greeting: 'bonjour le monde' });
+  await redisSet('eventsData', json);
+  await redisGet('eventsData');
 };
-init();
 
-module.export = {
+if (debug) init();
+
+module.exports = {
   redisSet,
   redisGet,
 };
