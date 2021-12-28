@@ -7,7 +7,7 @@
     "start": "node index.js",
     "scrape": "node scrapers/parseEventsAsJSON.js",
     "devScrape": "env $(cat .env | grep -v \"#\" | xargs) npm run scrape",
-    "devs": "TEST_DATA=true DEBUG=true node $1",
+    "devs": "TEST_DATA=true DEBUG=true node",
     "herokuTestScrape": "TEST_DATA=true npm run scrape"
   },
   "keywords": [],
