@@ -12,9 +12,10 @@ const melies = require('./melies');
 const musa = require('./musa');
 
 // Put JSON here:
-const path = '../data/';
+const path = `${__dirname}/../data/`;
 const fileName = 'bvents.json';
 
+console.log(`${path}${fileName}`);
 const init = async () => {
   const scrapers = [dt, lumiere, melies, musa];
   // const scrapers = [musa];
