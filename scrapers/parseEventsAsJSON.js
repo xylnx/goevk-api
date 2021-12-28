@@ -5,6 +5,7 @@
 << ======================================================== */
 
 const fs = require('fs');
+const { redisSet, redisGet } = require('../useRedis');
 
 const dt = require('./dt');
 const lumiere = require('./lumiere');
@@ -16,6 +17,7 @@ const path = `${__dirname}/../data/`;
 const fileName = 'bvents.json';
 
 console.log(`${path}${fileName}`);
+
 const init = async () => {
   const scrapers = [dt, lumiere, melies, musa];
   // const scrapers = [musa];
@@ -26,6 +28,11 @@ const init = async () => {
     eventsAll.push(...events);
   }
   const json = JSON.stringify(eventsAll);
-  fs.writeFileSync(`${path}${fileName}`, json);
+
+  // Dump json into redis
+  redisSet('eventsData', json);
+
+  // fs.writeFileSync(`${path}${fileName}`, json);
+  return;
 };
 init();
