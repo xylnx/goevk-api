@@ -1,0 +1,1268 @@
+{
+  "shows": [
+    {
+      "id": "11929",
+      "internalId": "61640832",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1631547000000,
+      "weekDay": "Mo",
+      "time": "17:30",
+      "date": "2021-09-13",
+      "beginning": {
+        "iso": "2021-09-13",
+        "isoFull": "2021-09-13T17:30:00+02:00",
+        "time": "17:30",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11925",
+      "internalId": "61640822",
+      "groupId": "af0cd245d46f916fb016cfab2d5c6b5e",
+      "cinemaId": 2935,
+      "name": "Ich bin dein Mensch",
+      "timestamp": 1631556000000,
+      "weekDay": "Mo",
+      "time": "20:00",
+      "date": "2021-09-13",
+      "beginning": {
+        "iso": "2021-09-13",
+        "isoFull": "2021-09-13T20:00:00+02:00",
+        "time": "20:00",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 109,
+      "movieId": "18809",
+      "flags": [],
+      "showGroupMovieId": "18809",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11924",
+      "internalId": "61640824",
+      "groupId": "af0cd245d46f916fb016cfab2d5c6b5e",
+      "cinemaId": 2935,
+      "name": "Ich bin dein Mensch",
+      "timestamp": 1631633400000,
+      "weekDay": "Di",
+      "time": "17:30",
+      "date": "2021-09-14",
+      "beginning": {
+        "iso": "2021-09-14",
+        "isoFull": "2021-09-14T17:30:00+02:00",
+        "time": "17:30",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 109,
+      "movieId": "18809",
+      "flags": [],
+      "showGroupMovieId": "18809",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11931",
+      "internalId": "61640846",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1631642400000,
+      "weekDay": "Di",
+      "time": "20:00",
+      "date": "2021-09-14",
+      "beginning": {
+        "iso": "2021-09-14",
+        "isoFull": "2021-09-14T20:00:00+02:00",
+        "time": "20:00",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 96,
+      "movieId": "40359",
+      "flags": [
+        {
+          "category": "language",
+          "name": "OmU",
+          "code": "subtitled"
+        }
+      ],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11932",
+      "internalId": "61640834",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1631804400000,
+      "weekDay": "Do",
+      "time": "17:00",
+      "date": "2021-09-16",
+      "beginning": {
+        "iso": "2021-09-16",
+        "isoFull": "2021-09-16T17:00:00+02:00",
+        "time": "17:00",
+        "day": "4",
+        "weekDay": "Do."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11939",
+      "internalId": "61640850",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1631811600000,
+      "weekDay": "Do",
+      "time": "19:00",
+      "date": "2021-09-16",
+      "beginning": {
+        "iso": "2021-09-16",
+        "isoFull": "2021-09-16T19:00:00+02:00",
+        "time": "19:00",
+        "day": "4",
+        "weekDay": "Do."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11944",
+      "internalId": "61640852",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1631899800000,
+      "weekDay": "Fr",
+      "time": "19:30",
+      "date": "2021-09-17",
+      "beginning": {
+        "iso": "2021-09-17",
+        "isoFull": "2021-09-17T19:30:00+02:00",
+        "time": "19:30",
+        "day": "5",
+        "weekDay": "Fr."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11933",
+      "internalId": "61640836",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1631977200000,
+      "weekDay": "Sa",
+      "time": "17:00",
+      "date": "2021-09-18",
+      "beginning": {
+        "iso": "2021-09-18",
+        "isoFull": "2021-09-18T17:00:00+02:00",
+        "time": "17:00",
+        "day": "6",
+        "weekDay": "Sa."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11940",
+      "internalId": "61640854",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1631984400000,
+      "weekDay": "Sa",
+      "time": "19:00",
+      "date": "2021-09-18",
+      "beginning": {
+        "iso": "2021-09-18",
+        "isoFull": "2021-09-18T19:00:00+02:00",
+        "time": "19:00",
+        "day": "6",
+        "weekDay": "Sa."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11945",
+      "internalId": "61640856",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632061800000,
+      "weekDay": "So",
+      "time": "16:30",
+      "date": "2021-09-19",
+      "beginning": {
+        "iso": "2021-09-19",
+        "isoFull": "2021-09-19T16:30:00+02:00",
+        "time": "16:30",
+        "day": "7",
+        "weekDay": "So."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11938",
+      "internalId": "61640838",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1632074400000,
+      "weekDay": "So",
+      "time": "20:00",
+      "date": "2021-09-19",
+      "beginning": {
+        "iso": "2021-09-19",
+        "isoFull": "2021-09-19T20:00:00+02:00",
+        "time": "20:00",
+        "day": "7",
+        "weekDay": "So."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11934",
+      "internalId": "61640840",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1632150000000,
+      "weekDay": "Mo",
+      "time": "17:00",
+      "date": "2021-09-20",
+      "beginning": {
+        "iso": "2021-09-20",
+        "isoFull": "2021-09-20T17:00:00+02:00",
+        "time": "17:00",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11941",
+      "internalId": "61640858",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632157200000,
+      "weekDay": "Mo",
+      "time": "19:00",
+      "date": "2021-09-20",
+      "beginning": {
+        "iso": "2021-09-20",
+        "isoFull": "2021-09-20T19:00:00+02:00",
+        "time": "19:00",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11937",
+      "internalId": "61640848",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1632236400000,
+      "weekDay": "Di",
+      "time": "17:00",
+      "date": "2021-09-21",
+      "beginning": {
+        "iso": "2021-09-21",
+        "isoFull": "2021-09-21T17:00:00+02:00",
+        "time": "17:00",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 96,
+      "movieId": "40359",
+      "flags": [
+        {
+          "category": "language",
+          "name": "OmU",
+          "code": "subtitled"
+        }
+      ],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11942",
+      "internalId": "61640860",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632243600000,
+      "weekDay": "Di",
+      "time": "19:00",
+      "date": "2021-09-21",
+      "beginning": {
+        "iso": "2021-09-21",
+        "isoFull": "2021-09-21T19:00:00+02:00",
+        "time": "19:00",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11935",
+      "internalId": "61640842",
+      "groupId": "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+      "cinemaId": 2935,
+      "name": "Der Rosengarten von Madame Vernet",
+      "timestamp": 1632322800000,
+      "weekDay": "Mi",
+      "time": "17:00",
+      "date": "2021-09-22",
+      "beginning": {
+        "iso": "2021-09-22",
+        "isoFull": "2021-09-22T17:00:00+02:00",
+        "time": "17:00",
+        "day": "3",
+        "weekDay": "Mi."
+      },
+      "duration": 100,
+      "movieId": "40349",
+      "flags": [],
+      "showGroupMovieId": "19011",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11943",
+      "internalId": "61640862",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632330000000,
+      "weekDay": "Mi",
+      "time": "19:00",
+      "date": "2021-09-22",
+      "beginning": {
+        "iso": "2021-09-22",
+        "isoFull": "2021-09-22T19:00:00+02:00",
+        "time": "19:00",
+        "day": "3",
+        "weekDay": "Mi."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11960",
+      "internalId": "61642434",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632409200000,
+      "weekDay": "Do",
+      "time": "17:00",
+      "date": "2021-09-23",
+      "beginning": {
+        "iso": "2021-09-23",
+        "isoFull": "2021-09-23T17:00:00+02:00",
+        "time": "17:00",
+        "day": "4",
+        "weekDay": "Do."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11946",
+      "internalId": "61640864",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632416400000,
+      "weekDay": "Do",
+      "time": "19:00",
+      "date": "2021-09-23",
+      "beginning": {
+        "iso": "2021-09-23",
+        "isoFull": "2021-09-23T19:00:00+02:00",
+        "time": "19:00",
+        "day": "4",
+        "weekDay": "Do."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11953",
+      "internalId": "61640878",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632495600000,
+      "weekDay": "Fr",
+      "time": "17:00",
+      "date": "2021-09-24",
+      "beginning": {
+        "iso": "2021-09-24",
+        "isoFull": "2021-09-24T17:00:00+02:00",
+        "time": "17:00",
+        "day": "5",
+        "weekDay": "Fr."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11947",
+      "internalId": "61640866",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632502800000,
+      "weekDay": "Fr",
+      "time": "19:00",
+      "date": "2021-09-24",
+      "beginning": {
+        "iso": "2021-09-24",
+        "isoFull": "2021-09-24T19:00:00+02:00",
+        "time": "19:00",
+        "day": "5",
+        "weekDay": "Fr."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11954",
+      "internalId": "61640880",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632582000000,
+      "weekDay": "Sa",
+      "time": "17:00",
+      "date": "2021-09-25",
+      "beginning": {
+        "iso": "2021-09-25",
+        "isoFull": "2021-09-25T17:00:00+02:00",
+        "time": "17:00",
+        "day": "6",
+        "weekDay": "Sa."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11948",
+      "internalId": "61640868",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632589200000,
+      "weekDay": "Sa",
+      "time": "19:00",
+      "date": "2021-09-25",
+      "beginning": {
+        "iso": "2021-09-25",
+        "isoFull": "2021-09-25T19:00:00+02:00",
+        "time": "19:00",
+        "day": "6",
+        "weekDay": "Sa."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11952",
+      "internalId": "61640870",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632666600000,
+      "weekDay": "So",
+      "time": "16:30",
+      "date": "2021-09-26",
+      "beginning": {
+        "iso": "2021-09-26",
+        "isoFull": "2021-09-26T16:30:00+02:00",
+        "time": "16:30",
+        "day": "7",
+        "weekDay": "So."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11957",
+      "internalId": "61640882",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632679200000,
+      "weekDay": "So",
+      "time": "20:00",
+      "date": "2021-09-26",
+      "beginning": {
+        "iso": "2021-09-26",
+        "isoFull": "2021-09-26T20:00:00+02:00",
+        "time": "20:00",
+        "day": "7",
+        "weekDay": "So."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11955",
+      "internalId": "61640884",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632754800000,
+      "weekDay": "Mo",
+      "time": "17:00",
+      "date": "2021-09-27",
+      "beginning": {
+        "iso": "2021-09-27",
+        "isoFull": "2021-09-27T17:00:00+02:00",
+        "time": "17:00",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11949",
+      "internalId": "61640872",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632762000000,
+      "weekDay": "Mo",
+      "time": "19:00",
+      "date": "2021-09-27",
+      "beginning": {
+        "iso": "2021-09-27",
+        "isoFull": "2021-09-27T19:00:00+02:00",
+        "time": "19:00",
+        "day": "1",
+        "weekDay": "Mo."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11961",
+      "internalId": "61642436",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632841200000,
+      "weekDay": "Di",
+      "time": "17:00",
+      "date": "2021-09-28",
+      "beginning": {
+        "iso": "2021-09-28",
+        "isoFull": "2021-09-28T17:00:00+02:00",
+        "time": "17:00",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11950",
+      "internalId": "61640874",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632848400000,
+      "weekDay": "Di",
+      "time": "19:00",
+      "date": "2021-09-28",
+      "beginning": {
+        "iso": "2021-09-28",
+        "isoFull": "2021-09-28T19:00:00+02:00",
+        "time": "19:00",
+        "day": "2",
+        "weekDay": "Di."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11956",
+      "internalId": "61640886",
+      "groupId": "b1bb8f761a44afb8696ac29273a12f1b",
+      "cinemaId": 2935,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "timestamp": 1632927600000,
+      "weekDay": "Mi",
+      "time": "17:00",
+      "date": "2021-09-29",
+      "beginning": {
+        "iso": "2021-09-29",
+        "isoFull": "2021-09-29T17:00:00+02:00",
+        "time": "17:00",
+        "day": "3",
+        "weekDay": "Mi."
+      },
+      "duration": 81,
+      "movieId": "19120",
+      "flags": [],
+      "showGroupMovieId": "19120",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    },
+    {
+      "id": "11951",
+      "internalId": "61640876",
+      "groupId": "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+      "cinemaId": 2935,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "timestamp": 1632934800000,
+      "weekDay": "Mi",
+      "time": "19:00",
+      "date": "2021-09-29",
+      "beginning": {
+        "iso": "2021-09-29",
+        "isoFull": "2021-09-29T19:00:00+02:00",
+        "time": "19:00",
+        "day": "3",
+        "weekDay": "Mi."
+      },
+      "duration": 178,
+      "movieId": "40363",
+      "flags": [],
+      "showGroupMovieId": "19170",
+      "auditoriumId": 9623,
+      "auditoriumMessage": null,
+      "useAreaNameInsteadOfCategoryName": true
+    }
+  ],
+  "movies": {
+    "18809": {
+      "id": "18809",
+      "baseId": 18809,
+      "name": "Ich bin dein Mensch",
+      "additionalInfo": "",
+      "duration": 105,
+      "ageClassificationRating": {
+        "type": "FSK",
+        "value": "12"
+      },
+      "hasTrailer": true,
+      "genres": [
+        {
+          "name": "Komödie"
+        },
+        {
+          "name": "Science Fiction"
+        },
+        {
+          "name": "Lovestory"
+        }
+      ],
+      "previewStyle": "background: linear-gradient(135deg, rgb(61, 20, 20), rgb(245, 209, 203));",
+      "lazyImage": "https://media.kinoheld.de/nJV-vEcffpghomtP3QumxhdmdH4=/200x280/images%2Ffilm%2Fich-bin-dein-mensch-18809.v2.png",
+      "largeImage": "https://media.kinoheld.de/U0hvJqfHfa8se2HP8BkoKfarsDY=/400x560/images%2Ffilm%2Fich-bin-dein-mensch-18809.v2.png",
+      "smallPosterImage": [
+        {
+          "url": "https://media.kinoheld.de/nJV-vEcffpghomtP3QumxhdmdH4=/200x280/images%2Ffilm%2Fich-bin-dein-mensch-18809.v2.png"
+        }
+      ],
+      "largePosterImage": [
+        {
+          "url": "https://media.kinoheld.de/ookNgLN40VbxILsVr5sx0gWfWTo=/1080x1920/images%2Ffilm%2Fich-bin-dein-mensch-18809.v2.png"
+        }
+      ],
+      "smallSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/iREZ8vfAs1zocTh7f_UZzL51-Aw=/640x360/images%2Ffilm%2Fich-bin-dein-mensch-18809-1.v1.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/AbR7GhDRBpeAWiA45pRlkqJPen0=/640x360/images%2Ffilm%2Fich-bin-dein-mensch-18809-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/spi6JYdJz_8W_Lwoj_1CLiTK-tg=/640x360/images%2Ffilm%2Fich-bin-dein-mensch-18809-3.v2.jpg"
+          }
+        ]
+      ],
+      "largeSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/DukLa3nUZmvluKnWPWB8pFW5Ygg=/1920x1080/images%2Ffilm%2Fich-bin-dein-mensch-18809-1.v1.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/wWwWSpy6LElUqYp3tLSOQdombYQ=/1920x1080/images%2Ffilm%2Fich-bin-dein-mensch-18809-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/6BsPW1KY4kyVjuTvTRkY5JrKReg=/1920x1080/images%2Ffilm%2Fich-bin-dein-mensch-18809-3.v2.jpg"
+          }
+        ]
+      ],
+      "title": "Ich bin dein Mensch",
+      "title_orig": "Ich bin dein Mensch",
+      "url": "https://www.ndr.de/kultur/film/tipps/Berlinale-Film-Ich-bin-dein-Mensch-Eine-tiefsinnige-Komoedie,ichbindeinmensch100.html/",
+      "released": "2021-07-01 00:00:00",
+      "startdate": "2021-05-27 21:30:00",
+      "enddate": "2022-03-13 11:00:00",
+      "description": "Die Wissenschaftlerin Alma lässt sich auf die Teilnahme an einer Studie ein, um Gelder für ihre Forschungen zu bekommen. Bei dem Experiment soll Alma einige Wochen mit einem humanoiden Roboter verbringen, der sich an ihre Wünsche und Bedürfnisse anpasst, um der perfekte Partner für Alma zu werden. Nach ein paar Anlaufschwierigkeiten finden Alma und der Roboter schließlich zueinander. Doch Alma fragt sich, welchen Sinn es hat, sich in einen Roboter zu verlieben.",
+      "distributor": "Majestic Filmverleih",
+      "scenes": [
+        "https://media.kinoheld.de/lg9-MGyl7bdTOSkZyv-RNP3sUkk=/480x270/images%2Ffilm%2Fich-bin-dein-mensch-18809-1.v1.jpg",
+        "https://media.kinoheld.de/6urxUhk_tyjJFnSZQR6agoAF2ps=/480x270/images%2Ffilm%2Fich-bin-dein-mensch-18809-2.v2.jpg",
+        "https://media.kinoheld.de/aNGtadi1dDpdGmtUtEwagpwMPWM=/480x270/images%2Ffilm%2Fich-bin-dein-mensch-18809-3.v2.jpg"
+      ],
+      "directors": [
+        {
+          "name": "Maria Schrader",
+          "url": "https://www.kinoheld.de/person/maria-schrader"
+        }
+      ],
+      "trailers": [
+        {
+          "format": "youtube",
+          "url": "https://www.youtube.com/watch?v=eXC4t8EbKTo",
+          "id": "eXC4t8EbKTo",
+          "remoteVideoId": "eXC4t8EbKTo"
+        }
+      ],
+      "productionCountries": [
+        "Deutschland"
+      ],
+      "actors": [
+        {
+          "name": "Maren Eggert",
+          "url": "https://www.kinoheld.de/person/maren-eggert"
+        },
+        {
+          "name": "Dan Stevens",
+          "url": "https://www.kinoheld.de/person/dan-stevens"
+        },
+        {
+          "name": "Sandra Hüller",
+          "url": "https://www.kinoheld.de/person/sandra-hueller"
+        },
+        {
+          "name": "Hans Löw",
+          "url": "https://www.kinoheld.de/person/hans-loew"
+        }
+      ]
+    },
+    "19120": {
+      "id": "19120",
+      "baseId": 19120,
+      "name": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "additionalInfo": "",
+      "duration": 81,
+      "ageClassificationRating": {
+        "type": "FSK",
+        "value": "0"
+      },
+      "hasTrailer": true,
+      "genres": [
+        {
+          "name": "Dokumentarfilm"
+        }
+      ],
+      "previewStyle": "background: linear-gradient(135deg, rgb(35, 87, 107), rgb(201, 198, 161));",
+      "lazyImage": "https://media.kinoheld.de/ntouzmSY2cLrkCSWEeM9lNWVsRI=/200x280/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120.v4.jpg",
+      "largeImage": "https://media.kinoheld.de/IMl2ngqsBczrd1Z8B_onI6NrGXQ=/400x560/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120.v4.jpg",
+      "smallPosterImage": [
+        {
+          "url": "https://media.kinoheld.de/ntouzmSY2cLrkCSWEeM9lNWVsRI=/200x280/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120.v4.jpg"
+        }
+      ],
+      "largePosterImage": [
+        {
+          "url": "https://media.kinoheld.de/YsLKO6N9srt6KZi5sFXZhaG5w5o=/1080x1920/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120.v4.jpg"
+        }
+      ],
+      "smallSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/TfH3fN3R-BKRNgBnQCoHy36RVmU=/640x360/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120-1.v1.jpg"
+          }
+        ]
+      ],
+      "largeSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/RT0mnyqKAOa4G5zR5Ek4P5KAi-4=/1920x1080/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120-1.v1.jpg"
+          }
+        ]
+      ],
+      "title": "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+      "title_orig": "Camino Skies",
+      "released": "2021-07-29 00:00:00",
+      "startdate": "2021-07-22 20:00:00",
+      "enddate": "2021-10-27 20:00:00",
+      "description": "Der spanische Hauptweg, der 1993 in das UNESCO-Welterbe aufgenommen wurde, ist nun Schauplatz der Dokumentation „HIMMEL ÜBER DEM CAMINO – DER JAKOBSWEG IST LEBEN!“ von den Regisseuren Noel Smyth und Fergus Grady. Darin wird über die inspirierende Reise von sechs Pilgern aus Neuseeland und Australien erzählt, die sich gemeinsam auf diesen über 800 km langen und historischen Weg gemacht haben. Und das grenzt schon fast an Hochleistungssport, denn der Jakobsweg ist teils sehr beschwerlich und die Pilger müssen mit ihrem Alter, körperlichen und seelischen Problemen kämpfen.   Doch die Dokumentation „HIMMEL ÜBER DEM CAMINO – DER JAKOBSWEG IST LEBEN!“ zeigt auch wie man es schaffen kann, mit Trauer und Leid zu leben, ohne die Lebensfreude zu verlieren. Und so ist der Film eine Inspiration für all die, die in ihrem Leben schon vieles wie Leid, Trauer und Freude erlebt haben und nun sehen, das Menschen wie du und ich auch in ihrem Kummer Außergewöhnliches leisten können.",
+      "distributor": "24 Bilder / Ascot",
+      "scenes": [
+        "https://media.kinoheld.de/jBwgHbwhjJAHDTPOhJP4hXN_gwg=/480x270/images%2Ffilm%2Fhimmel-ueber-dem-camino-der-jakobsweg-ist-leben-19120-1.v1.jpg"
+      ],
+      "directors": [
+        {
+          "name": "Fergus Grady",
+          "url": "https://www.kinoheld.de/person/fergus-grady"
+        },
+        {
+          "name": "Noel Smyth",
+          "url": "https://www.kinoheld.de/person/noel-smyth"
+        }
+      ],
+      "trailers": [
+        {
+          "format": "youtube",
+          "url": "https://www.youtube.com/watch?v=H-R67qO7Lkw",
+          "id": "H-R67qO7Lkw",
+          "remoteVideoId": "H-R67qO7Lkw"
+        }
+      ],
+      "productionCountries": [
+        "Australien",
+        "Neuseeland"
+      ],
+      "actors": [
+        {
+          "name": "Srb Father Manny Domingo",
+          "url": "https://www.kinoheld.de/person/srb-father-manny-domingo"
+        },
+        {
+          "name": "Neill Le Roux",
+          "url": "https://www.kinoheld.de/person/neill-le-roux"
+        },
+        {
+          "name": "Sue Morris",
+          "url": "https://www.kinoheld.de/person/sue-morris"
+        },
+        {
+          "name": "Belli Naima",
+          "url": "https://www.kinoheld.de/person/belli-naima"
+        }
+      ]
+    },
+    "40349": {
+      "id": "40349",
+      "baseId": 40349,
+      "name": "Der Rosengarten von Madame Vernet",
+      "additionalInfo": "",
+      "duration": 94,
+      "ageClassificationRating": {
+        "type": "FSK",
+        "value": "6"
+      },
+      "hasTrailer": false,
+      "genres": [
+        {
+          "name": "Komödie"
+        }
+      ],
+      "previewStyle": "background: linear-gradient(135deg, rgb(228, 210, 199), rgb(43, 47, 42));",
+      "lazyImage": "https://media.kinoheld.de/vrFLRI9lpAGFuxU9nKsLpLxvprI=/200x280/images%2Ffilm%2Fmo%2F2869-40349.v2.jpg",
+      "largeImage": "https://media.kinoheld.de/qxSgh0BZZu9Nv1FxwcmGO_muT3w=/400x560/images%2Ffilm%2Fmo%2F2869-40349.v2.jpg",
+      "smallPosterImage": [
+        {
+          "url": "https://media.kinoheld.de/vrFLRI9lpAGFuxU9nKsLpLxvprI=/200x280/images%2Ffilm%2Fmo%2F2869-40349.v2.jpg"
+        }
+      ],
+      "largePosterImage": [
+        {
+          "url": "https://media.kinoheld.de/wmxCTNVYzG-4-ejNad_7EQcj8Kw=/1080x1920/images%2Ffilm%2Fmo%2F2869-40349.v2.jpg"
+        }
+      ],
+      "smallSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/JZb0Ghy1WCNI9tHu-B9-iGKU1xM=/640x360/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/fBqYbol-KmfyTSRtHye38sivKWk=/640x360/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+          }
+        ]
+      ],
+      "largeSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/FD3SwIqx9p6yh_DOsTWJyX8lgAE=/1920x1080/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/CnVdUZwvx-Ug_MwL5nWFu-0ivRI=/1920x1080/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+          }
+        ]
+      ],
+      "title": "Der Rosengarten von Madame Vernet",
+      "url": "https://www.neuevisionen.de/de/filme/der-rosengarten-von-madame-vernet-77/",
+      "description": "Eva Vernet war früher die weltweit größte Rosenzüchterin. Doch ihre letzte große  Auszeichnung mit der „Goldenen Rose“ liegt acht Jahre zurück und sie steht kurz vor der Pleite. Schuld daran ist auch die Konkurrenz des Großzüchters Constantin Lamarzelle. Evas Sekretärin Vera glaubt, eine gute Idee zu haben, um die Firma zu retten. Sie engagiert Samir, Nadège und Fred, drei Obdachlose ohne gärtnerische Fähigkeiten – dafür kennen sie sich mit Einbrüchen aus. Gemeinsam klauen sie eine der seltensten Rosen aus Lamarzel-les Imperium, mit ihr will Eva eine neue Rosenkreation erschaffen …\r\nDER ROSENGARTEN DER MADAME VERNET erzählt mit sanftem Witz und in einer berauschenden Farbenpracht die Geschichte einer starken, unabhängigen Frau zwischen der Poesie der Rosen und der wunderbaren Zufälligkeit des Lebens.",
+      "scenes": [
+        "https://media.kinoheld.de/dHpAhgtheXXiwM5OKiaKOeQXO7U=/480x270/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg",
+        "https://media.kinoheld.de/6-PCdO1-OKyHV-FbI0DZQuH_6mU=/480x270/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+      ],
+      "directors": [
+        {
+          "name": "Pierre Pinaud"
+        }
+      ],
+      "productionCountries": [
+        "Frankreich 2020"
+      ],
+      "actors": [
+        {
+          "name": "Catherine Frot"
+        },
+        {
+          "name": "Melan Omerta"
+        },
+        {
+          "name": "Fatsah Bouyahmed"
+        },
+        {
+          "name": "Olivia Côte"
+        }
+      ]
+    },
+    "40359": {
+      "id": "40359",
+      "baseId": 40359,
+      "name": "Der Rosengarten von Madame Vernet",
+      "additionalInfo": "",
+      "duration": 94,
+      "ageClassificationRating": {
+        "type": "FSK",
+        "value": "0"
+      },
+      "hasTrailer": false,
+      "genres": [
+        {
+          "name": "Komödie"
+        }
+      ],
+      "previewStyle": "background: linear-gradient(135deg, rgb(228, 210, 199), rgb(43, 47, 42));",
+      "lazyImage": "https://media.kinoheld.de/FDm8_yPEk2nkhwNcfAjpf_7OwEE=/200x280/images%2Ffilm%2Fmo%2F2869-40359.v2.jpg",
+      "largeImage": "https://media.kinoheld.de/ebJw9qNN4UGXIP576fNCm8tRN8Q=/400x560/images%2Ffilm%2Fmo%2F2869-40359.v2.jpg",
+      "smallPosterImage": [
+        {
+          "url": "https://media.kinoheld.de/FDm8_yPEk2nkhwNcfAjpf_7OwEE=/200x280/images%2Ffilm%2Fmo%2F2869-40359.v2.jpg"
+        }
+      ],
+      "largePosterImage": [
+        {
+          "url": "https://media.kinoheld.de/xs2YXOUNa9yjQ-7sS9zGxeU2bpk=/1080x1920/images%2Ffilm%2Fmo%2F2869-40359.v2.jpg"
+        }
+      ],
+      "smallSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/JZb0Ghy1WCNI9tHu-B9-iGKU1xM=/640x360/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/fBqYbol-KmfyTSRtHye38sivKWk=/640x360/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+          }
+        ]
+      ],
+      "largeSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/FD3SwIqx9p6yh_DOsTWJyX8lgAE=/1920x1080/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/CnVdUZwvx-Ug_MwL5nWFu-0ivRI=/1920x1080/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+          }
+        ]
+      ],
+      "title": "Der Rosengarten von Madame Vernet",
+      "url": "https://www.neuevisionen.de/de/filme/der-rosengarten-von-madame-vernet-77/",
+      "description": "Eva Vernet war früher die weltweit größte Rosenzüchterin. Doch ihre letzte große  Auszeichnung mit der „Goldenen Rose“ liegt acht Jahre zurück und sie steht kurz vor der Pleite. Schuld daran ist auch die Konkurrenz des Großzüchters Constantin Lamarzelle. Evas Sekretärin Vera glaubt, eine gute Idee zu haben, um die Firma zu retten. Sie engagiert Samir, Nadège und Fred, drei Obdachlose ohne gärtnerische Fähigkeiten – dafür kennen sie sich mit Einbrüchen aus. Gemeinsam klauen sie eine der seltensten Rosen aus Lamarzel-les Imperium, mit ihr will Eva eine neue Rosenkreation erschaffen …\r\nDER ROSENGARTEN DER MADAME VERNET erzählt mit sanftem Witz und in einer berauschenden Farbenpracht die Geschichte einer starken, unabhängigen Frau zwischen der Poesie der Rosen und der wunderbaren Zufälligkeit des Lebens.",
+      "scenes": [
+        "https://media.kinoheld.de/dHpAhgtheXXiwM5OKiaKOeQXO7U=/480x270/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-2.v2.jpg",
+        "https://media.kinoheld.de/6-PCdO1-OKyHV-FbI0DZQuH_6mU=/480x270/images%2Ffilm%2Fder-rosengarten-von-madame-vernet-19011-3.v2.jpg"
+      ],
+      "directors": [
+        {
+          "name": "Pierre Pinaud"
+        }
+      ],
+      "productionCountries": [
+        "Frankreich 2020"
+      ],
+      "actors": [
+        {
+          "name": "Catherine Frot"
+        },
+        {
+          "name": "Melan Omerta"
+        },
+        {
+          "name": "Fatsah Bouyahmed"
+        },
+        {
+          "name": "Olivia Côte"
+        }
+      ]
+    },
+    "40363": {
+      "id": "40363",
+      "baseId": 40363,
+      "name": "Fabian oder Der Gang vor die Hunde",
+      "additionalInfo": "",
+      "duration": 176,
+      "ageClassificationRating": {
+        "type": "FSK",
+        "value": "12"
+      },
+      "hasTrailer": true,
+      "genres": [
+        {
+          "name": "Drama"
+        },
+        {
+          "name": "Literaturverfilmung"
+        }
+      ],
+      "previewStyle": "background: linear-gradient(135deg, rgb(55, 48, 44), rgb(210, 201, 191));",
+      "lazyImage": "https://media.kinoheld.de/Jd5VX-gSt_6-YSFemYMUu57ftn8=/200x280/images%2Ffilm%2Ffabiana-19170.v1.jpg",
+      "largeImage": "https://media.kinoheld.de/Oyw4j5X6-APA71HNlPwWligxMDc=/400x560/images%2Ffilm%2Ffabiana-19170.v1.jpg",
+      "smallPosterImage": [
+        {
+          "url": "https://media.kinoheld.de/Jd5VX-gSt_6-YSFemYMUu57ftn8=/200x280/images%2Ffilm%2Ffabiana-19170.v1.jpg"
+        }
+      ],
+      "largePosterImage": [
+        {
+          "url": "https://media.kinoheld.de/sLo1UkJv7QdygG23iLZhzll_1IM=/1080x1920/images%2Ffilm%2Ffabiana-19170.v1.jpg"
+        }
+      ],
+      "smallSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/NqlZQrQYREMIq5xcZzcuT8ML1mI=/640x360/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-1.v2.png"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/zAqrha1r2IyFLR2SIoWPieVxn0g=/640x360/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-2.v2.png"
+          }
+        ]
+      ],
+      "largeSceneImages": [
+        [
+          {
+            "url": "https://media.kinoheld.de/FdGYbQUuhb3-qfOhtSRvXZC2Idw=/1920x1080/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-1.v2.png"
+          }
+        ],
+        [
+          {
+            "url": "https://media.kinoheld.de/-cmdb4JlLFge-PupjeI6s7IR9bw=/1920x1080/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-2.v2.png"
+          }
+        ]
+      ],
+      "title": "Fabian oder Der Gang vor die Hunde",
+      "title_orig": "Fabian oder Der Gang vor die Hunde",
+      "description": "IBerlin, 1931. Tagsüber arbeitet Jakob Fabian in der Werbeabteilung einer Zigarettenfabrik,  nachts zieht er mit seinem Freund Labude durch Kneipen, Bordelle und Künstlerateliers. Als Fabian die selbstbewusste Cornelia kennenlernt, gelingt es ihm, seine pes-simistische Grundhaltung abzulegen. Er verliebt sich. Doch dann fällt er der großen Entlassungswelle zum Opfer, während Cornelia bei ihrem Chef und Verehrer Karriere als Schauspielerin macht – ein Arrangement, mit dem sich Fabian nur schwer abfinden kann. Doch nicht nur seine Welt gerät aus den Fugen.\r\nDie Verfilmung des gleichnamigen Romans von Erich Kästner ist ein „bittersüßes Porträt einer vergangenen Epoche, die im Guten wie im Schlechten der Gegenwart auffällig gleicht. Glänzende Darsteller, eine tanzende Kamera, zeitgenössische dokumentarische Einsprengsel und zahlreiche Bezüge zum Weimarer Kino verbinden sich zu einer meisterhaften Hommage auf Berlin und eine im Fallen begriffene Zeit.“ (Filmdienst)",
+      "scenes": [
+        "https://media.kinoheld.de/y14trCKRtunOORF4DCQGEZ9EP4I=/480x270/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-1.v2.png",
+        "https://media.kinoheld.de/1WAzNm04G4xO3pUSwpkK7WSAmmc=/480x270/images%2Ffilm%2Ffabian-oder-der-gang-vor-die-hunde-19170-2.v2.png"
+      ],
+      "directors": [
+        {
+          "name": "Dominik Graf"
+        }
+      ],
+      "trailers": [
+        {
+          "format": "youtube",
+          "url": "https://www.youtube.com/watch?v=VPIeUqg7F40",
+          "id": "VPIeUqg7F40",
+          "remoteVideoId": "VPIeUqg7F40"
+        }
+      ],
+      "productionCountries": [
+        "Deutschland 2021"
+      ],
+      "actors": [
+        {
+          "name": "Tom Schilling"
+        },
+        {
+          "name": "Saskia Rosendahl"
+        },
+        {
+          "name": "Albrecht Schuch"
+        }
+      ]
+    }
+  },
+  "groupIds": [
+    "b8ffeb006a0de9c5bad3cdd4afd12ce5",
+    "af0cd245d46f916fb016cfab2d5c6b5e",
+    "3b9bb3dcd9a870f143c1e3cbc7c53a4b",
+    "b1bb8f761a44afb8696ac29273a12f1b"
+  ]
+}

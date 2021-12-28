@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "scrape": "node scrapers/parseEventsAsJSON.js",
+    "devScrape": "env $(cat .env | grep -v \"#\" | xargs) npm run scrape",
+    "devs": "TEST_DATA=true DEBUG=true node $1",
+    "herokuTestScrape": "TEST_DATA=true npm run scrape"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +17,10 @@
     "node": "17.x"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "node-fetch": "^2.6.6"
   }
 }

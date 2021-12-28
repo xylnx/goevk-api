@@ -31,6 +31,15 @@ server.get('/events.json', (req, res) => {
   });
 });
 
+server.get('/bvents.json', (req, res) => {
+  fs.readFile(`${__dirname}/data/bvents.json`, 'utf-8', (err, data) => {
+    console.log(data);
+    res.writeHeader(200, { 'Content-Type': 'application/json' });
+    res.end(data);
+    // res.end(JSON.stringify({ a: 1 }));
+  });
+});
+
 // Default response for any other request
 server.use(function (req, res) {
   res.status(404);
