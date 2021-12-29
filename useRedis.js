@@ -3,7 +3,9 @@ const { createClient } = require('redis');
 const debug = process.env.DEBUG === 'true';
 
 const redisConnect = async () => {
-  const client = createClient();
+  const client = createClient({
+    url: process.env.REDIS_URL,
+  });
   client.on('error', (err) => console.log('Redis Client Error', err));
   await client.connect();
   return client;
