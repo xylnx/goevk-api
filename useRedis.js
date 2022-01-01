@@ -20,6 +20,15 @@ const redisSet = async (key, value) => {
   return console.log('data stored in redis');
 };
 
+const redisAppend = async (key, value) => {
+  const client = await redisConnect();
+
+  await client.append(key, value);
+  await client.disconnect();
+
+  return console.log(`==> Data appended to redis key ${key}`);
+};
+
 const redisGet = async (key) => {
   const client = await redisConnect();
 
@@ -37,5 +46,6 @@ if (debug) init();
 
 module.exports = {
   redisSet,
+  redisAppend,
   redisGet,
 };
