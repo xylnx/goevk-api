@@ -3,7 +3,11 @@ const express = require('express');
 const cors = require('cors');
 
 const server = express();
-// process.env.PORT is used by heroku
+
+const { redisGet } = require('./useRedis');
+
+// process.env.PORT: heroku sets a corresponding environment var
+// locally PORT 5000 is used
 const PORT = process.env.PORT || 5000;
 const JSON_PATH = `${__dirname}/data/events.json`;
 
@@ -15,8 +19,6 @@ server.use(
   })
 );
 
-// server.use(cors());
-
 server.listen(PORT, () => {
   console.log('Server listening on %PORT%'.replace('%PORT%', PORT));
 });
@@ -24,6 +26,15 @@ server.listen(PORT, () => {
 // ENDPOINTS
 server.get('/events.json', (req, res) => {
   fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
+    console.log(data);
+    res.writeHeader(200, { 'Content-Type': 'application/json' });
+    res.end(data);
+    // res.end(JSON.stringify({ a: 1 }));
+  });
+});
+
+server.get('/bvents.json', (req, res) => {
+  redisGet('eventsData').then((data) => {
     console.log(data);
     res.writeHeader(200, { 'Content-Type': 'application/json' });
     res.end(data);
