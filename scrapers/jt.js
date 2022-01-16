@@ -27,16 +27,20 @@ function getEvents(html) {
     // store extracted events here
     const events = [];
 
-    // get html for all events
-    // const eventNodes = $('.et_pb_section.et_pb_section_1.et_section_regular');
-    const allTabs = $('.et_pb_all_tabs').children('div').last();
+    // GET HTML FOR ALL EVENTS
+    // JT Events are organized in tabs
+    // Each contains a certain month and then there is a tab for all events togehter
+    // => There is html for each event exists twice on this page
+    // => we only grab the last tab, which is the one for all events, to not parse the same event twice (from month + from all events tab)!
+    const lastTab = $('.et_pb_all_tabs').children('div').last();
 
-    const everything = cheerio.load($.html(allTabs));
-    const eventNodes = everything('.et_pb_section.et_section_regular');
+    // Load html from last tab into cheerio
+    const allEvents = cheerio.load($.html(lastTab));
 
-    // const eventNodes = $('.et_pb_section.et_section_regular');
+    // Extract all event nodes
+    const eventNodes = allEvents('.et_pb_section.et_section_regular');
 
-    // extract html of individual events
+    // Extract html of individual events
     eventNodes.each((index, el) => {
       const eventHtml = cheerio.load($.html(el));
 
@@ -51,10 +55,6 @@ function getEvents(html) {
 
       // put together a date obj
       const dateObj = createDateObj(date, time);
-
-      // build the event link
-      // const linkRoot = 'https://www.jt.de';
-      // link = linkRoot + link;
 
       const event = new Event(
         CONSTANTS.eventType,
@@ -83,18 +83,16 @@ function createDateObj(date, time) {
   const day = parseInt(dateArr[0]);
 
   const timeStr = time;
-  //const timeStrClean = timeStr.replace('Beginn:', '').trim();
   const timeArr = timeStr.split(':');
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
   const eventDate = new Date(year, month, day, hour, minute);
-
   return eventDate;
 }
 
 async function parseEvents() {
-  signalExecution(scriptName);
+  signalExecution(scriptName); // print out info that this script is runnig
   let html;
   // prettier-ignore
   testData ? 
@@ -105,7 +103,7 @@ async function parseEvents() {
   return events;
 }
 
-// Parse events without calling the function from an external script
+// Parse events without calling parseEvents externally, for testing
 if (debug) parseEvents();
 
 module.exports.parseEvents = parseEvents;
