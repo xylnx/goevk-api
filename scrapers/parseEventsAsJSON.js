@@ -9,6 +9,8 @@ const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
 
 const dt = require('./dt');
+const jt = require('./jt');
+const lokhalle = require('./lokhalle');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
@@ -21,8 +23,8 @@ const fileName = 'bvents.json';
 console.log(`${path}${fileName}`);
 
 const init = async () => {
-  const scrapers = [dt, lumiere, melies, musa];
-  // const scrapers = [musa];
+  const scrapers = [dt, jt, lokhalle, lumiere, melies, musa];
+  // const scrapers = [lokhalle];
   let eventsAll = [];
 
   for (const scraper of scrapers) {
@@ -36,6 +38,7 @@ const init = async () => {
   // Dump json into redis
   redisSet('eventsData', json);
 
+  // Write
   // fs.writeFileSync(`${path}${fileName}`, json);
   return;
 };
