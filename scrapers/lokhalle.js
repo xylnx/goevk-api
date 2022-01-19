@@ -17,7 +17,7 @@ const file = `${__dirname}/test_data/lokhalle.html`;
 // Meta data to enrich the event object
 const CONSTANTS = {
   place: 'Lokhalle',
-  eventType: 'Konzert, Party, Kultur',
+  eventType: 'Konzert, Messe, Veranstaltung',
 };
 
 function getEvents(html) {
@@ -25,25 +25,26 @@ function getEvents(html) {
     const $ = cheerio.load(html);
 
     const events = [];
-    const eventNodes = $('.container.event.p-2').not('.canceled');
+    const eventNodes = $('.jet-listing-grid__item');
     eventNodes.each((index, el) => {
-      /* const event = {} */
-
+      // Get all nodes containing event data
       const eventHtml = cheerio.load($.html(el));
-      // const htmlEl = $.html(el);
+      const eventTest = eventNodes.html();
 
       // Parse info from eventHtml
-      const name = eventHtml('.musa-event-title > a').eq(0).text();
-      const date = eventHtml('.h2.pt-2.mb-0').text().trim();
-      const time = eventHtml('.event-time').html();
+      const name = eventHtml('h2.elementor-heading-title').text();
+      let dateInfo = eventHtml('.jet-listing-dynamic-field__content').text();
+
+      // dateInfo: [ 'Sa.,', '26.03.2022', '19:45', 'UhrHalle', '3' ]
+      dateInfo = dateInfo.split(' ');
+      const date = dateInfo[1];
+      const time = dateInfo[2];
 
       // put together a date obj
       const dateObj = createDateObj(date, time);
 
-      // build the event link
-      const linkRoot = 'https://www.musa.de';
-      let link = eventHtml('.musa-event-title > a').eq(0).attr('href');
-      link = linkRoot + link;
+      // Get link to the event
+      const link = eventHtml('.jet-button__instance').attr('href');
 
       const event = new Event(
         CONSTANTS.eventType,
@@ -53,8 +54,16 @@ function getEvents(html) {
         dateObj
       );
 
-      // Log new event
-      if (testData) signalTestData();
+      // DEBUGGING
+      if (debug) {
+        if (testData) signalTestData();
+
+        // console.log({ eventHtml: JSON.stringify(eventHtml.html(), null, 8) });
+        console.log({ index });
+        console.log('VARIABLES', { name, dateInfo, date, time, link });
+      }
+
+      // Log current event object
       console.log(event);
 
       events.push(event);
@@ -68,7 +77,7 @@ function createDateObj(date, time) {
 
   const dateStr = date;
   const dateArr = dateStr.split('.');
-  const month = parseInt(dateArr[1] - 1);
+  const month = parseInt(dateArr[1] - 1); // -1: months start with 0 (January)
   const day = parseInt(dateArr[0]);
 
   const timeStr = time;
@@ -79,10 +88,16 @@ function createDateObj(date, time) {
 
   const eventDate = new Date(year, month, day, hour, minute);
 
+  // DEBUGGING
+  if (debug) {
+    console.log('createDateObj:', { month, day, hour, minute });
+    console.log('__________________________________________');
+  }
+
   return eventDate;
 }
 
-async function parseEventsMusa() {
+async function parseEvents() {
   signalExecution(scriptName);
   let html;
   // prettier-ignore
@@ -95,6 +110,6 @@ async function parseEventsMusa() {
 }
 
 // Parse events without calling the function from an external script
-if (debug) parseEventsMusa();
+if (debug) parseEvents();
 
-module.exports.parseEvents = parseEventsMusa;
+module.exports.parseEvents = parseEvents;
