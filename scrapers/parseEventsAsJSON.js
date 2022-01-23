@@ -15,6 +15,7 @@ const lokhalle = require('./lokhalle');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
+const noergelbuff = require('.noergelbuff');
 
 // Put JSON here:
 const redisKey = 'eventsData';
@@ -24,7 +25,16 @@ const fileName = 'bvents.json';
 console.log(`${path}${fileName}`);
 
 const init = async () => {
-  const scrapers = [dt, exilConcerts, jt, lokhalle, lumiere, melies, musa];
+  const scrapers = [
+    dt,
+    exilConcerts,
+    jt,
+    lokhalle,
+    lumiere,
+    melies,
+    musa,
+    noergelbuff,
+  ];
   // const scrapers = [exilConcerts];
   let eventsAll = [];
 
