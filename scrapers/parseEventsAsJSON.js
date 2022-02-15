@@ -11,7 +11,7 @@ const { sortEvents } = require('../utils/sortEvents');
 // const dt = require('./dt');
 const exilConcerts = require('./exilConcerts');
 const jt = require('./jt');
-const lokhalle = require('./lokhalle');
+// const lokhalle = require('./lokhalle');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
@@ -29,7 +29,7 @@ const init = async () => {
     // dt,
     exilConcerts,
     jt,
-    lokhalle,
+    // lokhalle,
     lumiere,
     melies,
     musa,
