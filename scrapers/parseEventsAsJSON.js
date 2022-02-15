@@ -8,14 +8,14 @@ const fs = require('fs');
 const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
 
-const dt = require('./dt');
+// const dt = require('./dt');
 const exilConcerts = require('./exilConcerts');
 const jt = require('./jt');
 const lokhalle = require('./lokhalle');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
-const noergelbuff = require('.noergelbuff');
+const noergelbuff = require('./noergelbuff');
 
 // Put JSON here:
 const redisKey = 'eventsData';
@@ -26,7 +26,7 @@ console.log(`${path}${fileName}`);
 
 const init = async () => {
   const scrapers = [
-    dt,
+    // dt,
     exilConcerts,
     jt,
     lokhalle,

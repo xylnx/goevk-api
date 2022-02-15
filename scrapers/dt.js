@@ -14,7 +14,7 @@ const debug = process.env.DEBUG === 'true';
 const testData = process.env.TEST_DATA === 'true';
 
 // Get HTML from here
-const URL = 'https://www.dt-goettingen.de/kalender';
+const URL = 'https://www.dt-goettingen.de/spielplan';
 const TEST_DATA = `${__dirname}/test_data/dt.html`;
 
 // Meta data to enrich the event obj
@@ -61,6 +61,7 @@ const createDateObj = (eventYear, eventMonth, eventDay, eventTime) => {
 };
 
 const getEvents = (html) => {
+  console.log(html);
   const events = [];
   const $ = cheerio.load(html);
 
@@ -110,7 +111,7 @@ const getEvents = (html) => {
 
     // Log new event
     if (testData) signalTestData();
-    console.log(event);
+    console.log('test', event);
 
     /*
     // Add properties to the event obj
