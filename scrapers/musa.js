@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { createDate } = require('./utils/createDate');
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -68,16 +69,20 @@ function createDateObj(date, time) {
 
   const dateStr = date;
   const dateArr = dateStr.split('.');
+
   const month = parseInt(dateArr[1] - 1);
   const day = parseInt(dateArr[0]);
 
   const timeStr = time;
   const timeStrClean = timeStr.replace('Beginn:', '').trim();
   const timeArr = timeStrClean.split(':');
+
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
-  const eventDate = new Date(year, month, day, hour, minute);
+  // date data should come in strings, like so:
+  // year='2022'; month="2"; day="26"; hour="17"; minute="30"
+  const eventDate = createDate(year, month, day, hour, minute);
 
   return eventDate;
 }
