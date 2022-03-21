@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { createDate } = require('./utils/createDate');
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -87,7 +88,7 @@ function createDateObj(date, time) {
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
-  const eventDate = new Date(year, month, day, hour, minute);
+  const eventDate = createDate(year, month, day, hour, minute);
   return eventDate;
 }
 
