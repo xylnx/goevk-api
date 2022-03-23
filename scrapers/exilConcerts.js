@@ -7,13 +7,19 @@ const Event = require('./Event');
 const { createDate } = require('./utils/createDate');
 
 const scriptName = path.basename(__filename);
+
+// DEBUGGING + DEVELOPMENT
+// when set to true, this module runs as a stand alone application and
+// logs parsed events to the console
 const debug = process.env.DEBUG === 'true';
+// read test data from a file
+// => prevent unnecessary requests when developing or debugging
 const testData = process.env.TEST_DATA === 'true';
+// test data
+const file = `${__dirname}/test_data/exil-konzerte.html`;
 
 // get HTML from here
 const url = 'https://www.exil-web.de/index.php/ct-menu-item-5';
-// test data
-const file = `${__dirname}/test_data/exil-konzerte.html`;
 
 // Meta data to enrich the event object
 const CONSTANTS = {
@@ -64,12 +70,11 @@ function getEvents(html) {
       // DEBUGGING
       if (debug) {
         if (testData) signalTestData();
-
-        console.log({ index });
         console.log('VARS ==> ', { name, date, time, link });
       }
 
       // Log event obj
+      console.log({ index });
       console.log(event);
       console.log('__________________________________________');
 
@@ -93,20 +98,22 @@ function createDateObj(date, time) {
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
-  const eventDate = createDate(year, month, day, hour, minute);
-
   // DEBUGGING
   if (debug) {
     console.log('createDateObj:', { month, day, hour, minute });
   }
 
+  // Create + return new date
+  const eventDate = createDate(year, month, day, hour, minute);
   return eventDate;
 }
 
 async function parseEvents() {
   signalExecution(scriptName);
   let html;
+
   // prettier-ignore
+  // use test date, if `testData == true`, else scrape real html
   testData ? 
     (html = await readFile(file)) : 
     (html = await getHtml(url));
