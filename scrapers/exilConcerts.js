@@ -75,7 +75,7 @@ function getEvents(html) {
 
       // Log event obj
       console.log({ index });
-      console.log(event);
+      console.log({ event });
       console.log('__________________________________________');
 
       events.push(event);
