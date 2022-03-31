@@ -1,5 +1,5 @@
 class Event {
-  constructor(type, place, name, link, date) {
+  constructor(type, place, name, link, date = new Date(0)) {
     this.type = type;
     this.place = place;
     this.name = name;
