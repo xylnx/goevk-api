@@ -1,5 +1,3 @@
-const { redisSet, redisGet } = require('../useRedis');
-
 const sortEvents = async (eventsArr) => {
   // turn date string into date
   eventsArr.forEach((ev) => (ev.date = new Date(ev.date)));

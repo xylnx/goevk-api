@@ -3,10 +3,10 @@ const cheerio = require('cheerio');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
 
-// Get HTML from here
-
 const debug = false;
-if (!debug) {
+
+// Get HTML from here
+if (debug) {
   const URL = 'https://www.apex-goe.de/programm';
 } else {
   const URL = '../test_data/apex.html';

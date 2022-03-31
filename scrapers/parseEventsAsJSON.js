@@ -7,8 +7,9 @@
 const fs = require('fs');
 const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
+const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 
-// const dt = require('./dt');
+const dt = require('./dt');
 const exilConcerts = require('./exilConcerts');
 const jt = require('./jt');
 // const lokhalle = require('./lokhalle');
@@ -22,35 +23,36 @@ const redisKey = 'eventsData';
 const path = `${__dirname}/../data/`;
 const fileName = 'bvents.json';
 
-console.log(`${path}${fileName}`);
-
 const init = async () => {
   const scrapers = [
-    // dt,
+    // dt, => new website broke scraper
     exilConcerts,
     jt,
-    // lokhalle,
+    // lokhalle, => not working
     lumiere,
     melies,
     musa,
     noergelbuff,
   ];
-  // const scrapers = [exilConcerts];
-  let eventsAll = [];
 
+  // Store events
+  let eventsAll = [];
   for (const scraper of scrapers) {
     const events = await scraper.parseEvents();
     eventsAll.push(...events);
   }
 
+  // Sort all events according to their starting date + time
   sortEvents(eventsAll);
   const json = JSON.stringify(eventsAll);
 
-  // Dump json into redis
+  // Write json into a local file, and not into redis
+  // The local file can be served for easy local development of the frontend app
+  if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
+
+  // Production: Dump json into redis
   redisSet('eventsData', json);
 
-  // Write
-  // fs.writeFileSync(`${path}${fileName}`, json);
   return;
 };
 init();
