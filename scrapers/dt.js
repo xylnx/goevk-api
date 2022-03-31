@@ -37,7 +37,7 @@ const debug = process.env.DEBUG === 'true';
 
 // Live data
 const LIVE_DATA =
-  'https://www.dt-goettingen.de/_next/data/C4hShJLM5lSwwHu0Kezow/spielplan.json';
+  'https://www.dt-goettingen.de/_next/data/TuGHSCsnP-926i6Z2iZGt/spielplan.json';
 
 /* ************************************************************
  * DEFINE WHICH DATA TO USE WHEN

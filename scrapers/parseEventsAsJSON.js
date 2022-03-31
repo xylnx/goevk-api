@@ -42,8 +42,12 @@ const init = async () => {
   // Store events
   let eventsAll = [];
   for (const scraper of scrapers) {
-    const events = await scraper.parseEvents();
-    eventsAll.push(...events);
+    try {
+      const events = await scraper.parseEvents();
+      eventsAll.push(...events);
+    } catch (error) {
+      console.log(`ERROR while runing ${scraper}.parseEvents(): `, error);
+    }
   }
 
   // Sort all events according to their starting date + time

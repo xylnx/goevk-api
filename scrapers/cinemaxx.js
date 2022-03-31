@@ -79,11 +79,13 @@ function buildDate(event) {
 }
 
 const parseEvents = async () => {
-  // prettier-ignore
-  const json = 
-    testData ? 
-    await readFile(TEST_DATA) : 
-    await getJSON(LIVE_DATA);
+  let json;
+
+  if (!testData) {
+    json = await getJSON(LIVE_DATA);
+  } else {
+    json = await readFile(TEST_DATA);
+  }
 
   const data = JSON.parse(json);
 
