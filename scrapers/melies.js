@@ -61,7 +61,7 @@ function parseEvents(data) {
 
     // Log new event
     if (testData) signalTestData();
-    // console.log(event);
+    console.log(event);
   });
   return events;
 }

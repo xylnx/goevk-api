@@ -59,6 +59,7 @@ function getEvents(html) {
       console.log('_______________________________________________________');
 
       events.push(event);
+      console.log(events);
     });
     resolve(events);
   });

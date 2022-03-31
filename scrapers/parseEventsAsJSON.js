@@ -9,6 +9,8 @@ const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
 const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 
+const cinemaxx = require('./cinemaxx');
+const dots = require('./dots');
 const dt = require('./dt');
 const exilConcerts = require('./exilConcerts');
 const jt = require('./jt');
@@ -25,7 +27,9 @@ const fileName = 'bvents.json';
 
 const init = async () => {
   const scrapers = [
-    // dt, => new website broke scraper
+    cinemaxx,
+    dots,
+    dt,
     exilConcerts,
     jt,
     // lokhalle, => not working
