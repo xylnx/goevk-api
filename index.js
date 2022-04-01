@@ -8,7 +8,7 @@ const { redisGet } = require('./useRedis');
 
 // process.env.PORT: heroku sets a corresponding environment var
 // locally PORT 5000 is used
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5033;
 const JSON_PATH = `${__dirname}/data/events.json`;
 
 // CORS middleware

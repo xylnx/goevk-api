@@ -1,6 +1,7 @@
-TD.md
 node_modules
+.DS_Store
 .env
+TD.md
 
 # Ignore vim swap files
 [._]*.s[a-v][a-z]
