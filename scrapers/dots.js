@@ -65,12 +65,11 @@ function getEvents(html) {
         dateObj
       );
 
-      // DEBUGGING
-      if (testData) signalTestData();
-      if (debug) console.log(event);
-
       events.push(event);
     });
+    // DEBUGGING
+    if (testData) signalTestData();
+    if (debug) console.log(events);
     resolve(events);
   });
 }
@@ -110,6 +109,9 @@ async function parseEvents() {
 
   const events = await getEvents(html);
   const filteredEvents = await filterEvents(events);
+
+  console.log(filteredEvents);
+
   return filteredEvents;
 }
 

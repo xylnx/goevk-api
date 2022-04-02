@@ -22,6 +22,7 @@ const CONSTANTS = {
   eventType: 'Kino',
   linkRoot:
     'https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show',
+  link: 'https://lumiere-melies.de/lumiere-programm/',
 };
 
 // Get JSON data
@@ -53,7 +54,8 @@ function parseEvents(data) {
       CONSTANTS.eventType,
       CONSTANTS.place,
       show.name,
-      CONSTANTS.linkRoot + show.id,
+      // CONSTANTS.linkRoot + show.id,
+      CONSTANTS.link,
       dateObj
     );
 

@@ -15,7 +15,6 @@ const path = require('path');
 
 // Helpers
 const { readFile, getJSON } = require('./getHtml');
-const { signalExecution, signalTestData } = require('./utils/signals');
 const Event = require('./Event');
 
 /* ************************************************************
@@ -30,10 +29,12 @@ const CONSTANTS = {
 };
 
 // Testing and debuging
-const scriptName = path.basename(__filename);
-const TEST_DATA = `${__dirname}/test_data/cinemaxx.json`;
-const testData = process.env.TEST_DATA === 'true';
-const debug = process.env.DEBUG === 'true';
+const debugVars = {
+  testData: process.env.TEST_DATA === 'true',
+  debug: process.env.DEBUG === 'true',
+  scriptName: path.basename(__filename),
+  TEST_DATA: `${__dirname}/test_data/cinemaxx.json`,
+};
 
 /* LIVE DATA => this script queries an api
  * The endpoint requires a date parameter containing a starting and an end date:
@@ -78,17 +79,22 @@ function buildDate(event) {
   return new Date(year, month, day, hour, minute);
 }
 
-const parseEvents = async () => {
+async function getData() {
   let json;
+  let data;
 
-  if (!testData) {
+  if (!debugVars.testData) {
     json = await getJSON(LIVE_DATA);
   } else {
-    json = await readFile(TEST_DATA);
+    json = await readFile(debugVars.TEST_DATA);
   }
 
-  const data = JSON.parse(json);
+  data = JSON.parse(json);
+  return data;
+}
 
+const parseEvents = async () => {
+  const data = await getData(debugVars, LIVE_DATA);
   // Isolate relevant data
   const data_events = data.WhatsOnAlphabeticFilms;
 
@@ -117,19 +123,13 @@ const parseEvents = async () => {
     });
   }
 
-  // DEBUGGING:
-  // Print this module's name
-  signalExecution(scriptName);
-  if (testData) signalTestData();
-  // Print events array
-  if (debug) console.log(events);
-  if (testData) signalTestData();
+  console.log(events);
 
   return events;
 };
 
 // DEBUGGING: Run module without calling parseEvents() from another module
-if (debug) parseEvents();
+if (debugVars.debug) parseEvents();
 
 module.exports = {
   parseEvents,

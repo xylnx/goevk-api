@@ -4,6 +4,10 @@
   Each scraper returns an array of such events
 << ======================================================== */
 
+// Set timezone
+// This is important to instantiate dates using the right time zone in each individual scraper
+process.env.TZ = 'Europe/Berlin';
+
 const fs = require('fs');
 const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
@@ -23,11 +27,13 @@ const noergelbuff = require('./noergelbuff');
 // Put JSON here:
 const redisKey = 'eventsData';
 const path = `${__dirname}/../data/`;
-const fileName = 'bvents.json';
+const fileName = 'events.json';
 
 const init = async () => {
   const scrapers = [
+    /*
     cinemaxx,
+    */
     dots,
     dt,
     exilConcerts,
@@ -43,6 +49,7 @@ const init = async () => {
   let eventsAll = [];
   for (const scraper of scrapers) {
     try {
+      console.log(scraper);
       const events = await scraper.parseEvents();
       eventsAll.push(...events);
     } catch (error) {
@@ -59,7 +66,7 @@ const init = async () => {
   if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
 
   // Production: Dump json into redis
-  redisSet('eventsData', json);
+  if (debugVars.debug) redisSet('eventsData', json);
 
   return;
 };
