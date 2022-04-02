@@ -66,7 +66,7 @@ const init = async () => {
   if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
 
   // Production: Dump json into redis
-  if (debugVars.debug) redisSet('eventsData', json);
+  redisSet('eventsData', json);
 
   return;
 };
