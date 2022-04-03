@@ -6,7 +6,8 @@ const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
 const { createDate } = require('./utils/createDate');
 // Import array with names of months in German
-const months = require('./utils/months');
+const { monthsLong } = require('./utils/months');
+console.log({ monthsLong });
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -69,7 +70,7 @@ function createDateObj(date, time) {
   const dateStr = date;
   const dateArr = dateStr.split(' '); // Ex: [ '24.', 'Januar', '2022' ]
   const year = parseInt(dateArr[2]);
-  const month = parseInt(months.indexOf(dateArr[1].toLowerCase()));
+  const month = parseInt(monthsLong.indexOf(dateArr[1].toLowerCase()));
   const day = parseInt(dateArr[0].replace('.', ''));
 
   const timeStr = time; // Ex: ' @ 20:00 - 23:00'

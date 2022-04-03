@@ -1,4 +1,4 @@
-module.exports = [
+const monthsLong = [
   'januar',
   'februar',
   'märz',
@@ -12,3 +12,5 @@ module.exports = [
   'november',
   'dezember',
 ];
+
+module.exports = { monthsLong };
