@@ -6,7 +6,7 @@
   "scripts": {
     "parseEnv": "env $(cat .env | grep -v \"#\" | xargs)",
     "start": "npm run parseEnv && node index.js",
-    "scrape": "node scrapers/parseEventsAsJSON.js",
+    "scrape": "DEBUG=true node scrapers/parseEventsAsJSON.js",
     "scrapeTD": "TEST_DATA=true WRITE_TO_LOCAL_FILE=true npm run scrape",
     "updateLocalDates": "WRITE_TO_LOCAL_FILE=true npm run scrape",
     "debug": "DEBUG=true node ${1}",
