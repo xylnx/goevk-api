@@ -13,10 +13,13 @@
 // Node core modules
 const path = require('path');
 
+const cheerio = require('cheerio');
+
 // Helpers
-const { readFile, getJSON } = require('./getHtml');
+const { readFile, getJSON, getHtml } = require('./getHtml');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const Event = require('./Event');
+const { getInnerHTML } = require('domutils');
 
 /* ************************************************************
  * VARIABLES
@@ -31,13 +34,12 @@ const CONSTANTS = {
 
 // Testing and debuging
 const scriptName = path.basename(__filename);
-const TEST_DATA = `${__dirname}/test_data/dt.json`;
+const TEST_DATA = `${__dirname}/test_data/dt.html`;
 const testData = process.env.TEST_DATA === 'true';
 const debug = process.env.DEBUG === 'true';
 
 // Live data
-const LIVE_DATA =
-  'https://www.dt-goettingen.de/_next/data/TuGHSCsnP-926i6Z2iZGt/spielplan.json';
+const LIVE_DATA = 'https://www.dt-goettingen.de/spielplan';
 
 /* ************************************************************
  * DEFINE WHICH DATA TO USE WHEN
@@ -50,6 +52,7 @@ let source; // a file path or url
 let getData; // a function => readFile or getJSON
 
 // Determine which fn and which source to use
+/*
 if (testData) {
   signalTestData();
   source = TEST_DATA;
@@ -59,6 +62,7 @@ if (!testData) {
   source = LIVE_DATA;
   getData = getJSON;
 }
+*/
 
 /* ************************************************************
  * FUNCTIONS
@@ -77,11 +81,19 @@ function buildDate(event) {
 }
 
 const parseEvents = async () => {
-  const json = await getData(source);
+  // const json = await getData(source);
+  // const data = JSON.parse(json);
+  // const html = await readFile(TEST_DATA);
+  const html = await getHtml(LIVE_DATA);
+
+  const $ = cheerio.load(html);
+
+  const json = $('#__NEXT_DATA__').html();
   const data = JSON.parse(json);
+  // console.log(events.props.pageProps.initialData.pageData.schedule);
 
   // Isolate relevant data
-  const data_events = data.pageProps.initialData.pageData.schedule;
+  const data_events = data.props.pageProps.initialData.pageData.schedule;
 
   // Parse data, create objs containg this data + push them into an array
   const events = [];
