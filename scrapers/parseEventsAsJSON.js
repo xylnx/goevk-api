@@ -13,6 +13,8 @@ const { redisSet, redisAppend } = require('../useRedis');
 const { sortEvents } = require('../utils/sortEvents');
 const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 
+// SCRAPERS
+const apex = require('./apex');
 const cinemaxx = require('./cinemaxx');
 const dots = require('./dots');
 const dt = require('./dt');
@@ -33,8 +35,9 @@ const fileName = 'events.json';
 const init = async () => {
   const scrapers = [
     /*
-    cinemaxx,
+    cinemaxx, => to much clutter
     */
+    apex,
     dots,
     dt,
     esel,
