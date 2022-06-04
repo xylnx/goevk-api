@@ -39,7 +39,7 @@ Run the scrapers and save data in a redis data store. This task is used in the h
 
 Run the scrapers using test data. Typically used in development to prevent excessive requests.
 
-#### `npm run updateLocalEventsFile`
+#### `npm run updateLocalEventData`
 
 Update a local version of a JSON file containing scraped data. The file is mainly used for local development of the API as well as the corresponding frontend application: It makes local requests possible without having a redis instance installed.
 

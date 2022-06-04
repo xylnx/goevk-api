@@ -8,7 +8,7 @@
     "start": "npm run parseEnv && node index.js",
     "scrape": "DEBUG=true node scrapers/parseEventsAsJSON.js",
     "scrapeTD": "TEST_DATA=true WRITE_TO_LOCAL_FILE=true npm run scrape",
-    "updateLocalDates": "WRITE_TO_LOCAL_FILE=true npm run scrape",
+    "updateLocalEventData": "WRITE_TO_LOCAL_FILE=true npm run scrape",
     "debug": "DEBUG=true node ${1}",
     "debugTD": "DEBUG=true TEST_DATA=true node ${1}",
     "deploy": "git push heroku main"
