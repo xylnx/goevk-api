@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 const { createDate } = require('./utils/createDate');
 
 const scriptName = path.basename(__filename);
@@ -24,7 +25,7 @@ const url = 'https://www.exil-web.de/index.php/ct-menu-item-5';
 // Meta data to enrich the event object
 const CONSTANTS = {
   place: 'Exil',
-  eventType: 'Konzert, Club',
+  eventType: `${eT.concert}, ${eT.club}`,
 };
 
 function getEvents(html) {

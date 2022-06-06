@@ -1,9 +1,11 @@
 const path = require('path');
 const cheerio = require('cheerio');
 
+// Helpers
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -17,7 +19,7 @@ const file = `${__dirname}/test_data/dots.html`;
 // Meta data to enrich the event object
 const CONSTANTS = {
   place: 'Cafe Bar Dots',
-  eventType: 'Konzert, Party, Kultur',
+  eventType: `${eT.concert}, ${eT.party}, ${eT.club}`,
   link: 'https://cafebardots.de/events/',
 };
 

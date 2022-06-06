@@ -20,6 +20,8 @@ const { monthsLong } = require('./utils/months');
 const { createDate } = require('./utils/createDate');
 const Event = require('./Event');
 
+const { eventTypes } = require('../utils/eventTypes');
+
 // VARS
 
 // Debugging
@@ -34,7 +36,7 @@ const TEST_DATA = `${__dirname}/test_data/apex.html`;
 // Meta data to enrich event objects
 const CONSTANTS = {
   place: 'Apex',
-  eventType: 'Konzert, Veranstaltungen',
+  eventType: `${eventTypes.concert}, ${eventTypes.generalEvents}`,
 };
 
 // FUNCTIONS

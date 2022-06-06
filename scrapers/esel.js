@@ -19,6 +19,7 @@ const { readFile, getHtml } = require('./getHtml');
 const { monthsLong } = require('./utils/months');
 const { createDate } = require('./utils/createDate');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 // VARS
 
@@ -34,7 +35,7 @@ const TEST_DATA = `${__dirname}/test_data/esel.html`;
 // Meta data to enrich event objects
 const CONSTANTS = {
   place: 'Kultur im Esel [Einbeck]',
-  eventType: 'Konzert, Veranstaltungen',
+  eventType: `${eT.concert}, ${eT.generalEvents}`,
   linkRoot: 'https://kultur-im-esel.de/',
 };
 

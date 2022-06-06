@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 const { createDate } = require('./utils/createDate');
 
 const scriptName = path.basename(__filename);
@@ -18,7 +19,7 @@ const file = `${__dirname}/test_data/musa-data.html`;
 // Meta data to enrich the event object
 const CONSTANTS = {
   place: 'Musa',
-  eventType: 'Konzert, Party, Kultur',
+  eventType: `${eT.concert}, ${eT.party}`,
 };
 
 function getEvents(html) {

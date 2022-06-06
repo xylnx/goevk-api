@@ -4,6 +4,7 @@ const fetch = require('node-fetch');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -19,7 +20,7 @@ const test_data = `${__dirname}/test_data/testData-melies.json`;
 // Metadata to enrich the event objects
 const CONSTANTS = {
   place: 'Meliès',
-  eventType: 'Kino',
+  eventType: `${eT.cinema}`,
   linkRoot:
     'https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/',
   link: 'https://lumiere-melies.de/melies-programm/',

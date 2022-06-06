@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 const { createDate } = require('./utils/createDate');
 // Import array with names of months in German
 const { monthsLong } = require('./utils/months');
@@ -21,7 +22,7 @@ const file = `${__dirname}/test_data/noergelbuff.html`;
 // Meta data to enrich the event object
 const CONSTANTS = {
   place: 'Nörgelbuff',
-  eventType: 'Konzert, Party',
+  eventType: `${eT.concert}, ${eT.party}`,
 };
 
 function getEvents(html) {

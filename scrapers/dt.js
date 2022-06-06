@@ -19,7 +19,7 @@ const cheerio = require('cheerio');
 const { readFile, getJSON, getHtml } = require('./getHtml');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const Event = require('./Event');
-const { getInnerHTML } = require('domutils');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 /* ************************************************************
  * VARIABLES
@@ -28,7 +28,7 @@ const { getInnerHTML } = require('domutils');
 // Constants are used to enrich event data
 const CONSTANTS = {
   place: 'Deutsches Theater',
-  eventType: 'Theater, Kultur, Veranstaltungen',
+  eventType: `${eT.theater}`,
   linkRoot: 'https://www.dt-goettingen.de/stueck/',
 };
 
