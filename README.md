@@ -27,7 +27,7 @@ There is a [frontend built to display this data in a more human readable form](h
 
 Parse environmental variables. They can be defined in a `.env` file. The file has to be put in the project's root directory.
 
-#### `npm run start`
+#### `npm start`
 
 Run `parseEnv` and start the API. This will make the two endpoints `/events.json` `/bvents.json` available. This task is also run by heroku in the production environment (cp. `Procfile`).
 
@@ -43,11 +43,11 @@ Run the scrapers using test data. Typically used in development to prevent exces
 
 Update a local version of a JSON file containing scraped data. The file is mainly used for local development of the API as well as the corresponding frontend application: It makes local requests possible without having a redis instance installed.
 
-#### `npm debug <scraperName>`
+#### `npm run debug <scraperName>`
 
 Run individual scraper, scrape websites and display data in the console. `debug` is used for developing and debugging scrapers.
 
-#### `debugTD <scraperName>`
+#### `npm run debugTD <scraperName>`
 
 Same as `debug`, only using test data instead of real world data. The script is especially helpfull when building new scrapers and debugging.
 
