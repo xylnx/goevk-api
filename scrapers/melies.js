@@ -55,8 +55,8 @@ function parseEvents(data) {
       CONSTANTS.eventType,
       CONSTANTS.place,
       show.name,
-      // CONSTANTS.linkRoot + show.id,
-      CONSTANTS.link,
+      CONSTANTS.linkRoot + show.id,
+      // CONSTANTS.link,
       dateObj
     );
 

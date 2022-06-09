@@ -22,7 +22,7 @@ const CONSTANTS = {
   place: 'Lumière',
   eventType: `${eT.cinema}`,
   linkRoot:
-    'https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show',
+    'https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/',
   link: 'https://lumiere-melies.de/lumiere-programm/',
 };
 
@@ -55,8 +55,8 @@ function parseEvents(data) {
       CONSTANTS.eventType,
       CONSTANTS.place,
       show.name,
-      // CONSTANTS.linkRoot + show.id,
-      CONSTANTS.link,
+      CONSTANTS.linkRoot + show.id,
+      // CONSTANTS.link,
       dateObj
     );
 
