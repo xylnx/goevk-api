@@ -4,11 +4,14 @@ const axios = require('axios');
 const fetch = require('node-fetch');
 
 // Read test data from a local file
-function readFile(file) {
+function readFile(file, { json = false } = {}) {
   return new Promise((resolve, reject) => {
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
         reject(err);
+      }
+      if (json) {
+        resolve(JSON.parse(data));
       }
       resolve(data);
     });

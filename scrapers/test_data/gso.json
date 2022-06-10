@@ -1,0 +1,1545 @@
+{
+    "component": {
+        "config": {
+            "byStatus": {
+                "filter": 1
+            },
+            "settings": {
+                "alignment": 2,
+                "borderWidth": 0,
+                "buttonHeight": 44,
+                "buttonsBorderRadius": 0,
+                "buttonsBorderWidth": 1,
+                "buttonsStyle": 1,
+                "calendarBorderWidth": 0,
+                "calendarCellBorderWidth": 1,
+                "calendarDetailsDateLocationTextSize": 14,
+                "calendarDetailsDescriptionTextSize": 14,
+                "calendarDetailsTitleTextSize": 16,
+                "calendarListDividerWidth": 1,
+                "calendarListTextSize": 14,
+                "calendarWeekStartDay": 1,
+                "cardBorderWidth": 1,
+                "cardDateAndLocationFontSize": 15,
+                "cardDescriptionFontSize": 15,
+                "cardLocationAndDateFormat": 1,
+                "cardMargins": 20,
+                "cardMinWidth": 294,
+                "cardsPerRow": 3,
+                "compactHorizontalDividerHeight": 1,
+                "compactHorizontalDividerWidth": 36,
+                "contentAlignment": 2,
+                "countdownMarginBottom": 30,
+                "dateAndLocationMarginBottom": 54,
+                "dateMarginBottom": 42,
+                "descriptionMarginBottom": 42,
+                "horizontalDividerHeight": 1,
+                "horizontalDividerWidth": 20,
+                "imageGridPosition": 5,
+                "imageOpacity": 70,
+                "imagePosition": 2,
+                "imageRatio": 1,
+                "imageScaling": 2,
+                "imageWidth": 50,
+                "listAlignment": 2,
+                "listBorderWidth": 0,
+                "listButtonBorderRadius": 0,
+                "listButtonBorderWidth": 1,
+                "listButtonStyle": 1,
+                "listDividerWidth": 1,
+                "listImageLayout": 1,
+                "listImageOpacity": 100,
+                "listImagePosition": 5,
+                "listImageWidth": 50,
+                "listLayout": 3,
+                "listLocationAndDateFormat": 1,
+                "listRoundedButtonBorderRadius": 100,
+                "listShowAdditionalInfo": true,
+                "listShowDate": true,
+                "listShowDayOfWeek": true,
+                "listShowDescription": true,
+                "listShowFullDate": true,
+                "listShowImage": true,
+                "listShowLocation": true,
+                "listShowMainTitle": true,
+                "listShowMembers": true,
+                "listShowSocialShare": false,
+                "listShowVenueName": true,
+                "listStripWidth": 20,
+                "locationAndDateFormat": 1,
+                "locationMarginBottom": 54,
+                "oneButtonWidth": 140,
+                "roundedButtonsBorderRadius": 100,
+                "rsvpMarginBottom": 30,
+                "showCompactDividers": true,
+                "showCountdown": false,
+                "showDate": true,
+                "showDescription": false,
+                "showFullDividers": true,
+                "showHorizontalDividers": true,
+                "showImage": true,
+                "showLabels": true,
+                "showLocation": true,
+                "showMembers": true,
+                "showOfferRibbon": true,
+                "showRSVPTitle": false,
+                "showRecurringRibbon": true,
+                "showShareOptions": true,
+                "showTitle": true,
+                "sideBySideLayoutMargins": 30,
+                "texts": {
+                    "RSVPTitle": "Werden Sie kommen?",
+                    "listButtonText": "Programm und Tickets",
+                    "listGeneralTitle": "",
+                    "location": "Wo",
+                    "oneButton": "Jetzt anmelden",
+                    "registrationClosedButtonText": "Details",
+                    "time": "Wann",
+                    "todayButtonText": "Today"
+                },
+                "titleMarginBottom": 36,
+                "todayButtonBorderRadius": 0,
+                "todayButtonStyle": 2,
+                "todayRoundedButtonBorderRadius": 100,
+                "verticalDividerHeight": 94,
+                "verticalDividerWidth": 1,
+                "verticalImagePosition": 1,
+                "widgetLayout": 1,
+                "widgetType": 2
+            }
+        },
+        "events": [
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-gottingen-1-12-16-21-7-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+NACHT+DER+KULTUR+G%C3%96TTINGEN&dates=20220611T180000Z%2F20220612T180000Z&location=G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/44388a26-ec7b-43f4-b3b6-4ff74d809a30?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCI0NDM4OGEyNi1lYzdiLTQzZjQtYjNiNi00ZmY3NGQ4MDlhMzBcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.sdAmhwZ7G430wAHJNEqpBSZ3tdGIHK-n6AY2Da_Y95w"
+                },
+                "categories": [],
+                "created": "2021-12-02T08:05:03.075Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters (oder per Klick auf \"Programm und Tickets\").",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "44388a26-ec7b-43f4-b3b6-4ff74d809a30",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.54128040000001,
+                        "lng": 9.915803499999999
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.54128040000001,
+                            "longitude": 9.915803499999999
+                        },
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "",
+                            "number": ""
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-05-24T13:48:44.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://einkaufen-in-goettingen.de/event/pro-city-nacht-der-kultur-2022/"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-12T18:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-11T18:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "11. Juni 2022 um 20:00",
+                    "startDateFormatted": "11. Juni 2022",
+                    "startTimeFormatted": "20:00"
+                },
+                "slug": "gastspiel-nacht-der-kultur-gottingen",
+                "status": 0,
+                "title": "GASTSPIEL: NACHT DER KULTUR G\u00d6TTINGEN",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.sonntags-matinee-6-youngstars-6-12-22-11-00-am",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=SONNTAGS-MATINEE+6+-+YOUNGSTARS&dates=20220612T090000Z%2F20220612T130000Z&location=Theaterpl.+11%2C+37073+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/d8296fe8-684f-4a21-bbe9-cd2009787f5b?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJkODI5NmZlOC02ODRmLTRhMjEtYmJlOS1jZDIwMDk3ODdmNWJcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.5mMBq62_RccdKm842_-sr8iKQcNTJ7CksB_uaxakfDA"
+                },
+                "categories": [],
+                "created": "2021-06-15T19:32:24.530Z",
+                "description": "Der 18 Jahre junge Noah Kr\u00fcger ist nicht nur Trompeter und Jungstudent an der HMTMH, er ist auch Komponist. Bei uns pr\u00e4sentiert er sich zwar nicht mit einem seiner eigenen Werke, daf\u00fcr aber mit einem besonderen Instrument seines Fachs - dem \u201eCorno da caccia\u201c (Jagdhorn). ",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "d8296fe8-684f-4a21-bbe9-cd2009787f5b",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Theaterpl. 11, 37073 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.53666,
+                        "lng": 9.93993
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Theaterpl. 11, 37073 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.53666,
+                            "longitude": 9.93993
+                        },
+                        "postalCode": "37073",
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "Theaterplatz",
+                            "number": "11"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "Deutsches Theater G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-04-13T15:13:17.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://gso.reservix.de/p/reservix/event/1674589"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-12T13:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-12T09:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "12. Juni 2022 um 11:00",
+                    "startDateFormatted": "12. Juni 2022",
+                    "startTimeFormatted": "11:00"
+                },
+                "slug": "sonntags-matinee-6-youngstars",
+                "status": 0,
+                "title": "SONNTAGS-MATINEE 6 - YOUNGSTARS",
+                "totalGuests": {
+                    "YES": 6
+                },
+                "userId": "d5837f43-ad65-4943-b411-000ff1fc41b0"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.abschlusskonzert-dirigierseminar-6-16-22-7-45-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=Abschlusskonzert+Dirigierseminar&dates=20220616T174500Z%2F20220617T174500Z&location=Aula+am+Wilhelmsplatz%2C+Wilhelmspl.+1%2C+37073+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/de18c7fc-04f2-4ecc-83d8-334c0a8b975c?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJkZTE4YzdmYy0wNGYyLTRlY2MtODNkOC0zMzRjMGE4Yjk3NWNcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.0b045CjeYwm_Wz419flr6NyMD3bpamtiBrKUWdbeW4U"
+                },
+                "categories": [],
+                "created": "2022-06-02T12:11:14.527Z",
+                "description": "Die Dirigierklasse von Prof. Vassilis Christopoulos gibt ein Abschlusskonzert im Rahmen des Dirigierseminars\n\nProgramm:\nRESPIGHI: Gli uccelli (Die V\u00f6gel)                                                                             \nSTRAWINSKY: Pulcinella-Suite\nMENDELSSOHN: Symphonie Nr. 4 A-Dur op. 9",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "de18c7fc-04f2-4ecc-83d8-334c0a8b975c",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Aula am Wilhelmsplatz, Wilhelmspl. 1, 37073 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.5340918,
+                        "lng": 9.9378899
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Aula am Wilhelmsplatz, Wilhelmspl. 1, 37073 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.5340918,
+                            "longitude": 9.9378899
+                        },
+                        "postalCode": "37073",
+                        "streetAddress": {
+                            "apt": "Aula am Wilhelmsplatz",
+                            "name": "Wilhelmsplatz",
+                            "number": "1"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-06-07T11:02:34.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://gso.reservix.de/p/reservix/event/1944110"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-17T17:45:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-16T17:45:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "16. Juni 2022 um 19:45",
+                    "startDateFormatted": "16. Juni 2022",
+                    "startTimeFormatted": "19:45"
+                },
+                "slug": "abschlusskonzert-dirigierseminar",
+                "status": 0,
+                "title": "Abschlusskonzert Dirigierseminar",
+                "totalGuests": {},
+                "userId": "06486e56-a08e-409d-b3f2-141630b784ae"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-gda-wohnstift-1-12-16-21-2-30-pm-3",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+GDA+WOHNSTIFT&dates=20220620T133000Z%2F20220620T173000Z&location=Charlottenburger+Str.+19%2C+37085+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/165b5f11-d05c-4267-9d2a-1acbd817604f?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCIxNjViNWYxMS1kMDVjLTQyNjctOWQyYS0xYWNiZDgxNzYwNGZcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.6hGw-w5cdRYrJX8bV0Ag2qs57bsgcISbnRFvbxLompg"
+                },
+                "categories": [],
+                "created": "2021-12-02T08:04:13.214Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "165b5f11-d05c-4267-9d2a-1acbd817604f",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Charlottenburger Str. 19, 37085 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.51199080000001,
+                        "lng": 9.9727228
+                    },
+                    "name": "G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2021-12-02T08:04:36.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 0,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 4
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-20T17:30:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-20T13:30:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "20. Juni 2022 um 15:30",
+                    "startDateFormatted": "20. Juni 2022",
+                    "startTimeFormatted": "15:30"
+                },
+                "slug": "gastspiel-gda-wohnstift-4",
+                "status": 0,
+                "title": "GASTSPIEL: GDA WOHNSTIFT",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.rathaus-serenade-5-6-20-22-8-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=RATHAUS+SERENADE+5&dates=20220620T180000Z%2F20220620T220000Z&location=Markt+9%2C+37073+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/4d90ecdc-b630-4777-9ffe-12b4ce2976d9?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCI0ZDkwZWNkYy1iNjMwLTQ3NzctOWZmZS0xMmI0Y2UyOTc2ZDlcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.rEXELOse1d1T71rvbnh0irNtqXC3qge_EPtW7WfLLvo"
+                },
+                "categories": [],
+                "created": "2021-06-15T19:38:30.661Z",
+                "description": "Im 19. Jahrhundert war es eine weit verbreitete Tradition, Opernwerke in Kammermusikbesetzung  daheim zu spielen in Hausmusikkonzerten - denn man hatte ja keine andere M\u00f6glichkeit, die wunderbaren Melodien daheim zu h\u00f6ren. Wir dachten, wir machen das dann einfach auch mal - Oper zu f\u00fcnft!",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "4d90ecdc-b630-4777-9ffe-12b4ce2976d9",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Markt 9, 37073 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.5329321,
+                        "lng": 9.934832700000001
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Markt 9, 37073 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.5329321,
+                            "longitude": 9.934832700000001
+                        },
+                        "postalCode": "37073",
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "Markt",
+                            "number": "9"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "Altes Rathaus G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-03-10T11:19:42.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://gso.reservix.de/p/reservix/event/1685675"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-20T22:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-20T18:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "20. Juni 2022 um 20:00",
+                    "startDateFormatted": "20. Juni 2022",
+                    "startTimeFormatted": "20:00"
+                },
+                "slug": "rathaus-serenade-5",
+                "status": 0,
+                "title": "RATHAUS SERENADE 5",
+                "totalGuests": {
+                    "YES": 3
+                },
+                "userId": "d5837f43-ad65-4943-b411-000ff1fc41b0"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.kulturkirche-klassik-4-6-26-22-7-45-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=KULTURKIRCHE+KLASSIK+4&dates=20220626T174500Z%2F20220626T214500Z&location=Johanniskirchhof+4%2C+37073+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/c0a8fb67-603a-4f99-a375-a09ef4e080d3?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJjMGE4ZmI2Ny02MDNhLTRmOTktYTM3NS1hMDllZjRlMDgwZDNcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.q-YJedJrjQH_uQSfpnwFEUwkHQ5HYGTPuSnsPxdMEZU"
+                },
+                "categories": [],
+                "created": "2021-06-15T19:44:44.916Z",
+                "description": "Was f\u00fcr ein Gl\u00fcck! In unserem ersten gro\u00dfen Chor- und Orchesterkonzert nach der dann hoffentlich \u00fcberstandenen Pandemie arbeiten wir mit der Stadtkantorei St. Johannis, und Dirigent Bernd Eberhardt zusammen. Wir freuen uns!",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "c0a8fb67-603a-4f99-a375-a09ef4e080d3",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Johanniskirchhof 4, 37073 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.5330327,
+                        "lng": 9.933846700000002
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Johanniskirchhof 4, 37073 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.5330327,
+                            "longitude": 9.933846700000002
+                        },
+                        "postalCode": "37073",
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "Johanniskirchhof",
+                            "number": "4"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "St. Johannis G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-03-18T10:46:52.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://gso.reservix.de/p/reservix/event/1914685"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-06-26T21:45:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-06-26T17:45:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "26. Juni 2022 um 19:45",
+                    "startDateFormatted": "26. Juni 2022",
+                    "startTimeFormatted": "19:45"
+                },
+                "slug": "kulturkirche-klassik-4",
+                "status": 0,
+                "title": "KULTURKIRCHE KLASSIK 4",
+                "totalGuests": {
+                    "YES": 11
+                },
+                "userId": "d5837f43-ad65-4943-b411-000ff1fc41b0"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-weilburg-schwanensee-1-2-9-22-6-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+WEILBURG+-+BEETHOVEN+PUR+I&dates=20220701T180000Z%2F20220701T220000Z&location=35781+Weilburg%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/caf7cf18-7137-469a-9deb-1531c8c32bb1?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJjYWY3Y2YxOC03MTM3LTQ2OWEtOWRlYi0xNTMxYzhjMzJiYjFcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.m8UA8L7fpyD5ABUygUoSrL0KbK9o4wtZST88kU27zzc"
+                },
+                "categories": [],
+                "created": "2022-01-26T10:24:48.933Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "caf7cf18-7137-469a-9deb-1531c8c32bb1",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "35781 Weilburg, Deutschland",
+                    "coordinates": {
+                        "lat": 50.4859255,
+                        "lng": 8.2722569
+                    },
+                    "name": "Weilburg",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-01-26T10:33:09.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/beethoven-pur-i-wir-feiern-den-250-geburtstag-des-meisters-einfach-nach.html"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-07-01T22:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-07-01T18:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "1. Juli 2022 um 20:00",
+                    "startDateFormatted": "1. Juli 2022",
+                    "startTimeFormatted": "20:00"
+                },
+                "slug": "gastspiel-weilburg-beethoven-pur-i",
+                "status": 0,
+                "title": "GASTSPIEL: WEILBURG - BEETHOVEN PUR I",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-weilburg-beethoven-pur-i-1-2-9-22-7-00-p",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+WEILBURG+-+BEETHOVEN+PUR+II&dates=20220702T180000Z%2F20220702T220000Z&location=35781+Weilburg%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/e1c15832-89b7-4556-a377-d1b7d7ffa024?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJlMWMxNTgzMi04OWI3LTQ1NTYtYTM3Ny1kMWI3ZDdmZmEwMjRcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.u6tDAhh0Yqy1zL8Dp5bvxD_UXzoGqRzjXwlNAjSfkmo"
+                },
+                "categories": [],
+                "created": "2022-01-26T10:27:27.002Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "e1c15832-89b7-4556-a377-d1b7d7ffa024",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "35781 Weilburg, Deutschland",
+                    "coordinates": {
+                        "lat": 50.4859255,
+                        "lng": 8.2722569
+                    },
+                    "name": "Weilburg",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-01-26T10:33:40.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/beethoven-pur-ii.html"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-07-02T22:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-07-02T18:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "2. Juli 2022 um 20:00",
+                    "startDateFormatted": "2. Juli 2022",
+                    "startTimeFormatted": "20:00"
+                },
+                "slug": "gastspiel-weilburg-beethoven-pur-ii",
+                "status": 0,
+                "title": "GASTSPIEL: WEILBURG - BEETHOVEN PUR II",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.last-night-of-the-proms-7-3-22-5-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=ABSAGE%3A+Last+Night+of+the+Proms&dates=20220703T150000Z%2F20220704T150000Z&location=Sch%C3%BCtzenpl.+1%2C+37081+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/694cbd23-8441-4128-9342-ebfc6a5aeac6?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCI2OTRjYmQyMy04NDQxLTQxMjgtOTM0Mi1lYmZjNmE1YWVhYzZcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.yNawPrKbDlj6hy1kSyEBBUTSmY2VKrwDqKJZOjw3GWQ"
+                },
+                "categories": [],
+                "created": "2021-06-15T19:54:22.332Z",
+                "description": "Leider muss das zum Saisonende geplante Konzert \"Last Night of the Proms\" aufgrund der Bombensondierung abgesagt werden.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "694cbd23-8441-4128-9342-ebfc6a5aeac6",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Sch\u00fctzenpl. 1, 37081 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.5418269,
+                        "lng": 9.9208391
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Sch\u00fctzenpl. 1, 37081 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.5418269,
+                            "longitude": 9.9208391
+                        },
+                        "postalCode": "37081",
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "Sch\u00fctzenplatz",
+                            "number": "1"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "Sparkassen-Arena G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-05-11T14:29:09.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://gso.reservix.de/p/reservix/event/1685905"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 50
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-07-04T15:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-07-03T15:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "3. Juli 2022 um 17:00",
+                    "startDateFormatted": "3. Juli 2022",
+                    "startTimeFormatted": "17:00"
+                },
+                "slug": "absage-last-night-of-the-proms",
+                "status": 0,
+                "title": "ABSAGE: Last Night of the Proms",
+                "totalGuests": {
+                    "YES": 73
+                },
+                "userId": "d5837f43-ad65-4943-b411-000ff1fc41b0"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-nacht-der-kultur-gottingen-1-12-16-21-7-",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+LIMBURG+-+BOL%C3%89RO&dates=20220715T180000Z%2F20220715T220000Z&location=Limburg+an+der+Lahn%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/b390dfe9-546d-41a3-9dfd-7cb82e9abaa9?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJiMzkwZGZlOS01NDZkLTQxYTMtOWRmZC03Y2I4MmU5YWJhYTlcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.2u-k9rkk4y8m-vrSRlf5Tun6sPFXmW0TZ_chpZ0Ig3Y"
+                },
+                "categories": [],
+                "created": "2021-12-02T08:16:56.474Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "b390dfe9-546d-41a3-9dfd-7cb82e9abaa9",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Limburg an der Lahn, Deutschland",
+                    "coordinates": {
+                        "lat": 50.3986005,
+                        "lng": 8.0795783
+                    },
+                    "name": "Josef-Kohlmaier-Halle",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-01-26T10:32:42.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/bolero-1.html"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-07-15T22:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-07-15T18:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "15. Juli 2022 um 20:00",
+                    "startDateFormatted": "15. Juli 2022",
+                    "startTimeFormatted": "20:00"
+                },
+                "slug": "gastspiel-limburg-bolero",
+                "status": 0,
+                "title": "GASTSPIEL: LIMBURG - BOL\u00c9RO",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-weilburg-1-12-16-21-7-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+WEILBURG+-+SCHWANENSEE&dates=20220716T170000Z%2F20220716T210000Z&location=35781+Weilburg%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/a28f5a20-8a77-4958-a1c4-a83b36e05c08?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCJhMjhmNWEyMC04YTc3LTQ5NTgtYTFjNC1hODNiMzZlMDVjMDhcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.GPM7CtsFgQbOIc0RgN1OA2XoN3xOdUqqQY5_NGQiieM"
+                },
+                "categories": [],
+                "created": "2021-12-02T08:19:24.997Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "a28f5a20-8a77-4958-a1c4-a83b36e05c08",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "35781 Weilburg, Deutschland",
+                    "coordinates": {
+                        "lat": 50.4859255,
+                        "lng": 8.2722569
+                    },
+                    "name": "Weilburg",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2022-01-26T10:31:33.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/schwanensee.html"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-07-16T21:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-07-16T17:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "16. Juli 2022 um 19:00",
+                    "startDateFormatted": "16. Juli 2022",
+                    "startTimeFormatted": "19:00"
+                },
+                "slug": "gastspiel-weilburg-schwanensee",
+                "status": 0,
+                "title": "GASTSPIEL: WEILBURG - SCHWANENSEE",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.gastspiel-weilburg-1-12-16-21-6-00-pm-1",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=GASTSPIEL%3A+HOLZMINDEN&dates=20220828T160000Z%2F20220828T200000Z&location=Markt%2C+37603+Holzminden%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/96ad4ef4-8365-403e-9c6f-8d888a6fc9cd?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCI5NmFkNGVmNC04MzY1LTQwM2UtOWM2Zi04ZDg4OGE2ZmM5Y2RcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.TEFQ_YZZTylzNo3mzUc3Z0FVHci8gQ6wmYPUISpCagI"
+                },
+                "categories": [],
+                "created": "2021-12-02T08:20:33.502Z",
+                "description": "Tickets sowie Infos zum Programm erhalten Sie \u00fcber die Website des Konzertveranstalters.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "96ad4ef4-8365-403e-9c6f-8d888a6fc9cd",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Markt, 37603 Holzminden, Deutschland",
+                    "coordinates": {
+                        "lat": 51.82827349999999,
+                        "lng": 9.4457819
+                    },
+                    "name": "Holzminden",
+                    "tbd": false,
+                    "type": 0
+                },
+                "members": [],
+                "modified": "2021-12-02T08:21:33.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 0,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 4
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-08-28T20:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-08-28T16:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "28. August 2022 um 18:00",
+                    "startDateFormatted": "28. August 2022",
+                    "startTimeFormatted": "18:00"
+                },
+                "slug": "gastspiel-holzminden",
+                "status": 0,
+                "title": "GASTSPIEL: HOLZMINDEN",
+                "totalGuests": {},
+                "userId": "701a928f-a336-451c-9bad-5a35e50997dd"
+            },
+            {
+                "about": "",
+                "assignedContactsLabel": "custom.sport-meets-music-1-6-16-22-6-00-pm",
+                "calendarLinks": {
+                    "google": "http://calendar.google.com/calendar/render?action=TEMPLATE&text=Sport+meets+Music&dates=20220916T160000Z%2F20220917T160000Z&location=Sch%C3%BCtzenpl.+1%2C+37081+G%C3%B6ttingen%2C+Deutschland",
+                    "ics": "https://www.wixevents.com/media/calendar/443d3507-f170-4d8d-864b-d6b7683398b4?token=JWS.eyJraWQiOiJpb21iOUJ0eSIsImFsZyI6IkhTMjU2In0.eyJkYXRhIjoie1wiZXZlbnRJZFwiOntcInZhbHVlXCI6XCI0NDNkMzUwNy1mMTcwLTRkOGQtODY0Yi1kNmI3NjgzMzk4YjRcIn0sXCJvY0xpbmtcIjpudWxsfSIsImlhdCI6MTY1NDcxNDQyN30.HOWs-K4g0t6-POZwqqltghYT0BiPI_qrgvLsxzIOeE4"
+                },
+                "categories": [],
+                "created": "2022-06-02T12:08:24.628Z",
+                "description": "B\u00fchne frei f\u00fcr \u201eSport meets Music\u201c. Bei der Benefizveranstaltung treten am 04. September 2022 ab 18 Uhr in der S-Arena einmal mehr Sportvereinsgruppen gemeinsam mit dem G\u00f6ttinger Symphonieorchester auf. Das Motto lautet \u201eDie Profis\u201c.",
+                "guestListConfig": {
+                    "publicGuestList": true
+                },
+                "id": "443d3507-f170-4d8d-864b-d6b7683398b4",
+                "instanceId": "059082a9-be20-4eb0-bb57-9279030c728e",
+                "language": "de",
+                "location": {
+                    "address": "Sch\u00fctzenpl. 1, 37081 G\u00f6ttingen, Deutschland",
+                    "coordinates": {
+                        "lat": 51.54202979999999,
+                        "lng": 9.921445300000002
+                    },
+                    "fullAddress": {
+                        "city": "G\u00f6ttingen",
+                        "country": "DE",
+                        "countryFullname": "Deutschland",
+                        "formattedAddress": "Sch\u00fctzenpl. 1, 37081 G\u00f6ttingen, Deutschland",
+                        "geocode": {
+                            "latitude": 51.54202979999999,
+                            "longitude": 9.921445300000002
+                        },
+                        "postalCode": "37081",
+                        "streetAddress": {
+                            "apt": "",
+                            "name": "Sch\u00fctzenplatz",
+                            "number": "1"
+                        },
+                        "subdivisions": [
+                            {
+                                "code": "NDS",
+                                "name": "Niedersachsen",
+                                "type": 1
+                            },
+                            {
+                                "code": "G\u00f6ttingen",
+                                "name": "G\u00f6ttingen",
+                                "type": 3
+                            },
+                            {
+                                "code": "DE",
+                                "name": "Deutschland",
+                                "type": 6
+                            }
+                        ]
+                    },
+                    "name": "G\u00f6ttingen",
+                    "tbd": false,
+                    "type": 0
+                },
+                "mainImage": {
+                    "height": 134,
+                    "id": "06486e_1ef39ed2bcf141d39cbbcf42f45c8d57~mv2.jpg",
+                    "url": "",
+                    "width": 280
+                },
+                "members": [],
+                "modified": "2022-06-07T11:17:42.000Z",
+                "onlineConferencing": {
+                    "providerName": ""
+                },
+                "registration": {
+                    "external": {
+                        "registration": "https://www.reservix.de/tickets-sport-meets-music-die-profis-in-goettingen-sparkassen-arena-am-4-9-2022/e1940349"
+                    },
+                    "initialType": 1,
+                    "restrictedTo": 0,
+                    "rsvpCollection": {
+                        "config": {
+                            "rsvpStatusOptions": 0,
+                            "waitlist": false
+                        }
+                    },
+                    "status": 6,
+                    "ticketing": {
+                        "config": {
+                            "guestAssignedTickets": false,
+                            "ticketLimitPerOrder": 20
+                        },
+                        "soldOut": true
+                    },
+                    "type": 3
+                },
+                "scheduling": {
+                    "config": {
+                        "endDate": "2022-09-17T16:00:00.000Z",
+                        "endDateHidden": true,
+                        "recurrences": {
+                            "occurrences": [],
+                            "status": 0
+                        },
+                        "scheduleTbd": false,
+                        "showTimeZone": false,
+                        "startDate": "2022-09-16T16:00:00.000Z",
+                        "timeZoneId": "Europe/Berlin"
+                    },
+                    "formatted": "16. September 2022 um 18:00",
+                    "startDateFormatted": "16. September 2022",
+                    "startTimeFormatted": "18:00"
+                },
+                "slug": "sport-meets-music-2",
+                "status": 0,
+                "title": "Sport meets Music",
+                "totalGuests": {},
+                "userId": "06486e56-a08e-409d-b3f2-141630b784ae"
+            }
+        ],
+        "id": "comp-kfwdl2s1"
+    },
+    "dates": {
+        "calendar": {},
+        "common": {},
+        "events": {
+            "165b5f11-d05c-4267-9d2a-1acbd817604f": {
+                "day": "20",
+                "daysLeft": 12,
+                "fullDate": "20. Juni, 15:30",
+                "month": "Jun",
+                "monthDay": "20",
+                "shortStartDate": "Mo., 20. Juni",
+                "startDate": "20. Juni, 15:30",
+                "startTime": "15:30",
+                "utcOffset": 120,
+                "weekDay": "Mo",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "44388a26-ec7b-43f4-b3b6-4ff74d809a30": {
+                "day": "11",
+                "daysLeft": 3,
+                "fullDate": "11. Juni, 20:00",
+                "month": "Jun",
+                "monthDay": "11",
+                "shortStartDate": "Sa., 11. Juni",
+                "startDate": "11. Juni, 20:00",
+                "startTime": "20:00",
+                "utcOffset": 120,
+                "weekDay": "Sa",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "443d3507-f170-4d8d-864b-d6b7683398b4": {
+                "day": "16",
+                "daysLeft": 100,
+                "fullDate": "16. Sept., 18:00",
+                "month": "Sep",
+                "monthDay": "16",
+                "shortStartDate": "Fr., 16. Sept.",
+                "startDate": "16. Sept., 18:00",
+                "startTime": "18:00",
+                "utcOffset": 120,
+                "weekDay": "Fr",
+                "year": "2022",
+                "yearMonth": "Sept. 2022"
+            },
+            "4d90ecdc-b630-4777-9ffe-12b4ce2976d9": {
+                "day": "20",
+                "daysLeft": 12,
+                "fullDate": "20. Juni, 20:00",
+                "month": "Jun",
+                "monthDay": "20",
+                "shortStartDate": "Mo., 20. Juni",
+                "startDate": "20. Juni, 20:00",
+                "startTime": "20:00",
+                "utcOffset": 120,
+                "weekDay": "Mo",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "694cbd23-8441-4128-9342-ebfc6a5aeac6": {
+                "day": "03",
+                "daysLeft": 25,
+                "fullDate": "03. Juli, 17:00",
+                "month": "Jul",
+                "monthDay": "03",
+                "shortStartDate": "So., 03. Juli",
+                "startDate": "03. Juli, 17:00",
+                "startTime": "17:00",
+                "utcOffset": 120,
+                "weekDay": "So",
+                "year": "2022",
+                "yearMonth": "Juli 2022"
+            },
+            "96ad4ef4-8365-403e-9c6f-8d888a6fc9cd": {
+                "day": "28",
+                "daysLeft": 81,
+                "fullDate": "28. Aug., 18:00",
+                "month": "Aug",
+                "monthDay": "28",
+                "shortStartDate": "So., 28. Aug.",
+                "startDate": "28. Aug., 18:00",
+                "startTime": "18:00",
+                "utcOffset": 120,
+                "weekDay": "So",
+                "year": "2022",
+                "yearMonth": "Aug. 2022"
+            },
+            "a28f5a20-8a77-4958-a1c4-a83b36e05c08": {
+                "day": "16",
+                "daysLeft": 38,
+                "fullDate": "16. Juli, 19:00",
+                "month": "Jul",
+                "monthDay": "16",
+                "shortStartDate": "Sa., 16. Juli",
+                "startDate": "16. Juli, 19:00",
+                "startTime": "19:00",
+                "utcOffset": 120,
+                "weekDay": "Sa",
+                "year": "2022",
+                "yearMonth": "Juli 2022"
+            },
+            "b390dfe9-546d-41a3-9dfd-7cb82e9abaa9": {
+                "day": "15",
+                "daysLeft": 37,
+                "fullDate": "15. Juli, 20:00",
+                "month": "Jul",
+                "monthDay": "15",
+                "shortStartDate": "Fr., 15. Juli",
+                "startDate": "15. Juli, 20:00",
+                "startTime": "20:00",
+                "utcOffset": 120,
+                "weekDay": "Fr",
+                "year": "2022",
+                "yearMonth": "Juli 2022"
+            },
+            "c0a8fb67-603a-4f99-a375-a09ef4e080d3": {
+                "day": "26",
+                "daysLeft": 18,
+                "fullDate": "26. Juni, 19:45",
+                "month": "Jun",
+                "monthDay": "26",
+                "shortStartDate": "So., 26. Juni",
+                "startDate": "26. Juni, 19:45",
+                "startTime": "19:45",
+                "utcOffset": 120,
+                "weekDay": "So",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "caf7cf18-7137-469a-9deb-1531c8c32bb1": {
+                "day": "01",
+                "daysLeft": 23,
+                "fullDate": "01. Juli, 20:00",
+                "month": "Jul",
+                "monthDay": "01",
+                "shortStartDate": "Fr., 01. Juli",
+                "startDate": "01. Juli, 20:00",
+                "startTime": "20:00",
+                "utcOffset": 120,
+                "weekDay": "Fr",
+                "year": "2022",
+                "yearMonth": "Juli 2022"
+            },
+            "d8296fe8-684f-4a21-bbe9-cd2009787f5b": {
+                "day": "12",
+                "daysLeft": 4,
+                "fullDate": "12. Juni, 11:00",
+                "month": "Jun",
+                "monthDay": "12",
+                "shortStartDate": "So., 12. Juni",
+                "startDate": "12. Juni, 11:00",
+                "startTime": "11:00",
+                "utcOffset": 120,
+                "weekDay": "So",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "de18c7fc-04f2-4ecc-83d8-334c0a8b975c": {
+                "day": "16",
+                "daysLeft": 8,
+                "fullDate": "16. Juni, 19:45",
+                "month": "Jun",
+                "monthDay": "16",
+                "shortStartDate": "Do., 16. Juni",
+                "startDate": "16. Juni, 19:45",
+                "startTime": "19:45",
+                "utcOffset": 120,
+                "weekDay": "Do",
+                "year": "2022",
+                "yearMonth": "Juni 2022"
+            },
+            "e1c15832-89b7-4556-a377-d1b7d7ffa024": {
+                "day": "02",
+                "daysLeft": 24,
+                "fullDate": "02. Juli, 20:00",
+                "month": "Jul",
+                "monthDay": "02",
+                "shortStartDate": "Sa., 02. Juli",
+                "startDate": "02. Juli, 20:00",
+                "startTime": "20:00",
+                "utcOffset": 120,
+                "weekDay": "Sa",
+                "year": "2022",
+                "yearMonth": "Juli 2022"
+            }
+        }
+    },
+    "hasMoreEvents": false,
+    "siteSettings": {
+        "appState": "ENABLED",
+        "firstEventCreated": true,
+        "language": "de",
+        "locale": "de-DE",
+        "premium": "Auto",
+        "settings": {
+            "firstTimeCompleted": true,
+            "pagesType": 1
+        },
+        "ticketed": true,
+        "ticketingOptions": {
+            "wixServiceFee": true
+        }
+    }
+}
