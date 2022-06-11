@@ -14,14 +14,15 @@ const { sortEvents } = require('../utils/sortEvents');
 const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 
 // SCRAPERS
+// const cinemaxx = require('./cinemaxx');
+// const lokhalle = require('./lokhalle');
 const apex = require('./apex');
-const cinemaxx = require('./cinemaxx');
 const dots = require('./dots');
 const dt = require('./dt');
 const esel = require('./esel');
 const exilConcerts = require('./exilConcerts');
+const gso = require('./gso');
 const jt = require('./jt');
-// const lokhalle = require('./lokhalle');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
@@ -42,6 +43,7 @@ const init = async () => {
     dt,
     esel,
     exilConcerts,
+    gso,
     jt,
     // lokhalle, => not working
     lumiere,
