@@ -1,146 +1,131 @@
+/* ************************************************************
+ * This module requests a json file from the DT website
+ * The file contains data on current events taking place in the DT
+ * The module then parses information such as event titles + dates
+ * It instantiates a custom object for each event
+ * And ultimately returns an array containing these objects
+ * ********************************************************* */
+
+/* ************************************************************
+ * MODULES
+ * ********************************************************* */
+
+// Node core modules
 const path = require('path');
+
 const cheerio = require('cheerio');
 
+// Helpers
+const { readFile, getJSON, getHtml } = require('./getHtml');
 const { signalExecution, signalTestData } = require('./utils/signals');
-const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
-const scriptName = path.basename(__filename);
+/* ************************************************************
+ * VARIABLES
+ * ********************************************************* */
 
-// 'true' will use test data
-// note: parsed values from .env will be strings
-// => if .env does not explicitly defines DEBUG=true debug will be false
-const debug = process.env.DEBUG === 'true';
-const testData = process.env.TEST_DATA === 'true';
-
-// Get HTML from here
-const URL = 'https://www.dt-goettingen.de/kalender';
-const TEST_DATA = `${__dirname}/test_data/dt.html`;
-
-// Meta data to enrich the event obj
+// Constants are used to enrich event data
 const CONSTANTS = {
   place: 'Deutsches Theater',
-  eventType: 'Theater, Kultur, Veranstaltungen',
+  eventType: `${eT.theater}`,
+  linkRoot: 'https://www.dt-goettingen.de/stueck/',
 };
 
-/* HELPER to put together date objects
- * from parsed strings */
-const createDateObj = (eventYear, eventMonth, eventDay, eventTime) => {
-  const months = [
-    'Januar',
-    'Februar',
-    'März',
-    'April',
-    'Mai',
-    'Juni',
-    'Juli',
-    'August',
-    'September',
-    'Oktoer',
-    'November',
-    'Dezember',
-  ];
+// Testing and debuging
+const scriptName = path.basename(__filename);
+const TEST_DATA = `${__dirname}/test_data/dt.html`;
+const testData = process.env.TEST_DATA === 'true';
+const debug = process.env.DEBUG === 'true';
 
-  const year = parseInt(eventYear);
-  const month = months.indexOf(eventMonth);
-  const day = parseInt(eventDay);
+// Live data
+const LIVE_DATA = 'https://www.dt-goettingen.de/spielplan';
 
-  /* Isolate the start time
-   * eventTime comes in an inconsistent format:
-   * "19.00 Uhr" and "19.00 Uhr - 23.00 Uhr"
-   * this is why we split at spaces and "."
-   * And: since we only want the start time,
-   * we only care about the first two indices of the resulting array */
-  const eventTimeArr = eventTime.split(/[\s.]+/);
-  const hour = eventTimeArr[0];
-  const minutes = eventTimeArr[1];
+/* ************************************************************
+ * DEFINE WHICH DATA TO USE WHEN
+ * Read from a file => debugging/testing
+ * Read from the website => prduction
+ * ********************************************************* */
 
-  const eventObj = new Date(year, month, day, hour, minutes);
+// In parseEvents() we call `getData(source)`
+let source; // a file path or url
+let getData; // a function => readFile or getJSON
 
-  return eventObj;
-};
+// Determine which fn and which source to use
+/*
+if (testData) {
+  signalTestData();
+  source = TEST_DATA;
+  getData = readFile;
+}
+if (!testData) {
+  source = LIVE_DATA;
+  getData = getJSON;
+}
+*/
 
-const getEvents = (html) => {
-  const events = [];
+/* ************************************************************
+ * FUNCTIONS
+ * ********************************************************* */
+
+// Find data and instantiate a date obj
+// The obj represents the starting date + time of the event
+function buildDate(event) {
+  const year = event.year;
+  const month = event.month - 1;
+  const day = event.day;
+  const hour = event.start.hour;
+  const minute = event.start.minutes;
+
+  return new Date(year, month, day, hour, minute);
+}
+
+const parseEvents = async () => {
+  // const json = await getData(source);
+  // const data = JSON.parse(json);
+  // const html = await readFile(TEST_DATA);
+  const html = await getHtml(LIVE_DATA);
+
   const $ = cheerio.load(html);
 
-  // Retrieve current month and year in a select on the page
-  const month_and_year = $(
-    '.cal_month_select.cf select option[selected="selected"]'
-  ).text();
-  const year = month_and_year.split(' ')[1];
-  const month = month_and_year.split(' ')[0];
-  // store previously retrieved day
-  // ==> if there is more than one event a day, no new day value can be retrieved, this one will be used instead
-  let previousDay = null;
+  const json = $('#__NEXT_DATA__').html();
+  const data = JSON.parse(json);
+  // console.log(events.props.pageProps.initialData.pageData.schedule);
 
-  // Get all events in a node list
-  const eventNodes = $('.outer > tbody > tr');
-  eventNodes.each((index, el) => {
-    // const event = {};
+  // Isolate relevant data
+  const data_events = data.props.pageProps.initialData.pageData.schedule;
 
-    // Isolated HTML of a single event into cheerio
-    const eventHTML = cheerio.load($.html(el));
+  // Parse data, create objs containg this data + push them into an array
+  const events = [];
+  for (let entry of data_events) {
+    // Parse a single event's data
+    const name = entry.performance.title;
+    const link = CONSTANTS.linkRoot + entry.performance.slug;
+    const date = buildDate(entry);
 
-    // Get day and time the event takes place
-    const day =
-      eventHTML('.date_num').text() != ''
-        ? eventHTML('.date_num').text()
-        : previousDay;
-
-    previousDay = day;
-    const time = eventHTML('.time').text(); // sth like 19:00 or 19:00 - 22:00
-
-    // Put together a date object (month + year can be found above)
-    const eventDate = createDateObj(year, month, day, time);
-
-    // Get event name + link to a detailed description
-    const name = eventHTML('.title').text();
-    const link = eventHTML('.tcontent > a').attr('href');
-
+    // Enrich the data + store it in an object
     const event = new Event(
       CONSTANTS.eventType,
       CONSTANTS.place,
       name,
       link,
-      eventDate
+      date
     );
-    // Push the new event to an array of all DT events
+    // Store event objects in an array
     events.push(event);
-
-    // Log new event
-    if (testData) signalTestData();
-    console.log(event);
-
-    /*
-    // Add properties to the event obj
-    event.type = CONSTANTS.eventType;
-    event.place = CONSTANTS.place;
-    event.name = name;
-    event.link = link;
-    event.date = JSON.stringify(eventDate);
-    event.timestamp = JSON.stringify(eventDate.getTime());
-    */
-  });
+  }
+  // For convenience:
+  // Print this module's name
+  signalExecution(scriptName);
+  // DEBUGGING: Print events array
+  if (debug) console.log(events);
 
   return events;
 };
 
-async function parseEventsDT() {
-  signalExecution(scriptName);
-  let html;
+// DEBUGGING: Run module without calling parseEvents() from another module
+if (debug) parseEvents();
 
-  // prettier-ignore
-  testData ? 
-    (html = await readFile(TEST_DATA)) : 
-    // Real data
-    (html = await getHtml(URL));
-
-  const events = await getEvents(html);
-  return events;
-}
-
-if (debug) parseEventsDT();
-
-// module.exports.parseEventsDT = parseEventsDT;
-module.exports.parseEvents = parseEventsDT;
+module.exports = {
+  parseEvents,
+};

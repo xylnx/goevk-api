@@ -6,19 +6,22 @@ const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
 const { eventTypes: eT } = require('../utils/eventTypes');
 const { createDate } = require('./utils/createDate');
+// Import array with names of months in German
+const { monthsLong } = require('./utils/months');
+console.log({ monthsLong });
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
 const testData = process.env.TEST_DATA === 'true';
 
 // get HTML from here
-const url = 'https://www.musa.de/konzerte-partys/';
+const url = 'https://noergelbuff.de/programm/';
 // test data
-const file = `${__dirname}/test_data/musa-data.html`;
+const file = `${__dirname}/test_data/noergelbuff.html`;
 
 // Meta data to enrich the event object
 const CONSTANTS = {
-  place: 'Musa',
+  place: 'Nörgelbuff',
   eventType: `${eT.concert}, ${eT.party}`,
 };
 
@@ -27,25 +30,20 @@ function getEvents(html) {
     const $ = cheerio.load(html);
 
     const events = [];
-    const eventNodes = $('.container.event.p-2').not('.canceled');
+    const eventNodes = $('[id^="event_article_"]');
     eventNodes.each((index, el) => {
-      /* const event = {} */
+      // console.log($.html(el));
 
       const eventHtml = cheerio.load($.html(el));
       // const htmlEl = $.html(el);
 
-      // Parse info from eventHtml
-      const name = eventHtml('.musa-event-title > a').eq(0).text();
-      const date = eventHtml('.h2.pt-2.mb-0').text().trim();
-      const time = eventHtml('.event-time').html();
+      const name = eventHtml('h2.entry-title').text();
+      const date = eventHtml('.ecs-eventDate').text();
+      const time = eventHtml('.ecs-eventTime').text();
+      const link = eventHtml('h2.entry-title > a').attr('href');
 
       // put together a date obj
       const dateObj = createDateObj(date, time);
-
-      // build the event link
-      const linkRoot = 'https://www.musa.de';
-      let link = eventHtml('.musa-event-title > a').eq(0).attr('href');
-      link = linkRoot + link;
 
       const event = new Event(
         CONSTANTS.eventType,
@@ -55,40 +53,52 @@ function getEvents(html) {
         dateObj
       );
 
-      // Log new event
       if (testData) signalTestData();
+      if (debug) console.log('PARSED INFOS ==>', { name, date, time, link });
+
+      // Log new event
       console.log(event);
+      console.log('_______________________________________________________');
 
       events.push(event);
+      console.log(events);
     });
     resolve(events);
   });
 }
 
 function createDateObj(date, time) {
-  const year = new Date().getFullYear();
-
   const dateStr = date;
-  const dateArr = dateStr.split('.');
+  const dateArr = dateStr.split(' '); // Ex: [ '24.', 'Januar', '2022' ]
+  const year = parseInt(dateArr[2]);
+  const month = parseInt(monthsLong.indexOf(dateArr[1].toLowerCase()));
+  const day = parseInt(dateArr[0].replace('.', ''));
 
-  const month = parseInt(dateArr[1] - 1);
-  const day = parseInt(dateArr[0]);
-
-  const timeStr = time;
-  const timeStrClean = timeStr.replace('Beginn:', '').trim();
+  const timeStr = time; // Ex: ' @ 20:00 - 23:00'
+  const timeStrClean = timeStr.split(' ')[2];
   const timeArr = timeStrClean.split(':');
-
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
-  // date data should come in strings, like so:
-  // year='2022'; month="2"; day="26"; hour="17"; minute="30"
   const eventDate = createDate(year, month, day, hour, minute);
+
+  if (debug)
+    console.log('createDateObj() ==>', {
+      dateStr,
+      dateArr,
+      year,
+      month,
+      day,
+      timeStr,
+      timeArr,
+      hour,
+      minute,
+    });
 
   return eventDate;
 }
 
-async function parseEventsMusa() {
+async function parseEvents() {
   signalExecution(scriptName);
   let html;
   // prettier-ignore
@@ -101,6 +111,6 @@ async function parseEventsMusa() {
 }
 
 // Parse events without calling the function from an external script
-if (debug) parseEventsMusa();
+if (debug) parseEvents();
 
-module.exports.parseEvents = parseEventsMusa;
+module.exports.parseEvents = parseEvents;

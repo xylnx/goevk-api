@@ -1,0 +1,1523 @@
+{
+    "__N_SSG": true,
+    "pageProps": {
+        "initialData": {
+            "footer": {
+                "columns": [
+                    [
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/spielplan/",
+                                    "title": "Kalender"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/stuecke/premiere",
+                                    "title": "Premieren"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/stuecke/repertoire",
+                                    "title": "Repertoire"
+                                }
+                            ],
+                            "title": "Spielplan"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/stuecke/extra",
+                                    "title": "Extras"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/stuecke/gastspiele",
+                                    "title": "Gastspiele"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/stuecke/digitales",
+                                    "title": "Digitales"
+                                }
+                            ],
+                            "title": ""
+                        }
+                    ],
+                    [
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/karten/",
+                                    "title": "Preise"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/saalplaene/",
+                                    "title": "Saalpl\u00e4ne"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/besucherservice/",
+                                    "title": "Besucherservice"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/gutscheine/",
+                                    "title": "Gutscheine"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/extras/",
+                                    "title": "Extras"
+                                }
+                            ],
+                            "title": "Karten"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/abonnements-vorteile/",
+                                    "title": "Vorteile"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/abonnements/",
+                                    "title": "Abonnements"
+                                }
+                            ],
+                            "title": "Abonnements"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/service/",
+                                    "title": "Besucherservice"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/corona-regeln/",
+                                    "title": "Hygiene"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/barrierefreiheit/",
+                                    "title": "Barrierefreiheit"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/anfahrt/",
+                                    "title": "Anfahrt"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/dt-bistro/",
+                                    "title": "DT Bistro"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/agb/",
+                                    "title": "AGB"
+                                }
+                            ],
+                            "title": "Service"
+                        }
+                    ],
+                    [
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/ensemble",
+                                    "title": "Ensemble"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/leitung",
+                                    "title": "Leitung"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/regie",
+                                    "title": "Regie"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/dramaturgie",
+                                    "title": "Dramaturgie"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/buehne",
+                                    "title": "B\u00fchne"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/kostueme",
+                                    "title": "Kost\u00fcme"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/ensemble/musik",
+                                    "title": "Musik"
+                                }
+                            ],
+                            "title": "Menschen"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/haus/",
+                                    "title": "Gru\u00dfwort"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/haus/virtueller-rundgang/",
+                                    "title": "Virtueller Rundgang"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/haus/stellenauschreibungen/",
+                                    "title": "Karriere"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/haus/theaterfuehrungen/",
+                                    "title": "F\u00fchrungen"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/haus/geschichte/",
+                                    "title": "Geschichte"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/haus/vermietung/",
+                                    "title": "Vermietung"
+                                }
+                            ],
+                            "title": "Haus"
+                        }
+                    ],
+                    [
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/theaterpaedagogik/",
+                                    "title": "Wir \u00fcber uns"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/theaterpaedagogik/vermitteln/",
+                                    "title": "Theater vermitteln"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/theaterpaedagogik/mitmachen/",
+                                    "title": "Theater mitmachen"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/theaterpaedagogik/kontakt-tp/",
+                                    "title": "Kontakt"
+                                }
+                            ],
+                            "title": "Theaterp\u00e4dagogik"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/foerderverein/",
+                                    "title": "Vorstellung"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/foerderverein/mitgliedschaft/",
+                                    "title": "Mitgliedschaft"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/foerderverein/nachwuchsfoerderpreise/",
+                                    "title": "Nachwuchsf\u00f6rderpreise"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/foerderverein/spenden/",
+                                    "title": "Spenden"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/foerderverein/vorstand/",
+                                    "title": "Vorstand"
+                                }
+                            ],
+                            "title": "F\u00f6rderverein"
+                        }
+                    ],
+                    [
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "/kontakt/",
+                                    "title": "Kontakt"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/impressum/",
+                                    "title": "Impressum"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "/datenschutz/",
+                                    "title": "Datenschutz"
+                                }
+                            ],
+                            "title": "Information"
+                        },
+                        {
+                            "menuItems": [
+                                {
+                                    "children": [],
+                                    "href": "https://www.youtube.com/user/dtingoettingen",
+                                    "title": "Youtube"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "https://www.instagram.com/deutschestheatergoettingen",
+                                    "title": "Instagram"
+                                },
+                                {
+                                    "children": [],
+                                    "href": "https://de-de.facebook.com/deutschestheateringoettingen",
+                                    "title": "Facebook"
+                                }
+                            ],
+                            "title": "Social Media"
+                        },
+                        {
+                            "menuItems": [],
+                            "title": "F\u00f6rderer"
+                        }
+                    ]
+                ]
+            },
+            "header": {
+                "menuItems": [
+                    {
+                        "children": [
+                            {
+                                "children": null,
+                                "href": "/spielplan/",
+                                "title": "Kalender"
+                            },
+                            {
+                                "children": null,
+                                "href": "/stuecke/premiere",
+                                "title": "Premieren"
+                            },
+                            {
+                                "children": null,
+                                "href": "/stuecke/repertoire",
+                                "title": "Repertoire"
+                            }
+                        ],
+                        "href": "/spielplan/",
+                        "title": "Spielplan"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": null,
+                                "href": "/karten/",
+                                "title": "Karten"
+                            },
+                            {
+                                "children": null,
+                                "href": "/abonnements/",
+                                "title": "Abonnements"
+                            },
+                            {
+                                "children": null,
+                                "href": "/service/",
+                                "title": "Service"
+                            }
+                        ],
+                        "href": "/karten/",
+                        "title": "Besuch"
+                    },
+                    {
+                        "children": [],
+                        "href": "/haus/",
+                        "title": "Haus"
+                    },
+                    {
+                        "children": [],
+                        "href": "/ensemble/",
+                        "title": "Menschen"
+                    },
+                    {
+                        "children": [],
+                        "href": "/theaterpaedagogik/",
+                        "title": "Spielraum"
+                    }
+                ]
+            },
+            "page": {
+                "content": null,
+                "id": 190,
+                "seo": {
+                    "description": null,
+                    "image": null
+                },
+                "slug": "spielplan",
+                "submenu": null,
+                "template": "spielplan",
+                "title": "Spielplan"
+            },
+            "pageData": {
+                "calendar": [
+                    {
+                        "months": [
+                            {
+                                "number": "03",
+                                "short": "Mrz",
+                                "title": "M\u00e4rz"
+                            },
+                            {
+                                "number": "04",
+                                "short": "Apr",
+                                "title": "April"
+                            },
+                            {
+                                "number": "05",
+                                "short": "Mai",
+                                "title": "Mai"
+                            }
+                        ],
+                        "year": "2022"
+                    }
+                ],
+                "month": "03",
+                "params": {
+                    "slug": [
+                        "spielplan"
+                    ]
+                },
+                "schedule": [
+                    {
+                        "day": "26",
+                        "dayName": "Sa",
+                        "details": [
+                            "Freiverkauf",
+                            "Blauer Tag"
+                        ],
+                        "end": {
+                            "hour": "21",
+                            "minutes": "15"
+                        },
+                        "eventim": {
+                            "id": "8672",
+                            "link": "https://dt-goettingen.eventim-inhouse.de/webshop/webticket/shop?event=8672"
+                        },
+                        "id": 18249,
+                        "month": "03",
+                        "performance": {
+                            "actors": [
+                                {
+                                    "id": 16944,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16945,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_gabrielvonberlepsch.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "gabriel-von-berlepsch",
+                                    "title": "Gabriel von Berlepsch"
+                                },
+                                {
+                                    "id": 16965,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16966,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_lukasbeeler.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "lukas-beeler",
+                                    "title": "Lukas Beeler"
+                                },
+                                {
+                                    "id": 17051,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17052,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_gabydey.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "gaby-dey",
+                                    "title": "Gaby Dey"
+                                },
+                                {
+                                    "id": 17053,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17054,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_ronnythalmeyer.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "ronny-thalmeyer",
+                                    "title": "Ronny Thalmeyer"
+                                },
+                                {
+                                    "id": 17165,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17701,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_andreastrube-1.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "andrea-strube-2",
+                                    "title": "Andrea Strube"
+                                },
+                                {
+                                    "id": 17166,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16968,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_nathaliethiede.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "nathalie-thiede-2",
+                                    "title": "Nathalie Thiede"
+                                }
+                            ],
+                            "ageRestriction": "0",
+                            "description": {
+                                "extra": "Deutsch von Brigitte Landes",
+                                "full": "Der Tisch ist f\u00fcr die ganze Familie gedeckt, die Flunder nach einem neuen Rezept aus der Zeitschrift gart im Ofen und im Radio laufen die Wunschhits von fr\u00fcher. Alles muss gl\u00e4nzen im Haushalt von Rebecca und daf\u00fcr leistet sie bestens gelaunt ganze Arbeit. Doch leider fehlen ein paar Faktoren in ihrer Rechnung: Ihr Mann ist vor l\u00e4ngerer Zeit ausgezogen, um sein Gl\u00fcck zu suchen und noch nicht wieder zur\u00fcckgekehrt. Genauso wie ihr Sohn, der wiederum den Vater wiederfinden wollte. Doch Rebecca glaubt ungebrochen daran, dass die beiden zur\u00fcckkehren werden und denkt stoisch positiv, wovon sie nichts abhalten kann: nicht die verschwundenen M\u00e4nner, nicht die Sintflut, die vor der T\u00fcr steht, nicht die Nachbarin, die sich in ihrem Bad umbringt, nicht der Wal, der in die Wohnung schwappt, nicht der alttestamentarisch zornige Zeuge Jehovas und auch nicht der Vergewaltiger, den sie als ihren fr\u00fcheren Lateinlehrer enttarnt. Und am Ende stellt sich sogar heraus, dass an dem Glauben an das Gute und das Gl\u00fcck doch etwas dran ist. Angesichts einer objektiv betrachtet eher etwas trostlosen Situation \u2013 verlassene Frau Ende vierzig spielt heile Welt \u2013 k\u00f6nnte man bei \u00bbAlles muss gl\u00e4nzen\u00ab ein kritisches Sozialdrama erwarten. Doch Noah Haidle liebt die Menschen und schreibt eine lebensbejahende Kom\u00f6die mit heiter-skurrilen Einf\u00e4llen und Wendungen.<br />\r\n<br />\r\nZum Autor Noah Haidle <br />\r\nDer 1978 in Michigan/USA geborene Noah Haidle studierte Szenisches Schreiben an der Universit\u00e4t Princeton und der renommierten New Yorker Juilliard School und arbeitet als Dramatiker und Drehbuchautor. Er schrieb das Drehbuch f\u00fcr den Film \u00bbStand Up Guys\u00ab mit Al Pacino und Christopher Walken und arbeitet aktuell an der Fernsehserie \u00bbKidding\u00ab mit Jim Carrey in der Hauptrolle. In Deutschland bekannt wurde Haidle mit dem St\u00fcck \u00bbMr. Marmalade\u00ab. Sein St\u00fcck \u00bbAlles muss gl\u00e4nzen\u00ab wurde von Theater heute 2015 zum ausl\u00e4ndischen St\u00fcck des Jahres gew\u00e4hlt.",
+                                "short": "Ich habe mein Gl\u00fcck gefunden: Es ist hier."
+                            },
+                            "details": [],
+                            "duration": "90",
+                            "gallery": [
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Lukas Beeler | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17411,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1080.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Gaby Dey | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17412,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1252.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Nathalie Thiede | Foto Thomas Aurin ",
+                                    "height": 1063,
+                                    "id": 17410,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen_8294.jpg",
+                                    "width": 709
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Ronny Thalmeyer | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17413,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1444.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Ronny Thalmeyer | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17414,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1469.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Gabriel von Berlepsch | Foto Thomas Aurin  ",
+                                    "height": 709,
+                                    "id": 17415,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1859.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Gabriel von Berlepsch, Andrea Strube | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17416,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_1910.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Gabriel von Berlepsch, Andrea Strube | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17417,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_2031.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Nathalie Thiede, Gabriel von Berlepsch | Foto Thomas Aurin ",
+                                    "height": 709,
+                                    "id": 17418,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Alles_muss_glaenzen2_2110.jpg",
+                                    "width": 1063
+                                }
+                            ],
+                            "id": 16977,
+                            "images": {
+                                "home": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 1182,
+                                    "id": 17008,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_GLANZ_home.jpeg",
+                                    "width": 2048
+                                },
+                                "horizontal": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 917,
+                                    "id": 17009,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_GLANZ_quer-scaled.jpeg",
+                                    "width": 2560
+                                },
+                                "vertical": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 802,
+                                    "id": 17007,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_GLANZ_hoch.jpeg",
+                                    "width": 666
+                                }
+                            },
+                            "location": "dt.1",
+                            "persons": [
+                                {
+                                    "category": "production",
+                                    "name": "Isabel Osthues",
+                                    "profile": true,
+                                    "slug": "isabel-osthues"
+                                },
+                                {
+                                    "category": "dramaturgy",
+                                    "name": "Mona Rieken",
+                                    "profile": true,
+                                    "slug": "mona-rieken"
+                                },
+                                {
+                                    "category": "stage",
+                                    "name": "Jeremias B\u00f6ttcher",
+                                    "profile": true,
+                                    "slug": "jeremias-boettcher"
+                                },
+                                {
+                                    "category": "costumes",
+                                    "name": "Mascha Schubert",
+                                    "profile": true,
+                                    "slug": "mascha-schubert"
+                                }
+                            ],
+                            "premiere": {
+                                "day": "03",
+                                "month": "06",
+                                "monthName": "Juni",
+                                "year": "2021"
+                            },
+                            "reviews": [
+                                {
+                                    "name": "Katrin Ullmann, Theater heute 10/2021",
+                                    "text": "Ansteigende Fluten \u00bbLiebevoll und mit feiner Ironie zeichnet Osthues die Figuren, l\u00e4sst sie manchmal unvermittelt ausscheren ins Surreale und Slapstickartige: mit einem nerv\u00f6s am Handgelenk verknoteten Regenmantel oder einem expressiven Tanz auf halber Treppe.\u00ab"
+                                },
+                                {
+                                    "name": "Peter Kr\u00fcger-Lenz, G\u00f6ttinger Tageblatt 5.6.2021",
+                                    "text": "Rebekkas biblische Apokalypse \u00bbDas St\u00fcck fordert vom Ensemble einen heftigen Spagat zwischen der Ernsthaftigkeit, die diese Charaktere auf der B\u00fchne brauchen, und den surrealen Ereignissen, die sehr schrill sein k\u00f6nnen. Regisseurin Ostheus hat das fein austariert, und die Akteure sind ihr dabei gefolgt ... Jeremias B\u00f6ttcher hat f\u00fcr dieses Spektakel eine sehr variable B\u00fchne entworfen ... Mascha Schubert hat mit ihren Kost\u00fcmen zu einer 1960er-Jahre-Atmosph\u00e4re beigetragen ... Am Ende applaudierte das Publikum sehr freundlich.\u00ab"
+                                },
+                                {
+                                    "name": "Ute Lawrenz, HNA 7.6.2021",
+                                    "text": "Wie man die Wirklichkeit frisiert \u00bbViel Applaus spendeten die Zuschauer zum Auftakt f\u00fcr die Inszenierung von Isabel Osthues \u00fcber den verzweifelten Versuch einer Mutter, die Illusion vom gegl\u00fcckten Leben zu erhalten.\u00ab"
+                                }
+                            ],
+                            "seo": {
+                                "description": null,
+                                "image": null
+                            },
+                            "slug": "alles-muss-glaenzen",
+                            "strikethrough": false,
+                            "subtitle": "Kom\u00f6die von Noah Haidle",
+                            "title": "Alles muss gl\u00e4nzen",
+                            "videos": [
+                                "https://www.youtube.com/watch?v=gQL3xPDoR0E"
+                            ]
+                        },
+                        "start": {
+                            "hour": "19",
+                            "minutes": "45"
+                        },
+                        "subscriptions": [],
+                        "year": "2022"
+                    },
+                    {
+                        "day": "27",
+                        "dayName": "So",
+                        "details": [
+                            "Freiverkauf",
+                            "Gastspiel"
+                        ],
+                        "end": {
+                            "hour": "21",
+                            "minutes": "10"
+                        },
+                        "eventim": {
+                            "id": "8673",
+                            "link": "https://dt-goettingen.eventim-inhouse.de/webshop/webticket/shop?event=8673"
+                        },
+                        "id": 18331,
+                        "month": "03",
+                        "performance": {
+                            "actors": null,
+                            "ageRestriction": "0",
+                            "description": {
+                                "extra": null,
+                                "full": "Der wahnsinnige Dr. Caligari versetzt mit Hilfe des Somnambulen Cesare eine kleine Stadt in Angst und Schrecken. Das expressionistische Meisterwerk lebt nicht nur von fantastischer Handlung und grandiosen Schauspielern, sondern vor allem von der Ausstattung: \u00bbCaligari\u00ab ging als Meilenstein in die Filmgeschichte ein und ist \u00fcber 100 Jahre nach der Premiere noch immer ein Kinoerlebnis. Wir zeigen ihn in neu restaurierter Kopie und kongenialer Live-Vertonung von Stummfilmpianist Stephan Graf von Bothmer.<br />\r\nRegie - Robert Wiene<br />\r\nDarsteller - Werner Krauss, Conradt Veidt, Lil Dagover<br />\r\nLive-Musikbegleitung - Stephan Graf von Bothmer",
+                                "short": "Deutschland 1919"
+                            },
+                            "details": [],
+                            "duration": "70",
+                            "gallery": [],
+                            "id": 18328,
+                            "images": {
+                                "home": null,
+                                "horizontal": null,
+                                "vertical": null
+                            },
+                            "location": "dt.1",
+                            "persons": [],
+                            "premiere": {
+                                "day": "27",
+                                "month": "02",
+                                "monthName": "Februar",
+                                "year": "2022"
+                            },
+                            "reviews": [],
+                            "seo": {
+                                "description": null,
+                                "image": null
+                            },
+                            "slug": "das-cabinet-des-dr-caligari",
+                            "strikethrough": false,
+                            "subtitle": "Im Rahmen des 15. G\u00f6ttinger Stummfilmfestivals",
+                            "title": "Das Cabinet des Dr. Caligari",
+                            "videos": []
+                        },
+                        "start": {
+                            "hour": "20",
+                            "minutes": "00"
+                        },
+                        "subscriptions": [],
+                        "year": "2022"
+                    },
+                    {
+                        "day": "30",
+                        "dayName": "Mi",
+                        "details": [
+                            "Freiverkauf"
+                        ],
+                        "end": {
+                            "hour": "11",
+                            "minutes": "15"
+                        },
+                        "eventim": null,
+                        "id": 18327,
+                        "month": "03",
+                        "performance": {
+                            "actors": [
+                                {
+                                    "id": 17051,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17052,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_gabydey.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "gaby-dey",
+                                    "title": "Gaby Dey"
+                                },
+                                {
+                                    "id": 18251,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1070,
+                                        "id": 18340,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/AHoffmann.jpg",
+                                        "width": 1070
+                                    },
+                                    "profile": true,
+                                    "slug": "anne-hoffmann",
+                                    "title": "Anne Hoffmann"
+                                },
+                                {
+                                    "id": 17055,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17056,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_marinalarapoltmann.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "marina-lara-poltmann",
+                                    "title": "Marina Lara Poltmann"
+                                },
+                                {
+                                    "id": 17166,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16968,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_nathaliethiede.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "nathalie-thiede-2",
+                                    "title": "Nathalie Thiede"
+                                },
+                                {
+                                    "id": 18252,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1070,
+                                        "id": 18356,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/ANossek_5063.jpg",
+                                        "width": 1070
+                                    },
+                                    "profile": true,
+                                    "slug": "alma-nossek",
+                                    "title": "Alma Nossek"
+                                }
+                            ],
+                            "ageRestriction": "0",
+                            "description": {
+                                "extra": "B\u00fchnenfassung von Andreas Erdmann nach der deutschen \u00dcbersetzung von Sigrid C. Engeler",
+                                "full": "\u00bbNichts bedeutet irgendetwas, deshalb lohnt es sich nicht, irgendetwas zu tun\u00ab, ruft Pierre Anthon und verl\u00e4sst die Klasse. Seine Mitsch\u00fcler*innen sind verwirrt. Wenn Pierre Anthon recht hat, warum gehen sie dann jeden Tag zur Schule? Hat dann auch die erste Liebe keine Bedeutung? Was ist mit ihren W\u00fcnschen und Hoffnungen f\u00fcr die Zukunft? Es muss doch etwas geben, das im Leben wichtig ist! Und so macht sich die gesamte Klasse auf die Suche nach der Bedeutung. In einem alten S\u00e4gewerk sammeln sie all die Dinge, die ihnen lieb und teuer sind. Doch die Opfer, die sie einander f\u00fcr den Berg aus Bedeutung abverlangen, werden schon bald immer gr\u00f6\u00dfer und schmerzhafter \u2013 bis es schlie\u00dflich keineswegs mehr nur um materielle Gegenst\u00e4nde geht. Als schlie\u00dflich S\u00e4rge ausgegraben, Tiere geopfert und Finger abgehackt werden, ger\u00e4t die Suche mehr und mehr au\u00dfer Kontrolle.",
+                                "short": "F\u00fcrchtet Ihr Euch etwa vor dem Nichts?"
+                            },
+                            "details": [],
+                            "duration": "75",
+                            "gallery": [
+                                {
+                                    "alt": "",
+                                    "caption": "Anna Hoffmann, Gaby Dey, Marina Lara Poltmann, Nathalie Thiede, Alma Nossek Foto | Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18475,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_026.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Nathalie Thiede, Alma Nossek, Anne Hoffmann, Marina Lara Poltmann | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18476,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_031.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Alma Nossek, Anne Hoffmann, Nathalie Thiede, Marina Lara Poltmann | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18477,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_034.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Alma Nossek | Foto Thomas M\u00fcller",
+                                    "height": 830,
+                                    "id": 18478,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_042.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Gaby Dey, Anne Hoffmann, Alma Nossek, Marina Lara Poltmann, Nathalie Thiede | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18483,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_067.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Nathalie Thiede, Anne Hoffmann, Alma Nossek, Marina Lara Poltmann | Foto Thomas M\u00fcller",
+                                    "height": 1181,
+                                    "id": 18479,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_048H.jpg",
+                                    "width": 786
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Alma Nossek, Marina Lara Poltmann, Gaby Dey, Nathalie Thiede, Anne Hoffmann | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18480,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_077.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Marina Lara Poltmann, Gaby Dey, Nathalie Thiede, Alma Nossek, Anne Hoffmann | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18481,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_081.jpg",
+                                    "width": 1181
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Gaby Dey, Anne Hoffmann, Nathalie Thiede, Marina Lara Poltmann, Alma Nossek | Foto Thomas M\u00fcller",
+                                    "height": 786,
+                                    "id": 18482,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Nichts2_086.jpg",
+                                    "width": 1181
+                                }
+                            ],
+                            "id": 18250,
+                            "images": {
+                                "home": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 917,
+                                    "id": 18352,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/nichts_quer.jpg",
+                                    "width": 2560
+                                },
+                                "horizontal": {
+                                    "alt": "",
+                                    "caption": "{year}307.03.22 G\u00f6ttingen: Fotoprobe \u201eNichts. Was im Leben wichtig ist\u201c in einer Inszenierung von Ruth Messing im DT-1 am Deutschen Theater G\u00f6ttingen. Foto: Thomas M\u00fcller",
+                                    "height": 917,
+                                    "id": 18458,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/ExtremStart_053-scaled.jpg",
+                                    "width": 2560
+                                },
+                                "vertical": {
+                                    "alt": "",
+                                    "caption": "{year}307.03.22 G\u00f6ttingen: Fotoprobe \u201eNichts. Was im Leben wichtig ist\u201c in einer Inszenierung von Ruth Messing im DT-1 am Deutschen Theater G\u00f6ttingen. Foto: Thomas M\u00fcller",
+                                    "height": 802,
+                                    "id": 18459,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2022/01/Hoch_020.jpg",
+                                    "width": 666
+                                }
+                            },
+                            "location": "dt.1",
+                            "persons": [
+                                {
+                                    "category": "production",
+                                    "name": "Ruth Messing",
+                                    "profile": true,
+                                    "slug": "ruth-messing"
+                                },
+                                {
+                                    "category": "dramaturgy",
+                                    "name": "Mona Rieken",
+                                    "profile": true,
+                                    "slug": "mona-rieken"
+                                },
+                                {
+                                    "category": "stage",
+                                    "name": "Johannes Frei",
+                                    "profile": true,
+                                    "slug": "johannes-frei"
+                                },
+                                {
+                                    "category": "costumes",
+                                    "name": "Franziska Smolarek",
+                                    "profile": true,
+                                    "slug": "franziska-smolarek"
+                                },
+                                {
+                                    "category": "music",
+                                    "name": "Fabian Kuss",
+                                    "profile": true,
+                                    "slug": "fabian-kuss"
+                                }
+                            ],
+                            "premiere": {
+                                "day": "11",
+                                "month": "03",
+                                "monthName": "M\u00e4rz",
+                                "year": "2022"
+                            },
+                            "reviews": [
+                                {
+                                    "name": "Bettina Fraschke, HNA 14.3.2022 ",
+                                    "text": "Wie Gewalt entsteht \u00bbEin spannender gut gemachter Theaterabend. Nicht nur f\u00fcr Jugendliche erhellend ... Ruth Messings Inszenierung \u00fcberzeugt durch Pr\u00e4zission und Detailarbeit.\u00ab "
+                                },
+                                {
+                                    "name": "Peter Kr\u00fcger-Lenz, G\u00f6ttinger Tageblatt 14.3.2022",
+                                    "text": "Teenager auf dem Berg von Bedeutung \u00bbRegisseurin Messing setzt auf das Team ... Am Ende feiern die Zuschauer das Ensemble und das Regieteam lautstark.\u00ab"
+                                },
+                                {
+                                    "name": "Tina Fibiger, Kulturb\u00fcro 15.3.2022",
+                                    "text": "Widerspr\u00fcchliches und vielstimmiges Ged\u00e4chtnisprotokoll \u00bbIn der dramatisierten Fassung des Romans von Janne Teller \u203aNichts. Was im Leben wichtig ist\u2039, wird die Schmerzgrenze vor allem mit k\u00f6rperlichen und seelischen Dem\u00fctigungen kommentiert. Deren zerst\u00f6rerische Wirkung pr\u00e4gt auch die Inszenierung von Ruth Messing, die das St\u00fcck als dramatische R\u00fcckblende in Szene setze.\u00ab "
+                                },
+                                {
+                                    "name": "Katrin Pietzner, NDR, 12.03.2022",
+                                    "text": "\u00bbEine Suche, die ber\u00fchrt und nachdenklich macht.\u00ab "
+                                },
+                                {
+                                    "name": "Marcel Lorenz, unddasleben.wordpress.com 18.3.2022",
+                                    "text": "Der Klotz und die Wahrheit \u00bbMenschen, die den Jugendroman gelesen haben, erwartet zweierlei: einerseits eine recht werktreue Inszenierung, die die Vorlage respektiert. Andererseits auch die eine oder andere \u00dcberraschung. Klettereinlagen geh\u00f6ren dazu. Als besonders stark erweist sich der Einfall, eine Friedhofsszene mit den Mitteln eines Live-H\u00f6rspiels zu inszenieren ... Ruth Messing gelingt es mit beeindruckender Zielsicherheit, das Grausame nie allzu abgr\u00fcndig werden zu lassen. Wohldosierter Humor ist es, der die Inszenierung vor einem Abrutschen ins Traumatische rettet \u2026 Die Schauspielerinnen f\u00fcllen die Vielzahl an Figuren insgesamt gelungen aus ... Eine abwechslungsreiche, ernstzunehmende und doch nicht zu belastende Inszenierung, das gut harmonierende Ensemble und das interessante B\u00fchnenbild machen \u203aNichts. Was im Leben wichtig ist\u2039 zu einem Theater- und Parabelst\u00fcck, das Jugendliche wie Erwachsene ernst nimmt und zugleich unterh\u00e4lt.\u00ab "
+                                }
+                            ],
+                            "seo": {
+                                "description": null,
+                                "image": null
+                            },
+                            "slug": "nichts-was-im-leben-wichtig-ist",
+                            "strikethrough": false,
+                            "subtitle": "Janne Teller",
+                            "title": "Nichts. Was im Leben wichtig ist",
+                            "videos": [
+                                "https://www.youtube.com/watch?v=oPns_emz7Eg"
+                            ]
+                        },
+                        "start": {
+                            "hour": "10",
+                            "minutes": "00"
+                        },
+                        "subscriptions": [],
+                        "year": "2022"
+                    },
+                    {
+                        "day": "31",
+                        "dayName": "Do",
+                        "details": [],
+                        "end": {
+                            "hour": "19",
+                            "minutes": "30"
+                        },
+                        "eventim": null,
+                        "id": 18336,
+                        "month": "03",
+                        "performance": {
+                            "actors": null,
+                            "ageRestriction": "0",
+                            "description": {
+                                "extra": null,
+                                "full": "Der F\u00f6rderverein l\u00e4dt die Mitglieder mehrmals pro Spielzeit zu Veranstaltungen \u00bbIm Fokus\u00ab ein. G\u00e4ste sind ebenfalls herzlich willkommen. <br />\r\nIn dieser Veranstaltungsreihe laden wir Regisseure, Autoren, Dramaturgen, Wissenschaftler, Schauspieler oder auch Kulturpolitiker ein, um ein jeweils aktuelles Thema mit Bezug zum Deutschen Theater G\u00f6ttingen zu diskutieren. In der Regel dauern diese Veranstaltungen ca. 60 Minuten. Eintritt frei! <br />\r\nIm Anschluss besteht die M\u00f6glichkeit f\u00fcr alle Interessenten sich auszutauschen. Es wird \u00fcber den aktuellen Spielplan gesprochen, \u00fcber gesehene und noch geplante Inszenierungen, \u00fcber die Leistung unserer Schauspieler und alle Themen, die uns im Zusammenhang mit unserem Theater bewegen.",
+                                "short": null
+                            },
+                            "details": [],
+                            "duration": "60",
+                            "gallery": [],
+                            "id": 18335,
+                            "images": {
+                                "home": null,
+                                "horizontal": null,
+                                "vertical": null
+                            },
+                            "location": "dt.x",
+                            "persons": [],
+                            "premiere": {
+                                "day": "09",
+                                "month": "10",
+                                "monthName": "Oktober",
+                                "year": "2014"
+                            },
+                            "reviews": [],
+                            "seo": {
+                                "description": null,
+                                "image": null
+                            },
+                            "slug": "im-fokus",
+                            "strikethrough": false,
+                            "subtitle": null,
+                            "title": "Im Fokus",
+                            "videos": []
+                        },
+                        "start": {
+                            "hour": "18",
+                            "minutes": "30"
+                        },
+                        "subscriptions": [],
+                        "year": "2022"
+                    },
+                    {
+                        "day": "31",
+                        "dayName": "Do",
+                        "details": [
+                            "Freiverkauf"
+                        ],
+                        "end": {
+                            "hour": "22",
+                            "minutes": "35"
+                        },
+                        "eventim": {
+                            "id": "8676",
+                            "link": "https://dt-goettingen.eventim-inhouse.de/webshop/webticket/shop?event=8676"
+                        },
+                        "id": 18381,
+                        "month": "03",
+                        "performance": {
+                            "actors": [
+                                {
+                                    "id": 16944,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16945,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_gabrielvonberlepsch.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "gabriel-von-berlepsch",
+                                    "title": "Gabriel von Berlepsch"
+                                },
+                                {
+                                    "id": 17051,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17052,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_gabydey.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "gaby-dey",
+                                    "title": "Gaby Dey"
+                                },
+                                {
+                                    "id": 17042,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17043,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_florianeppinger.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "florian-eppinger",
+                                    "title": "Florian Eppinger"
+                                },
+                                {
+                                    "id": 17071,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17072,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_angelikafornell.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "angelika-fornell",
+                                    "title": "Angelika Fornell"
+                                },
+                                {
+                                    "id": 17077,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17078,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_rebeccaklingenberg.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "rebecca-klingenberg",
+                                    "title": "Rebecca Klingenberg"
+                                },
+                                {
+                                    "id": 17032,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17033,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_romanmajewski.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "roman-majewski",
+                                    "title": "Roman Majewski"
+                                },
+                                {
+                                    "id": 17079,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17080,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_marcomatthes.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "marco-matthes",
+                                    "title": "Marco Matthes"
+                                },
+                                {
+                                    "id": 16959,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16960,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_annapaulamuth.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "anna-paula-muth",
+                                    "title": "Anna Paula Muth"
+                                },
+                                {
+                                    "id": 16955,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16956,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/volker.webp",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "volker-muthmann",
+                                    "title": "Volker Muthmann"
+                                },
+                                {
+                                    "id": 17165,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17701,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_andreastrube-1.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "andrea-strube-2",
+                                    "title": "Andrea Strube"
+                                },
+                                {
+                                    "id": 16963,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 16964,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_paultrempnau.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "paul-trempnau",
+                                    "title": "Paul Trempnau"
+                                },
+                                {
+                                    "id": 17066,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1063,
+                                        "id": 17067,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/dtg_paulwenning.jpg",
+                                        "width": 1063
+                                    },
+                                    "profile": true,
+                                    "slug": "paul-wenning",
+                                    "title": "Paul Wenning"
+                                },
+                                {
+                                    "id": 17873,
+                                    "image": {
+                                        "alt": "",
+                                        "caption": "",
+                                        "height": 1180,
+                                        "id": 18315,
+                                        "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/12/JWeichert-2.jpg",
+                                        "width": 1181
+                                    },
+                                    "profile": true,
+                                    "slug": "jenny-weichert-3",
+                                    "title": "Jenny Weichert"
+                                }
+                            ],
+                            "ageRestriction": "0",
+                            "description": {
+                                "extra": "Thomas K\u00f6ck, geboren 1986 in Steyr, Ober\u00f6sterreich, studierte Philosophie in Wien sowie Szenisches Schreiben und Film an der Universit\u00e4t der K\u00fcnste Berlin. Er arbeitete beim theatercombinat wien, war mit einem Dokumentarfilmprojekt \u00fcber Beirut zu Berlinale Talents eingeladen. Als Hausautor schrieb er f\u00fcr das Nationaltheater Mannheim, er bloggt mit Kolleg*innen auf nazisundgoldmund.net gegen rechts und entwickelt mit Andreas Spechtl unter dem Label ghostdance konzertante readymades. F\u00fcr seine Theatertexte wurde er mehrfach ausgezeichnet, u. a. 2018 mit dem Literaturpreis \u00bbText & Sprache\u00ab des Kulturkreises der deutschen Wirtschaft sowie 2018 und 2019 mit dem M\u00fclheimer Dramatikerpreis, zuletzt auch mit dem Publikumspreis der M\u00fclheimer Theatertage NRW.",
+                                "full": "Rheint\u00f6chter, die es Leid sind, das Rheingold zu bewachen. Ein goldgieriger Zwerg, der keine Lust mehr hat, geraubtes Kapital zu vermehren. Eine G\u00f6ttertochter, die am Vater verzweifelt und am liebsten nur noch schlafen w\u00fcrde. Das Personal in Thomas K\u00f6cks neuem St\u00fcck hat keine Lust mehr, mitzuspielen im Mythos vom \u00bbRing des Nibelungen\u00ab, den Richard Wagner einst in ein monumentales Musiktheater verwandelt hat. Aber noch besteht Wotan, der alte wei\u00dfe Gott, auf die Einhaltung der Vertr\u00e4ge und macht sich Siegfried, der deutsche Held, schwertschwingend auf, den fluchbeladenen Ring zur\u00fcckzuholen. Mythen sind h\u00e4ufig Erz\u00e4hlungen, die weit in die Vorzeit zur\u00fcckreichen. In eine Zeit, in der sich G\u00f6tter und Menschen noch direkt begegnet sind und diese Begegnungen durchaus nicht konfliktfrei verliefen, weil die Menschen schon einmal die g\u00f6ttliche Macht auf die Probe stellten. Mythen erkl\u00e4ren die Entstehung der Welt, die Geschichte eines Volksstammes oder liefern die Begr\u00fcndung f\u00fcr die Existenz eines Reiches. Sie werden \u00fcber Generationen weitererz\u00e4hlt, ver\u00e4ndern sich, werden an politische Situationen angepasst, miteinander verwoben, oder in einzelne Erz\u00e4hlstr\u00e4nge aufgespalten. Solange sie existent sind, tragen sie eine Art kulturelle DNA in sich, die diejenigen beeinflusst, die ihr Bestehen und ihre Bedeutung f\u00fcr die Deutung der Welt anerkennen.<br />\r\n<br />\r\nAls 1872 aus der deutschen Kleinstaaterei das Deutsche Reich wurde, war dies letztlich ein Verwaltungsakt von Adel und B\u00fcrgertum vorangetrieben aus der Erkenntnis, dass in der Moderne mit ihrem technischen Fortschritt, der Industrialisierung und vor allem auch mit ihrem neuen milit\u00e4rischen Potenzial, nur gro\u00dfe Staaten \u00fcberleben w\u00fcrden. Was dem Jungen Nationalstaat noch fehlte, war die Legitimation in der Historie. Da kam Richard Wagners \u00bbDer Ring des Nibelungen\u00ab gerade Recht, in dem der Komponist Teile germanischer Sagen mit dem mittelalterlichen \u00bbNibelungenlied\u00ab zu einer komplexen Erz\u00e4hlung verband, in der mit der Figur des Siegfried ein pr\u00e4gnanter germanischer Held geschaffen wurde. Der Zyklus von 4 Opern und einer Gesamtspieldauer von 16 Stunden sprengte jeden Rahmen und festigte Wagners Ruf als Erneuerer der Oper. Wagner gr\u00fcndete f\u00fcr die erste Auff\u00fchrung des kompletten Zyklus in Bayreuth die \u00bbRichard Wagner Festspiele\u00ab, lie\u00df in der fr\u00e4nkischen Provinzstadt in seiner Zeit innovativste Theater erbauen und trug damit ein gutes St\u00fcck zum Entstehen des Mythos der eigenen Person bei. Seit 1951 finden die \u00bbRichard Wagner Festspiele\u00ab j\u00e4hrlich statt, als fester Bestandteil der deutschen Hochkultur pr\u00e4gen sie das Bild Deutschlands, deutsche Leitkultur sozusagen. In Wagners \u00bbRing\u00ab ist die Notwendigkeit des Sturzes der alten G\u00f6tter f\u00fcr das Entstehen einer neuen, besseren Welt das zentrale Thema. Kann aber eine neue, bessere Welt entstehen, wenn die alten Mythen immer lebendig bleiben, fragt der der Autor Thomas K\u00f6ck heute. In seiner \u00dcberschreibung des Stoffes agieren die Figuren des Mythos nur widerwillig, weil sie offenbar l\u00e4ngst kl\u00fcger sind als der Mythos selbst. Die Rheint\u00f6chter wollen nicht mehr als erotische Accessoires einen legend\u00e4ren Schatz am Grund des Flusses bewachen. Sie sind mit der Zeit gegangen und ihr Bewusstsein als moderne Frauen, l\u00e4sst sie durchschauen, welchen M\u00e4nnerfantasien sie ihre Rollen verdanken. Der Nibelung Alberich, der ihnen den Schatz entwendet hat, wei\u00df sehr wohl, dass Wagner mit seiner Figur \u00fcble antisemitische Klischees verbreitet hat. Alberich hat die gnadenlosen Mechanismen des Kapitalismus durchschaut und jede Lust verloren, mit gestohlenem Kapital, Rendite zu erzielen. Br\u00fcnnhilde ist das leer gewordene Leben in einer durch\u00f6konomisierten Zeit leid geworden und flieht in den Schlaf. Nur Wotan ignoriert seine erodierende Macht und dringt zwecks Systemerhalt auf die Einhaltung von Vertr\u00e4gen, deren Relevanz l\u00e4ngst in Zweifel steht. Und Siegfried, der deutsche Held, tut, was ein Held tun muss: Unf\u00e4hig zu erkennen, dass er eigentlich ein Opfer ist, exekutiert er den Mythos und steckt die Welt in Brand. K\u00f6cks St\u00fcck ist ein immer vorandr\u00e4ngender Sprachrausch, der zwischen Wagnerschem Pathos und zeitgen\u00f6ssischer Lakonie changierend, eine brillante Analyse der deutschen Wirklichkeit liefert.",
+                                "short": "lasst mich doch schlafen um himmels willen "
+                            },
+                            "details": [
+                                "Pause"
+                            ],
+                            "duration": "170",
+                            "gallery": [
+                                {
+                                    "alt": "",
+                                    "caption": "Paul Wenning, Marco Matthes, Roman Majewski | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18255,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0220.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Volker Muthmann, Jenny Weichert, Anna Paula Muth, Andrea Strube | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18256,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0247.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Angelika Fornell, Gabriel von Berlepsch, Florian Eppinger, Volker Muthmann, Feridun C. \u00d6ztoprak | Foto Geoges Pauly",
+                                    "height": 709,
+                                    "id": 18259,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0392.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Feridun C. \u00d6ztoprak, Gabriel von Berlepsch, Florian Eppinger, Angelika Fornell | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18260,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0398.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Andrea Strube, Volker Muthmann, Anna Paula Muth, Jenny Weichert | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18263,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_6395.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Feridun C. \u00d6ztoprak, Gabriel von Berlepsch, Florian Eppinger | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18264,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_6436.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Volker Muthmann, Gabriel von Berlepsch | Foto Georges Pauly ",
+                                    "height": 709,
+                                    "id": 18265,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_6548.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Gaby Dey, Paul Wenning | Foto Georges Pauly ",
+                                    "height": 709,
+                                    "id": 18266,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_6849.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Paul Trempnau | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18269,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_7870.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Angelika Fornell, Marco Matthes, Rebecca Klingenberg, Jenny Weichert, Andrea Strube, Anna Paula Muth, Gabriel von Berlepsch, Roman Majewski, Paul Wenning | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18261,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0590.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Anna Paula Muth, Rebecca Klingenberg, Andrea Strube, Paul Wenning, Jenny Weichert | Foto Georges Pauly",
+                                    "height": 709,
+                                    "id": 18267,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_7103.jpg",
+                                    "width": 1063
+                                },
+                                {
+                                    "alt": "",
+                                    "caption": "Jenny Weichert, Volker Muthmann, Angelika Fornell, Andrea Strube, Anna Paula Muth, Rebecca Klingenberg | Foto Georges Pauly ",
+                                    "height": 709,
+                                    "id": 18262,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ringdesnibelungen_0628.jpg",
+                                    "width": 1063
+                                }
+                            ],
+                            "id": 17136,
+                            "images": {
+                                "home": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 1182,
+                                    "id": 18272,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Start.jpg",
+                                    "width": 2048
+                                },
+                                "horizontal": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 917,
+                                    "id": 18270,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/ExtremQuer-scaled.jpg",
+                                    "width": 2560
+                                },
+                                "vertical": {
+                                    "alt": "",
+                                    "caption": "",
+                                    "height": 802,
+                                    "id": 18271,
+                                    "src": "https://backend.dt-goettingen.de/wp-content/uploads/2021/11/Hoch.jpg",
+                                    "width": 666
+                                }
+                            },
+                            "location": "dt.1",
+                            "persons": [
+                                {
+                                    "category": "production",
+                                    "name": "Erich Sidler",
+                                    "profile": true,
+                                    "slug": "erich-sidler"
+                                },
+                                {
+                                    "category": "guests",
+                                    "name": "Feridun C. \u00d6ztoprak",
+                                    "profile": true,
+                                    "slug": "feridun-c-oeztoprak"
+                                },
+                                {
+                                    "category": "guests",
+                                    "name": "Jenny Weichert",
+                                    "profile": true,
+                                    "slug": "jenny-weichert-3"
+                                },
+                                {
+                                    "category": "dramaturgy",
+                                    "name": "Matthias Heid",
+                                    "profile": true,
+                                    "slug": "matthias-heid"
+                                },
+                                {
+                                    "category": "stage",
+                                    "name": "J\u00f6rg Kiefel",
+                                    "profile": true,
+                                    "slug": "ralf-kiefel"
+                                },
+                                {
+                                    "category": "costumes",
+                                    "name": "Jessica Karge",
+                                    "profile": true,
+                                    "slug": "jessica-karge"
+                                },
+                                {
+                                    "category": "choreography",
+                                    "name": "Valent\u00ed Rocamora i Tor\u00e0",
+                                    "profile": true,
+                                    "slug": "valenti-rocamora-tora"
+                                },
+                                {
+                                    "category": "music",
+                                    "name": "Michael Frei",
+                                    "profile": true,
+                                    "slug": "michael-frei"
+                                }
+                            ],
+                            "premiere": {
+                                "day": "29",
+                                "month": "01",
+                                "monthName": "Januar",
+                                "year": "2022"
+                            },
+                            "reviews": [
+                                {
+                                    "name": "Bettina Fraschke, HNA 1.2.2022",
+                                    "text": "Germanenheld im Rollstuhl \u00bbDas Deutsche Theater in G\u00f6ttingen zeigt eine grandiose \u203aRing des Nibelungen\u2039 -Bearbeitung \u2026 Es entwickelt sich ein intelligenter, witziger rasanter, toll gespielter Abend mit einem 14-k\u00f6pfigen All-Star-Ensemble in Bestform \u2026 Zu den eindringlichsten Szenen geh\u00f6rt Paul Trempnaus Monolog als Siegfried \u2026 Wie der ur-germanische Held von seiner Kindheit auf dem Campingplatz in L\u00fcgde spricht, von Verwahrlosung, Darknet, Missbrauch, Beh\u00f6rdenversagen, das ist pures Grauen \u2026 Ganz gro\u00dfer Theaterabend. Klug und witzig.\u00ab"
+                                },
+                                {
+                                    "name": "Peter Kr\u00fcger-Lenz, g\u00f6ttinger-tageblatt.de 30.1.2022",
+                                    "text": "\u00bbDer Ring des Nibelungen\u00ab bringt die urdeutschen Mythen zum Einsturz \u00bbErich Sidler hat Thomas K\u00f6cks Mythend\u00e4mmerung \u203aWagner \u2013 Der Ring des Nibelungen\u2039 auf die B\u00fchne gebracht, eine grandiose Produktion ... Das Publikum feierte die denkw\u00fcrdige Premiere \u2026 Tats\u00e4chlich agiert das Ensemble enorm geschlossen. Alle Akteure haben Auftritte, die ihnen Aufmerksamkeit bescheren. Regisseur Sidler l\u00e4sst sie als Team auftreten und hat sich geradezu liebevoll jeder einzelnen Figur gewidmet. Und er hat diesem nicht leicht zu \u00fcberschauenden Plot mit viel Pr\u00e4zision ein Mindestma\u00df an Verst\u00e4ndlichkeit gegeben. J\u00f6rg Kiefel hat f\u00fcr dieses G\u00f6tterringen eine B\u00fchne entworfen, die diesen Namen tats\u00e4chlich verdient. Eine Drehb\u00fchne pr\u00e4sentiert einige R\u00e4ume in stetigem Wechsel. In einem dieser R\u00e4ume ist die hintere Wand nahezu komplett von einer spiegelnden Fl\u00e4che bedeckt. Ein kluger Kunstgriff, der die Zuschauer, die sich darin spiegeln, in das Geschehen einbezieht. Sie werden Teil dieses Ringens um Macht und Mythen, um Gold und Geld ... Ein grandioser, funkelnder Theaterabend ist Sidler mit seinem Team und einem ganz starken Ensemble gelungen.\u00ab "
+                                },
+                                {
+                                    "name": "Tina Fibiger, Kulturb\u00fcro G\u00f6ttingen 3.2.2022",
+                                    "text": "Ein zerst\u00f6rerischer Mythos \u00bbDas Publikum kann sich von diesem sprachgewaltigen Abend nicht nur gedanklich berauschen lassen, sondern auch von einem Schauspiel-Team, das seine Figuren mit so viel Mut zur Leidenschaft auch in ihren emotionalen Kr\u00e4ften best\u00e4rkt, sich all ihren Facetten zu stellen ... Erich Sidler ringt mit seinem Ensemble um jeden Gedankensplitter in der Quo vadis Frage, die Thomas K\u00f6cks Textflut durchdringt. Trotzdem d\u00fcrfen diese Gedankensplitter, Assoziationen und Anspielungen auf Wagners Pand\u00e4monium sich immer wieder verhaken und auch in ihrer Vieldeutigkeit verwirren und verunsichern. Seine Inszenierung vertraut auf die Dissonanzen in dieser vielstimmigen Partitur, auf dass sie das Publikum ebenfalls herausfordern, sich dieser Quo vadis Frage aus m\u00f6glichst vielen Perspektiven zu stellen, die Worte so unmittelbar auf sich wirken zu lassen wie die Gedankenbilder. Die Wirkung h\u00e4lt an, nicht nur \u00fcber dreieinhalb bewegende Stunden, sondern \u00fcber diesen gro\u00dfartigen Theaterabend hinaus, der mit enthusiastischem Beifall gefeiert wurde.\u00ab "
+                                },
+                                {
+                                    "name": "Thomas K\u00fcgler, Harzkurier 4.2.2022",
+                                    "text": "Ein leiser Angriff auf den Mythos \u00bbDabei gelingt es Erich Sidler, den Blick von der Oberfl\u00e4che in den Hintergrund oder gelegentlich in die Tiefe der Seele zu lenken \u2026 Doch die st\u00e4rkste Leistung liefert Gaby Dey in der Rolle der Sieglinde ab. Ihre abgekl\u00e4rte Darstellung und Sprechweise sind der ruhende Kontrast zu dem \u00fcberdrehten Treiben der G\u00f6tter, Halbg\u00f6tter und anderer Helden. Sie erdet das St\u00fcck und bekommt daf\u00fcr zu Recht Szenenapplaus \u2026 Sidler liefert einen leisen, aber deutlichen Angriff auf den Mythos Wagner.\u00ab "
+                                },
+                                {
+                                    "name": "Leonard Herbst, litlog.de 8.2.2022",
+                                    "text": "Eine Zelle mit offener T\u00fcr \u00bbDem Deutschen Theater G\u00f6ttingen gelingt mit der Inszenierung von Thomas K\u00f6cks \u203awagner \u2013 der ring des nibelungen\u2039 eine funkenstiebende Zertr\u00fcmmerung des Mythos: sprachlich \u00fcberw\u00e4ltigend, szenisch \u00fcberzeugend, mit Mut zur Aporie, siegfriedhaft-anarchisch die Vergessenheits-, Liebes- und Todestr\u00e4nke des \u203aalten Zauberers\u2039 umsto\u00dfend \u2026 Volker Muthmann als Alberich wechselt irrwitzig-rasant die Stimmlagen und spielt virtuos mit den Rollen und Verkleidungen. Es gl\u00e4nzen Gabriel von Berlepsch als Wotan mit seinem selbstgef\u00e4lligen Selbstmitleid, seiner heimlichen Schw\u00e4che und Angst, Rebecca Klingenberg als Br\u00fcnnhilde mit der energischen Wut der Ideologiekritikerin und Angelika Fornell als Erda mit ihrer l\u00e4chelnden \u00dcberlegenheit.\u00ab "
+                                }
+                            ],
+                            "seo": {
+                                "description": null,
+                                "image": null
+                            },
+                            "slug": "wagner-der-ring-des-nibelungen",
+                            "strikethrough": true,
+                            "subtitle": "(a piece like fresh chopped eschenwood) recomposed by thomas k\u00f6ck",
+                            "title": "wagner \u2013 der ring des nibelungen",
+                            "videos": [
+                                "https://www.youtube.com/watch?v=amNkNG8bI5E&t=20s"
+                            ]
+                        },
+                        "start": {
+                            "hour": "19",
+                            "minutes": "45"
+                        },
+                        "subscriptions": [],
+                        "year": "2022"
+                    }
+                ],
+                "year": "2022"
+            }
+        }
+    }
+}

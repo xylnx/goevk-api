@@ -1,6 +1,6 @@
 /* ========================================================== >> 
  * This module parses events from a website:
- * https://www.apex-goe.de/programm/index.html
+ * 'https://kultur-im-esel.de/veranstaltungen/konzerte'
  * Event information is then stored in an object 
  * The module finally returns an array of these objects
   << ========================================================== */
@@ -19,8 +19,7 @@ const { readFile, getHtml } = require('./getHtml');
 const { monthsLong } = require('./utils/months');
 const { createDate } = require('./utils/createDate');
 const Event = require('./Event');
-
-const { eventTypes } = require('../utils/eventTypes');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 // VARS
 
@@ -30,13 +29,14 @@ const debug = process.env.DEBUG === 'true';
 const testData = process.env.TEST_DATA === 'true';
 
 // Source data from here
-const LIVE_DATA = 'https://www.apex-goe.de/programm/index.html';
-const TEST_DATA = `${__dirname}/test_data/apex.html`;
+const LIVE_DATA = 'https://kultur-im-esel.de/veranstaltungen/konzerte';
+const TEST_DATA = `${__dirname}/test_data/esel.html`;
 
 // Meta data to enrich event objects
 const CONSTANTS = {
-  place: 'Apex',
-  eventType: `${eventTypes.concert}, ${eventTypes.generalEvents}`,
+  place: 'Kultur im Esel [Einbeck]',
+  eventType: `${eT.concert}, ${eT.generalEvents}`,
+  linkRoot: 'https://kultur-im-esel.de/',
 };
 
 // FUNCTIONS
@@ -46,14 +46,13 @@ const CONSTANTS = {
 // Return an object containing this raw data
 async function parseEventsData(html) {
   const $ = cheerio.load(html);
-  const raw_events_data = $('.veranstaltung')
+  const raw_events_data = $('#rsepro-upcoming-module ul')
     .get()
     .map((event) => {
       return {
-        kuenstler: $(event).find('.kuenstler').text(),
         title: $(event).find('a').text(),
-        time: $(event).find('.datum').text(),
-        link: $(event).find('a').attr('href'),
+        time: $(event).find('small').text(),
+        slug: $(event).find('a').attr('href'),
       };
     });
 
@@ -66,12 +65,9 @@ async function parseEventsData(html) {
 async function cleanData(rawEventData) {
   const cleanData = rawEventData.map((event) => {
     return {
-      name:
-        event.kuenstler.trim() +
-        ': ' +
-        event.title.replace('»mehr...', '').trim(),
+      name: event.title,
       date: createDateObj(event.time),
-      link: event.link,
+      link: CONSTANTS.linkRoot + event.slug,
     };
   });
   return cleanData;
@@ -81,17 +77,16 @@ async function cleanData(rawEventData) {
 // Take a piece of raw data extracted from the website
 // Return a date object
 function createDateObj(rawDateInfo) {
-  // example rawDateInfo:
-  // `Donnerstag, 19. Mai 2022, 20.15 Uhr`
-  const dateArr = rawDateInfo.split(' ');
+  // example rawDateInfo -> '26. Februar 2023 - 20:00                Uhr'
+  const dateStr = rawDateInfo.replace('Uhr', '').trim();
+  const dateArr = dateStr.split(' ');
 
-  // example dateArr:
-  // [ 'Donnerstag,', '19.', 'Mai', '2022,', '20.15', 'Uhr' ]
-  const day = parseInt(dateArr[1].replace('.', ''));
-  const month = parseInt(monthsLong.indexOf(dateArr[2].toLowerCase()));
-  const year = parseInt(dateArr[3]);
+  // example dateArr -> [ '26.', 'Februar', '2023', '-', '20:00' ]
+  const day = parseInt(dateArr[0].replace('.', ''));
+  const month = parseInt(monthsLong.indexOf(dateArr[1].toLowerCase()));
+  const year = parseInt(dateArr[2]);
 
-  const timeArr = dateArr[4].split('.');
+  const timeArr = dateArr[4].split(':');
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 

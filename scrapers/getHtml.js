@@ -1,6 +1,7 @@
 const { COLOR } = require('./utils/COLORS');
 const fs = require('fs');
 const axios = require('axios');
+const fetch = require('node-fetch');
 
 // Read test data from a local file
 function readFile(file) {
@@ -23,7 +24,16 @@ function getHtml(url) {
   return data;
 }
 
+// Get live JSON data
+async function getJSON(url) {
+  const events = [];
+  const response = await fetch(url);
+  const data = await response.text();
+  return data;
+}
+
 module.exports = {
   readFile,
   getHtml,
+  getJSON,
 };

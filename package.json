@@ -6,9 +6,11 @@
   "scripts": {
     "parseEnv": "env $(cat .env | grep -v \"#\" | xargs)",
     "start": "npm run parseEnv && node index.js",
-    "scrape": "node scrapers/parseEventsAsJSON.js",
-    "devs": "TEST_DATA=true DEBUG=true node ${1}",
-    "testScrape": "TEST_DATA=true npm run scrape",
+    "scrape": "DEBUG=true node scrapers/parseEventsAsJSON.js",
+    "scrapeTD": "TEST_DATA=true WRITE_TO_LOCAL_FILE=true npm run scrape",
+    "updateLocalEventData": "WRITE_TO_LOCAL_FILE=true npm run scrape",
+    "debug": "DEBUG=true node ${1}",
+    "debugTD": "DEBUG=true TEST_DATA=true node ${1}",
     "deploy": "git push heroku main"
   },
   "keywords": [],

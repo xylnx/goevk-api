@@ -8,7 +8,7 @@ const signalExecution = (scriptName) => {
 
 const signalTestData = () => {
   console.log(
-    COLOR(' USING TESTDATA ', { fg: 'fgWhite', bg: 'bgYellow', fx: 'blink' })
+    COLOR(' USING TESTDATA ', { fg: 'fgBlack', bg: 'bgYellow', fx: 'blink' })
   );
 };
 

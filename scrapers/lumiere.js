@@ -4,6 +4,7 @@ const fetch = require('node-fetch');
 const { signalExecution, signalTestData } = require('./utils/signals');
 const { readFile, getHtml } = require('./getHtml');
 const Event = require('./Event');
+const { eventTypes: eT } = require('../utils/eventTypes');
 
 const scriptName = path.basename(__filename);
 const debug = process.env.DEBUG === 'true';
@@ -18,10 +19,11 @@ const test_data = `${__dirname}/test_data/testData-melies.json`;
 
 // Metadata to enrich the event objects
 const CONSTANTS = {
-  place: 'Lumiere',
-  eventType: 'Kino',
+  place: 'Lumière',
+  eventType: `${eT.cinema}`,
   linkRoot:
-    'https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show',
+    'https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/',
+  link: 'https://lumiere-melies.de/lumiere-programm/',
 };
 
 // Get JSON data
@@ -54,6 +56,7 @@ function parseEvents(data) {
       CONSTANTS.place,
       show.name,
       CONSTANTS.linkRoot + show.id,
+      // CONSTANTS.link,
       dateObj
     );
 
@@ -61,7 +64,7 @@ function parseEvents(data) {
 
     // Log new event
     if (testData) signalTestData();
-    // console.log(event);
+    console.log(event);
   });
   return events;
 }
