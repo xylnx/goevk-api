@@ -27,6 +27,7 @@ const lumiere = require('./lumiere');
 const melies = require('./melies');
 const musa = require('./musa');
 const noergelbuff = require('./noergelbuff');
+const uniKino = require('./uniKino');
 
 // Put JSON here:
 const redisKey = 'eventsData';
@@ -50,6 +51,7 @@ const init = async () => {
     melies,
     musa,
     noergelbuff,
+    uniKino,
   ];
 
   // Store events
