@@ -53,19 +53,26 @@ async function parseEventData(html) {
 }
 
 async function cleanRawData(data) {
-  console.log(data);
   const cleanData = data.map((event) => {
     return {
-      name: data.title,
+      name: event.title,
       date: createDateObj(event.date, event.time),
     };
   });
+  return cleanData;
 }
 
-async function createDateObj(...args) {
+function createDateObj(...args) {
+  // args = [ 'Mi. 04.05.2022', '20:00 Uhr' ] ...
   try {
-    const time = args[1].toLowerCase().replace('uhr', '').split(':');
+    // prettier-ignore
+    const time = args[1]
+      .toLowerCase()
+      .replace('uhr', '')
+      .trim()
+      .split(':');
     const date = args[0].split('.');
+
     // createDate(year, month, day, hour, minute);
     const eventDate = createDate(
       date[3], // year
@@ -82,9 +89,14 @@ async function createDateObj(...args) {
 }
 
 async function buildEventObjs(cleanData) {
-  console.log(cleanData);
   return cleanData.map((event) => {
-    new Event(META.eventType, META.place, event.name, META.link, event.date);
+    return new Event(
+      META.eventType,
+      META.place,
+      event.name,
+      META.link,
+      event.date
+    );
   });
 }
 
@@ -97,10 +109,9 @@ async function init() {
     (html = await getHtml(LIVE_DATA));
 
   const rawData = await parseEventData(html);
-  // console.log(rawEventData);
   const cleanData = await cleanRawData(rawData);
-
-  return buildEventObjs(cleanData);
+  const events = await buildEventObjs(cleanData);
+  return events;
 }
 
 // DEBUGGING
