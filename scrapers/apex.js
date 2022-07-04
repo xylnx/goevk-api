@@ -19,7 +19,6 @@ const { readFile, getHtml } = require('./getHtml');
 const { monthsLong } = require('./utils/months');
 const { createDate } = require('./utils/createDate');
 const Event = require('./Event');
-
 const { eventTypes } = require('../utils/eventTypes');
 
 // VARS
@@ -81,25 +80,31 @@ async function cleanData(rawEventData) {
 // Take a piece of raw data extracted from the website
 // Return a date object
 function createDateObj(rawDateInfo) {
-  // example rawDateInfo:
-  // `Donnerstag, 19. Mai 2022, 20.15 Uhr`
-  const dateArr = rawDateInfo.split(' ');
+  try {
+    // example rawDateInfo:
+    // `Donnerstag, 19. Mai 2022, 20.15 Uhr`
+    const dateArr = rawDateInfo.split(' ');
 
-  // example dateArr:
-  // [ 'Donnerstag,', '19.', 'Mai', '2022,', '20.15', 'Uhr' ]
-  const day = parseInt(dateArr[1].replace('.', ''));
-  const month = parseInt(monthsLong.indexOf(dateArr[2].toLowerCase()));
-  const year = parseInt(dateArr[3]);
+    // example dateArr:
+    // [ 'Donnerstag,', '19.', 'Mai', '2022,', '20.15', 'Uhr' ]
+    const day = parseInt(dateArr[1].replace('.', ''));
+    const month = parseInt(monthsLong.indexOf(dateArr[2].toLowerCase()));
+    const year = parseInt(dateArr[3]);
 
-  const timeArr = dateArr[4].split('.');
-  const hour = parseInt(timeArr[0]);
-  const minute = parseInt(timeArr[1]);
+    const timeArr = dateArr[4].split('.');
+    const hour = parseInt(timeArr[0]);
+    const minute = parseInt(timeArr[1]);
 
-  const eventDate = createDate(year, month, day, hour, minute);
+    const eventDate = createDate(year, month, day, hour, minute);
 
-  // console.log({ year }, { month }, { day }, { hour }, { minute });
-
-  return eventDate;
+    // console.log({ year }, { month }, { day }, { hour }, { minute });
+    return eventDate;
+  } catch (error) {
+    // Log error + use Epoch as fall back time
+    console.error(error);
+    const eventDate = new Date(0);
+    return eventDate;
+  }
 }
 
 // Take an in array of objects with cleaned data on events
