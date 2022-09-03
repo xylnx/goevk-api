@@ -1,5 +1,9 @@
 # GOEVK API
 
+<div>
+  <img src="./screenshot-1.png" alt="app screenshot of the login view" width="160px" />
+</div>
+
 ## What it is
 
 `Goevk api` combines a minimalist API and a growing number of web scrapers. The API delivers data on events taking place in the city of Goettingen, Germany.
@@ -23,34 +27,34 @@ There is a [frontend built to display this data in a more human readable form](h
 
 ### Scripts
 
-#### `npm run parseEnv` (helper)
+`npm run parseEnv` (helper)
 
 Parse environmental variables. They can be defined in a `.env` file. The file has to be put in the project's root directory.
 
-#### `npm start`
+`npm start`
 
 Run `parseEnv` and start the API. This will make the two endpoints `/events.json` `/bvents.json` available. This task is also run by heroku in the production environment (cp. `Procfile`).
 
-#### `npm run scrape`
+`npm run scrape`
 
 Run the scrapers and save data in a redis data store. This task is used in the heroku instance to update event data.
 
-#### `npm run scrapeTD`
+`npm run scrapeTD`
 
 Run the scrapers using test data. Typically used in development to prevent excessive requests.
 
-#### `npm run updateLocalEventData`
+`npm run updateLocalEventData`
 
 Update a local version of a JSON file containing scraped data. The file is mainly used for local development of the API as well as the corresponding frontend application: It makes local requests possible without having a redis instance installed.
 
-#### `npm run debug <scraperName>`
+`npm run debug <scraperName>`
 
 Run individual scraper, scrape websites and display data in the console. `debug` is used for developing and debugging scrapers.
 
-#### `npm run debugTD <scraperName>`
+`npm run debugTD <scraperName>`
 
 Same as `debug`, only using test data instead of real world data. The script is especially helpfull when building new scrapers and debugging.
 
-#### `npm run deploy`
+`npm run deploy`
 
 Deploy the app to heroku.
