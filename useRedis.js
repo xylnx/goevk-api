@@ -42,7 +42,7 @@ const init = async () => {
   await redisGet('eventsData');
 };
 
-if (debug) init();
+// if (debug) init();
 
 module.exports = {
   redisSet,
