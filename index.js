@@ -24,6 +24,7 @@ server.listen(PORT, () => {
 });
 
 // ENDPOINTS
+// Serve a file
 server.get('/events.json', (req, res) => {
   fs.readFile(JSON_PATH, 'utf-8', (err, data) => {
     console.log(data);
@@ -33,6 +34,7 @@ server.get('/events.json', (req, res) => {
   });
 });
 
+// Serve from redis
 server.get('/bvents.json', (req, res) => {
   redisGet('eventsData').then((data) => {
     console.log(data);
