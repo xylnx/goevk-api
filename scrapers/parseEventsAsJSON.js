@@ -16,12 +16,12 @@ const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 // SCRAPERS
 // const cinemaxx = require('./cinemaxx');
 // const lokhalle = require('./lokhalle');
-const apex = require('./apex');
+//const apex = require('./apex');
 const dots = require('./dots');
 const dt = require('./dt');
 const esel = require('./esel');
 const exilConcerts = require('./exilConcerts');
-const gso = require('./gso');
+//const gso = require('./gso');
 const jt = require('./jt');
 const lumiere = require('./lumiere');
 const melies = require('./melies');
@@ -39,16 +39,18 @@ const init = async () => {
     /*
     cinemaxx, => to much clutter
     */
-    apex,
+    //apex,
     dots,
     dt,
     esel,
     exilConcerts,
-    gso,
+    //gso,
     jt,
     // lokhalle, => not working
+    /*
     lumiere,
-    melies,
+    melies, => API request frequently times out
+    */
     musa,
     noergelbuff,
     uniKino,
@@ -63,6 +65,7 @@ const init = async () => {
       eventsAll.push(...events);
     } catch (error) {
       console.log(`ERROR while runing ${scraper}.parseEvents(): `, error);
+      continue
     }
   }
 
