@@ -1,0 +1,24 @@
+# docker run
+# --rm
+# --volume $(pwd):/app
+# --volume /app/node_modules
+# --name vite-app viteapp:1.0
+
+
+# docker-compose up builds, (re)creates, starts, and attaches to containers for a service.
+# docker-compose down Stops containers and removes containers, networks, volumes, and images created by up.
+# docker-compose start/stop only start and stop attached containers
+
+# docker compose version
+version: "3.8"
+# projects we want containers for
+services:
+  frontend:
+    build: ./
+    container_name: goevk-api 
+    ports:
+      - '5033:5033'
+    # relative paths are ok here
+    volumes:
+      - ./:/app
+      - /app/node_modules
