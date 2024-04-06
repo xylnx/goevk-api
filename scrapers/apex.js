@@ -1,6 +1,6 @@
 /* ========================================================== >> 
  * This module parses events from a website:
- * https://www.apex-goe.de/programm/index.html
+ * https://www.apex-goe.de/veranstaltungen
  * Event information is then stored in an object 
  * The module finally returns an array of these objects
   << ========================================================== */
@@ -29,8 +29,8 @@ const debug = process.env.DEBUG === 'true';
 const testData = process.env.TEST_DATA === 'true';
 
 // Source data from here
-const LIVE_DATA = 'https://www.apex-goe.de/programm/index.html';
-const TEST_DATA = `${__dirname}/test_data/apex.html`;
+const LIVE_DATA = 'https://www.apex-goe.de/veranstaltungen';
+const TEST_DATA = `${__dirname}/test_data/apex_new.html`;
 
 // Meta data to enrich event objects
 const CONSTANTS = {
@@ -45,12 +45,13 @@ const CONSTANTS = {
 // Return an object containing this raw data
 async function parseEventsData(html) {
   const $ = cheerio.load(html);
-  const raw_events_data = $('.veranstaltung')
+  console.log(html)
+  const raw_events_data = $('article')
     .get()
     .map((event) => {
       return {
         kuenstler: $(event).find('.kuenstler').text(),
-        title: $(event).find('a').text(),
+        title: $(event).find('.title').text(),
         time: $(event).find('.datum').text(),
         link: $(event).find('a').attr('href'),
       };
