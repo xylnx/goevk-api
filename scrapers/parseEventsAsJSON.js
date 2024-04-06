@@ -16,7 +16,7 @@ const writeToLocalFile = process.env.WRITE_TO_LOCAL_FILE === 'true';
 // SCRAPERS
 // const cinemaxx = require('./cinemaxx');
 // const lokhalle = require('./lokhalle');
-//const apex = require('./apex');
+const apex = require('./apex');
 const dots = require('./dots');
 const dt = require('./dt');
 const esel = require('./esel');
@@ -39,7 +39,7 @@ const init = async () => {
     /*
     cinemaxx, => to much clutter
     */
-    //apex,
+    apex,
     dots,
     dt,
     esel,
@@ -47,10 +47,8 @@ const init = async () => {
     //gso,
     jt,
     // lokhalle, => not working
-    /*
     lumiere,
-    melies, => API request frequently times out
-    */
+    melies, // => API request frequently times out
     musa,
     noergelbuff,
     uniKino,
@@ -75,10 +73,12 @@ const init = async () => {
 
   // Write json into a local file, and not into redis
   // The local file can be served for easy local development of the frontend app
-  if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
+  // if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
+ 
+  fs.writeFileSync(`${path}${fileName}`, json);
 
   // Production: Dump json into redis
-  redisSet('eventsData', json);
+  //redisSet('eventsData', json);
 
   return;
 };
