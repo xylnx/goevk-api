@@ -52,7 +52,7 @@ function getEvents(html) {
         CONSTANTS.place,
         name,
         link,
-        dateObj
+        dateObj,
       );
 
       // DEBUGGING

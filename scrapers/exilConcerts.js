@@ -35,7 +35,7 @@ async function parseEvents(html) {
 
 function getISODate(rawDate) {
   // raw: 30. Mai - 19:00'
-  
+
   // [ '24.', 'Mai', '-', '19:00' ]
   const dateArr = rawDate.split(' ');
   const timeArr = dateArr[3].split(':');

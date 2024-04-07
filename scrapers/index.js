@@ -79,9 +79,9 @@ function createTable(db, tableName) {
           : console.log(
               'TABLE',
               COLOR(`${tableName}`, { fg: 'fgGreen' }),
-              'created'
-            )
-      )
+              'created',
+            ),
+      ),
     );
   });
 }
@@ -95,7 +95,7 @@ function writeToDB(db, data) {
   db.run(sql, (error) =>
     error
       ? console.log(error)
-      : console.log(COLOR('data written to db', { fg: 'fgYellow' }))
+      : console.log(COLOR('data written to db', { fg: 'fgYellow' })),
   );
 }
 

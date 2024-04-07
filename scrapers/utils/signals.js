@@ -1,14 +1,12 @@
 const { COLOR } = require('./COLORS');
 
 const signalExecution = (scriptName) => {
-  console.log(
-    COLOR(`==> ${scriptName} <==`, { bg: 'bgRed', fx: 'bright' })
-  );
+  console.log(COLOR(`==> ${scriptName} <==`, { bg: 'bgRed', fx: 'bright' }));
 };
 
 const signalTestData = () => {
   console.log(
-    COLOR(' USING TESTDATA ', { fg: 'fgBlack', bg: 'bgYellow', fx: 'blink' })
+    COLOR(' USING TESTDATA ', { fg: 'fgBlack', bg: 'bgYellow', fx: 'blink' }),
   );
 };
 

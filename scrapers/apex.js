@@ -45,7 +45,7 @@ const CONSTANTS = {
 // Return an object containing this raw data
 async function parseEventsData(html) {
   const $ = cheerio.load(html);
-  console.log(html)
+  console.log(html);
   const raw_events_data = $('article')
     .get()
     .map((event) => {
@@ -121,8 +121,8 @@ async function createEventObjs(cleanEventData) {
         CONSTANTS.place,
         event.name,
         event.link,
-        event.date
-      )
+        event.date,
+      ),
     );
   });
 

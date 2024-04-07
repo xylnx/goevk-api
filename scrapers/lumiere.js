@@ -57,7 +57,7 @@ function parseEvents(data) {
       show.name,
       CONSTANTS.linkRoot + show.id,
       // CONSTANTS.link,
-      dateObj
+      dateObj,
     );
 
     events.push(event);

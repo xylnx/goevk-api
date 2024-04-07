@@ -16,7 +16,7 @@ server.use(
   cors({
     origin: '*',
     methods: 'GET',
-  })
+  }),
 );
 
 server.listen(PORT, () => {

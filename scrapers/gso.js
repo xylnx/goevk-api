@@ -52,7 +52,7 @@ const createEventObjs = async (cleanEventData) => {
       `${CONSTANTS.eventPlacePrefix} [${event.place}]`,
       event.name,
       event.link,
-      new Date(event.date)
+      new Date(event.date),
     );
   });
 

@@ -1,1 +1,135 @@
-[{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der satanarchäolügenialkohöllische Wunschpunsch","link":"https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/","date":"2021-12-20T08:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der satanarchäolügenialkohöllische Wunschpunsch","link":"https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/","date":"2021-12-20T10:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Gewalt und Leidenschaft","link":"https://www.dt-goettingen.de/stueck/gewalt-und-leidenschaft/","date":"2021-12-20T18:45:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Alles muss glänzen","link":"https://www.dt-goettingen.de/stueck/alles-muss-glaenzen/","date":"2021-12-21T18:45:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Alles Lüge und immer wieder wächst das Gras","link":"https://www.dt-goettingen.de/stueck/alles-luege/","date":"2021-12-22T18:45:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der satanarchäolügenialkohöllische Wunschpunsch","link":"https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/","date":"2021-12-23T17:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der satanarchäolügenialkohöllische Wunschpunsch","link":"https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/","date":"2021-12-26T17:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der Schimmelreiter","link":"https://www.dt-goettingen.de/stueck/der-schimmelreiter/","date":"2021-12-28T19:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der Schimmelreiter","link":"https://www.dt-goettingen.de/stueck/der-schimmelreiter/","date":"2021-12-29T19:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Der Vortrag","link":"https://www.dt-goettingen.de/stueck/der-vortrag/","date":"2021-12-29T18:45:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Hiob","link":"https://www.dt-goettingen.de/stueck/hiob-2/","date":"2021-12-30T18:45:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Alles Lüge und immer wieder wächst das Gras","link":"https://www.dt-goettingen.de/stueck/alles-luege/","date":"2021-12-31T15:00:00.000Z"},{"type":"Theater, Kultur, Veranstaltungen","place":"Deutsches Theater","name":"Alles Lüge und immer wieder wächst das Gras","link":"https://www.dt-goettingen.de/stueck/alles-luege/","date":"2021-12-31T18:45:00.000Z"},{"type":"Kino","place":"Meliès","name":"Ammonite","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12143","date":"2021-12-20T16:15:00.000Z"},{"type":"Kino","place":"Meliès","name":"À la Carte! - Freiheit geht durch den Magen","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12138","date":"2021-12-20T19:00:00.000Z"},{"type":"Kino","place":"Meliès","name":"À la Carte! - Freiheit geht durch den Magen","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12135","date":"2021-12-21T16:15:00.000Z"},{"type":"Kino","place":"Meliès","name":"Ammonite","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12145","date":"2021-12-21T19:00:00.000Z"},{"type":"Kino","place":"Meliès","name":"À la Carte! - Freiheit geht durch den Magen","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12136","date":"2021-12-22T16:15:00.000Z"},{"type":"Kino","place":"Meliès","name":"Ammonite","link":"https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12141","date":"2021-12-22T19:00:00.000Z"}]
+[
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der satanarchäolügenialkohöllische Wunschpunsch",
+    "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
+    "date": "2021-12-20T08:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der satanarchäolügenialkohöllische Wunschpunsch",
+    "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
+    "date": "2021-12-20T10:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Gewalt und Leidenschaft",
+    "link": "https://www.dt-goettingen.de/stueck/gewalt-und-leidenschaft/",
+    "date": "2021-12-20T18:45:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Alles muss glänzen",
+    "link": "https://www.dt-goettingen.de/stueck/alles-muss-glaenzen/",
+    "date": "2021-12-21T18:45:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Alles Lüge und immer wieder wächst das Gras",
+    "link": "https://www.dt-goettingen.de/stueck/alles-luege/",
+    "date": "2021-12-22T18:45:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der satanarchäolügenialkohöllische Wunschpunsch",
+    "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
+    "date": "2021-12-23T17:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der satanarchäolügenialkohöllische Wunschpunsch",
+    "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
+    "date": "2021-12-26T17:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der Schimmelreiter",
+    "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter/",
+    "date": "2021-12-28T19:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der Schimmelreiter",
+    "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter/",
+    "date": "2021-12-29T19:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Der Vortrag",
+    "link": "https://www.dt-goettingen.de/stueck/der-vortrag/",
+    "date": "2021-12-29T18:45:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Hiob",
+    "link": "https://www.dt-goettingen.de/stueck/hiob-2/",
+    "date": "2021-12-30T18:45:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Alles Lüge und immer wieder wächst das Gras",
+    "link": "https://www.dt-goettingen.de/stueck/alles-luege/",
+    "date": "2021-12-31T15:00:00.000Z"
+  },
+  {
+    "type": "Theater, Kultur, Veranstaltungen",
+    "place": "Deutsches Theater",
+    "name": "Alles Lüge und immer wieder wächst das Gras",
+    "link": "https://www.dt-goettingen.de/stueck/alles-luege/",
+    "date": "2021-12-31T18:45:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "Ammonite",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12143",
+    "date": "2021-12-20T16:15:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "À la Carte! - Freiheit geht durch den Magen",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12138",
+    "date": "2021-12-20T19:00:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "À la Carte! - Freiheit geht durch den Magen",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12135",
+    "date": "2021-12-21T16:15:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "Ammonite",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12145",
+    "date": "2021-12-21T19:00:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "À la Carte! - Freiheit geht durch den Magen",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12136",
+    "date": "2021-12-22T16:15:00.000Z"
+  },
+  {
+    "type": "Kino",
+    "place": "Meliès",
+    "name": "Ammonite",
+    "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12141",
+    "date": "2021-12-22T19:00:00.000Z"
+  }
+]

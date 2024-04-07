@@ -64,7 +64,7 @@ function getEvents(html) {
         CONSTANTS.place,
         name,
         link,
-        dateObj
+        dateObj,
       );
 
       events.push(event);

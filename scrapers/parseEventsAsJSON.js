@@ -63,7 +63,7 @@ const init = async () => {
       eventsAll.push(...events);
     } catch (error) {
       console.log(`ERROR while runing ${scraper}.parseEvents(): `, error);
-      continue
+      continue;
     }
   }
 
@@ -74,7 +74,7 @@ const init = async () => {
   // Write json into a local file, and not into redis
   // The local file can be served for easy local development of the frontend app
   // if (writeToLocalFile) return fs.writeFileSync(`${path}${fileName}`, json);
- 
+
   fs.writeFileSync(`${path}${fileName}`, json);
 
   // Production: Dump json into redis

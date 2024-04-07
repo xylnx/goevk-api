@@ -116,7 +116,7 @@ const parseEvents = async () => {
         CONSTANTS.place,
         name,
         link,
-        date
+        date,
       );
       // Store event objects in an array
       events.push(event);

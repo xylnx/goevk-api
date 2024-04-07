@@ -110,8 +110,8 @@ async function createEventObjs(cleanEventData) {
         CONSTANTS.place,
         event.name,
         event.link,
-        event.date
-      )
+        event.date,
+      ),
     );
   });
 

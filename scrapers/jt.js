@@ -63,7 +63,7 @@ function getEvents(html) {
         CONSTANTS.place,
         name,
         link,
-        dateObj
+        dateObj,
       );
 
       // Log new event

@@ -79,7 +79,7 @@ function createDateObj(...args) {
       date[2] - 1, // month
       date[1], // day
       time[0], // hour
-      time[1] // minute
+      time[1], // minute
     );
     return eventDate;
   } catch (err) {
@@ -95,7 +95,7 @@ async function buildEventObjs(cleanData) {
       META.place,
       event.name,
       META.link,
-      event.date
+      event.date,
     );
   });
 }
