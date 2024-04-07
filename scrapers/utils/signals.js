@@ -2,7 +2,7 @@ const { COLOR } = require('./COLORS');
 
 const signalExecution = (scriptName) => {
   console.log(
-    COLOR(`==> Running ${scriptName} <==`, { bg: 'bgRed', fx: 'bright' })
+    COLOR(`==> ${scriptName} <==`, { bg: 'bgRed', fx: 'bright' })
   );
 };
 
