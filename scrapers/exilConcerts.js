@@ -1,129 +1,95 @@
-const path = require('path');
-const cheerio = require('cheerio');
-
-const { signalExecution, signalTestData } = require('./utils/signals');
+const cheerio = require('cheerio'); // used to parse HTML
 const { readFile, getHtml } = require('./getHtml');
-const Event = require('./Event');
-const { eventTypes: eT } = require('../utils/eventTypes');
-const { createDate } = require('./utils/createDate');
+const { createDate: createISODate } = require('./utils/createDate');
+const { monthsLong } = require('./utils/months');
+const Event = require('./Event.js');
+const { signalExecution, signalTestData } = require('./utils/signals');
 
-const scriptName = path.basename(__filename);
+const isTestData = process.env.TEST_DATA === 'true';
+const isDebug = process.env.DEBUG === 'true';
 
-// DEBUGGING + DEVELOPMENT
-// when set to true, this module runs as a stand alone application and
-// logs parsed events to the console
-const debug = process.env.DEBUG === 'true';
-// read test data from a file
-// => prevent unnecessary requests when developing or debugging
-const testData = process.env.TEST_DATA === 'true';
-// test data
-const file = `${__dirname}/test_data/exil-konzerte.html`;
-
-// get HTML from here
-const url = 'https://www.exil-web.de/index.php/ct-menu-item-5';
-
-// Meta data to enrich the event object
 const CONSTANTS = {
+  eventType: 'Konzert',
   place: 'Exil',
-  eventType: `${eT.concert}, ${eT.club}`,
+  currentYear: new Date().getFullYear(),
+  url: 'https://exil-web.de/events/kategorie/konzerte/liste',
+  testDataPath: `${__dirname}/test_data/exil-concerts.html`,
 };
 
-function getEvents(html) {
-  return new Promise((resolve, reject) => {
-    const $ = cheerio.load(html);
+async function parseEvents(html) {
+  const $ = cheerio.load(html);
+  const raw_events = $('.tribe-events-calendar-list__event-row')
+    .get()
+    .map((event) => ({
+      name: $(event)
+        .find('.tribe-events-calendar-list__event-title-link')
+        .text(),
+      date: $(event).find('.tribe-event-date-start').text(),
+      link: $(event)
+        .find('.tribe-events-calendar-list__event-title-link')
+        .attr('href'),
+    }));
 
-    const events = [];
-    const eventNodes = $('.eb-event-container');
-
-    eventNodes.each((index, el) => {
-      const eventHtml = cheerio.load($.html(el));
-      // const htmlEl = $.html(el);
-
-      // Parse info from eventHtml
-      const name = eventHtml('.eb-even-title-container').text().trim();
-
-      const dateInfo = eventHtml('.eb-event-date-info').text().trim();
-      // prettier-ignore
-      const dateInfoClean = dateInfo
-        .split(' ') // Turn string into an array
-        .filter(function (str) { // filter out elements containing more than whitespace
-          return /\S/.test(str);
-        });
-      const date = dateInfoClean[1];
-      const time = dateInfoClean[2].replace('\n', '');
-      // Put together a date obj
-      const dateObj = createDateObj(date, time);
-
-      // Build the event link
-      const linkRoot = 'https://www.exil-web.de';
-      let link = eventHtml('.eb-even-title-container > a').attr('href');
-      link = linkRoot + link;
-
-      // Create event object
-      const event = new Event(
-        CONSTANTS.eventType,
-        CONSTANTS.place,
-        name,
-        link,
-        dateObj
-      );
-
-      // DEBUGGING
-      if (debug) {
-        if (testData) signalTestData();
-        console.log('VARS ==> ', { name, date, time, link });
-      }
-
-      // Log event obj
-      console.log({ index });
-      console.log({ event });
-      console.log('__________________________________________');
-
-      events.push(event);
-    });
-    resolve(events);
-  });
+  return raw_events;
 }
 
-function createDateObj(date, time) {
-  const dateStr = date;
-  const dateArr = dateStr.split('.');
+function getISODate(rawDate) {
+  // raw: 30. Mai - 19:00'
+  
+  // [ '24.', 'Mai', '-', '19:00' ]
+  const dateArr = rawDate.split(' ');
+  const timeArr = dateArr[3].split(':');
 
-  const year = parseInt(dateArr[2]) ?? new Date().getFullYear();
-  const month = parseInt(dateArr[1] - 1);
-  const day = parseInt(dateArr[0]);
-
-  const timeStr = time;
-  const timeStrClean = timeStr.replace('Beginn:', '').trim();
-  const timeArr = timeStrClean.split(':');
+  const day = parseInt(dateArr[0].replace('.', ''));
+  const month = parseInt(monthsLong.indexOf(dateArr[1].toLowerCase()));
+  const year = CONSTANTS.currentYear;
   const hour = parseInt(timeArr[0]);
   const minute = parseInt(timeArr[1]);
 
-  // DEBUGGING
-  if (debug) {
-    console.log('createDateObj:', { month, day, hour, minute });
-  }
-
-  // Create + return new date
-  const eventDate = createDate(year, month, day, hour, minute);
-  return eventDate;
+  return createISODate(year, month, day, hour, minute);
 }
 
-async function parseEvents() {
-  signalExecution(scriptName);
-  let html;
-
-  // prettier-ignore
-  // use test date, if `testData == true`, else scrape real html
-  testData ? 
-    (html = await readFile(file)) : 
-    (html = await getHtml(url));
-
-  const events = await getEvents(html);
-  return events;
+async function clean(data) {
+  return data.map((dp) => ({
+    ...dp,
+    name: dp?.name?.trim() ?? 'n/a',
+    date: getISODate(dp.date),
+  }));
 }
 
-// Parse events without calling the function from parseEventsAsJSON()
-if (debug) parseEvents();
+async function createEventObjs(cleanData) {
+  return cleanData.map(
+    (dp) =>
+      new Event(
+        CONSTANTS.eventType,
+        CONSTANTS.place,
+        dp.name,
+        dp.link,
+        dp.date,
+      ),
+  );
+}
 
-module.exports.parseEvents = parseEvents;
+async function init() {
+  const html = isTestData
+    ? await readFile(CONSTANTS.testDataPath)
+    : await getHtml(CONSTANTS.url);
+
+  const raw_data = await parseEvents(html);
+  const clean_data = await clean(raw_data);
+
+  return await createEventObjs(clean_data);
+}
+
+// DEBUGGING
+if (isDebug) {
+  const path = require('path');
+  const scriptName = path.basename(__filename);
+
+  init().then((events) => {
+    signalExecution(scriptName);
+    if (isTestData) signalTestData();
+    console.log({ events });
+    if (isTestData) signalTestData();
+  });
+}
